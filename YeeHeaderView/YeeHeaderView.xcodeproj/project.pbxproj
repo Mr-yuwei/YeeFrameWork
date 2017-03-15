@@ -17,6 +17,7 @@
 		CD0B05B51E79238C00DDEF42 /* YeeHeaderViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0B05B41E79238C00DDEF42 /* YeeHeaderViewUITests.m */; };
 		CD0B05C51E7923FD00DDEF42 /* UIView+YeeFrameExt.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0B05C41E7923FD00DDEF42 /* UIView+YeeFrameExt.m */; };
 		CD0B05C81E79248000DDEF42 /* YeeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0B05C71E79248000DDEF42 /* YeeButton.m */; };
+		CD0B05CB1E7947EC00DDEF42 /* YeeScrollHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0B05CA1E7947EC00DDEF42 /* YeeScrollHeaderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		CD0B05C41E7923FD00DDEF42 /* UIView+YeeFrameExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YeeFrameExt.m"; sourceTree = "<group>"; };
 		CD0B05C61E79248000DDEF42 /* YeeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YeeButton.h; sourceTree = "<group>"; };
 		CD0B05C71E79248000DDEF42 /* YeeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YeeButton.m; sourceTree = "<group>"; };
+		CD0B05C91E7947EC00DDEF42 /* YeeScrollHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YeeScrollHeaderView.h; sourceTree = "<group>"; };
+		CD0B05CA1E7947EC00DDEF42 /* YeeScrollHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YeeScrollHeaderView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +157,8 @@
 				CD0B05C41E7923FD00DDEF42 /* UIView+YeeFrameExt.m */,
 				CD0B05C61E79248000DDEF42 /* YeeButton.h */,
 				CD0B05C71E79248000DDEF42 /* YeeButton.m */,
+				CD0B05C91E7947EC00DDEF42 /* YeeScrollHeaderView.h */,
+				CD0B05CA1E7947EC00DDEF42 /* YeeScrollHeaderView.m */,
 			);
 			path = YeeClass;
 			sourceTree = "<group>";
@@ -296,6 +301,7 @@
 			files = (
 				CD0B05971E79238C00DDEF42 /* ViewController.m in Sources */,
 				CD0B05941E79238C00DDEF42 /* AppDelegate.m in Sources */,
+				CD0B05CB1E7947EC00DDEF42 /* YeeScrollHeaderView.m in Sources */,
 				CD0B05C81E79248000DDEF42 /* YeeButton.m in Sources */,
 				CD0B05C51E7923FD00DDEF42 /* UIView+YeeFrameExt.m in Sources */,
 				CD0B05911E79238C00DDEF42 /* main.m in Sources */,
@@ -534,6 +540,7 @@
 				CD0B05BB1E79238C00DDEF42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD0B05BC1E79238C00DDEF42 /* Build configuration list for PBXNativeTarget "YeeHeaderViewTests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +549,7 @@
 				CD0B05BE1E79238C00DDEF42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD0B05BF1E79238C00DDEF42 /* Build configuration list for PBXNativeTarget "YeeHeaderViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +558,7 @@
 				CD0B05C11E79238C00DDEF42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
