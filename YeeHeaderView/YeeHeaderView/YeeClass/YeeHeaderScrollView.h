@@ -1,5 +1,5 @@
 //
-//  YeeScrollHeaderView.h
+//  YeeHeaderScrollView.h
 //  YeeHeaderView
 //
 //  Created by CoderYee on 2017/3/15.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface YeeScrollHeaderView : UIScrollView
+@interface YeeHeaderScrollView : UIScrollView
 
 @end
