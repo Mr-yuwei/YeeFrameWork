@@ -6,9 +6,9 @@
 //  Copyright © 2017年 CoderYee. All rights reserved.
 //
 
-#import "YeeScrollHeaderView.h"
+#import "YeeHeaderScrollView.h"
 
-@implementation YeeScrollHeaderView
+@implementation YeeHeaderScrollView
 
 /*
 // Only override drawRect: if you perform custom drawing.

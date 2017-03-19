@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD08A42B1E7E84FA00D4105D /* UIView+YeeViewAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD08A4281E7E84FA00D4105D /* UIView+YeeViewAnimation.m */; };
+		CD08A42C1E7E84FA00D4105D /* YeePopCover.m in Sources */ = {isa = PBXBuildFile; fileRef = CD08A42A1E7E84FA00D4105D /* YeePopCover.m */; };
 		CD0B05911E79238C00DDEF42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0B05901E79238C00DDEF42 /* main.m */; };
 		CD0B05941E79238C00DDEF42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0B05931E79238C00DDEF42 /* AppDelegate.m */; };
 		CD0B05971E79238C00DDEF42 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0B05961E79238C00DDEF42 /* ViewController.m */; };
@@ -38,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD08A4271E7E84FA00D4105D /* UIView+YeeViewAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YeeViewAnimation.h"; sourceTree = "<group>"; };
+		CD08A4281E7E84FA00D4105D /* UIView+YeeViewAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YeeViewAnimation.m"; sourceTree = "<group>"; };
+		CD08A4291E7E84FA00D4105D /* YeePopCover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YeePopCover.h; sourceTree = "<group>"; };
+		CD08A42A1E7E84FA00D4105D /* YeePopCover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YeePopCover.m; sourceTree = "<group>"; };
 		CD0B058C1E79238C00DDEF42 /* YeeHeaderView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YeeHeaderView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD0B05901E79238C00DDEF42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CD0B05921E79238C00DDEF42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -153,6 +159,10 @@
 		CD0B05C21E7923FD00DDEF42 /* YeeClass */ = {
 			isa = PBXGroup;
 			children = (
+				CD08A4271E7E84FA00D4105D /* UIView+YeeViewAnimation.h */,
+				CD08A4281E7E84FA00D4105D /* UIView+YeeViewAnimation.m */,
+				CD08A4291E7E84FA00D4105D /* YeePopCover.h */,
+				CD08A42A1E7E84FA00D4105D /* YeePopCover.m */,
 				CD0B05C31E7923FD00DDEF42 /* UIView+YeeFrameExt.h */,
 				CD0B05C41E7923FD00DDEF42 /* UIView+YeeFrameExt.m */,
 				CD0B05C61E79248000DDEF42 /* YeeButton.h */,
@@ -300,10 +310,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD0B05971E79238C00DDEF42 /* ViewController.m in Sources */,
+				CD08A42C1E7E84FA00D4105D /* YeePopCover.m in Sources */,
 				CD0B05941E79238C00DDEF42 /* AppDelegate.m in Sources */,
 				CD0B05CB1E7947EC00DDEF42 /* YeeHeaderScrollView.m in Sources */,
 				CD0B05C81E79248000DDEF42 /* YeeButton.m in Sources */,
 				CD0B05C51E7923FD00DDEF42 /* UIView+YeeFrameExt.m in Sources */,
+				CD08A42B1E7E84FA00D4105D /* UIView+YeeViewAnimation.m in Sources */,
 				CD0B05911E79238C00DDEF42 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
