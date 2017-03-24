@@ -10,6 +10,7 @@
 #import "YeeButton.h"
 #import "UIView+YeeViewAnimation.h"
 #import "YeePopCover.h"
+#import "UIView+snapView.h"
 @interface ViewController ()
 
 @end
@@ -23,11 +24,13 @@
     [btn  setFrame:CGRectMake(100, 120, 80, 80)];
     [btn setBackgroundColor:[UIColor blackColor]];
     [self .view addSubview:btn];
-    [btn addTarget:self action:@selector(click) forControlEvents:UIControlEventTouchUpInside];
+    [btn addTarget:self action:@selector(click:) forControlEvents:UIControlEventTouchUpInside];
 
 }
--(void)click
+-(void)click:(UIButton *)sender
 {
+    
+//    - (nullable UIView *)snapshotViewAfterScreenUpdates:(BOOL)afterUpdates NS_AVAILABLE_IOS(7_0);
     UIView  *maskView=[[UIView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
     [maskView setBackgroundColor:[UIColor redColor]];
     
@@ -38,11 +41,23 @@
              
          }];
     } ClickBlock:^{
+      
         
-        
+        UIView *snapView=[self.view snapshotInView:sender];
+        UIView *coverView=[self.view snapshotInView:self.view];
+        snapView.frame=sender.frame;
+        [coverView addSubview:snapView];
+        [[UIApplication sharedApplication] .keyWindow addSubview:coverView];
+        [UIView animateWithDuration:1.0 animations:^{
+            
+            snapView.center=self.view.center;
+            snapView.alpha=1.0;
+        }completion:^(BOOL finished) {
+         
+            [coverView removeFromSuperview];
+            
+        }];
     }];
-    
-    
 }
 
 - (void)didReceiveMemoryWarning {
