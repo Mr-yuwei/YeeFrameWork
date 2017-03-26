@@ -20,19 +20,28 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    UIButton  *btn=[UIButton buttonWithType:UIButtonTypeCustom];
-    [btn  setFrame:CGRectMake(70,-40, 120, 300)];
-    [btn setBackgroundColor:[UIColor blackColor]];
-    [self .view addSubview:btn];
-    [btn addTarget:self action:@selector(click:) forControlEvents:UIControlEventTouchUpInside];
+//    UIButton  *btn=[UIButton buttonWithType:UIButtonTypeCustom];
+//    [btn  setFrame:CGRectMake(70,-40, 120, 300)];
+//    [btn setBackgroundColor:[UIColor blackColor]];
+//    [self .view addSubview:btn];
+//    [btn addTarget:self action:@selector(click:) forControlEvents:UIControlEventTouchUpInside];
+    
+    
+    UIImageView  *imageView=[[UIImageView alloc] initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, self.view.frame.size.width*0.5)];
+    [imageView setImage:[UIImage imageNamed:@"baoming2"]];
+    UITapGestureRecognizer *tap=[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(click:)];
+    imageView.userInteractionEnabled=YES;
+    [imageView addGestureRecognizer:tap];
+    
+    [self.view addSubview:imageView];
 
 }
--(void)click:(UIButton *)sender
+-(void)click:(UIGestureRecognizer  *)sender
 {
-      UIView *snapView=[self.view snapshotInView:sender];
-      snapView.frame=sender.frame;
+      UIView *snapView=[self.view snapshotInView:sender.view];
+      snapView.frame=sender.view.frame;
       [[UIApplication sharedApplication].keyWindow addSubview:snapView];
-     [[YeePopCover shareManger] setBackgroundColor:[UIColor clearColor]];
+     [[YeePopCover shareManger] setBackgroundColor:[UIColor blackColor]];
      [[YeePopCover shareManger] PopMaskView:snapView InView:nil transformanimation:^{
         
         [UIView animateWithDuration:0.1 animations:^{
@@ -49,11 +58,10 @@
              }];
          }];
     } ClickBlock:^(UIView *maskView){
-       
-       
+        [[YeePopCover shareManger] setBackgroundColor:[UIColor clearColor]];
         [UIView animateWithDuration:0.4 animations:^{
             
-            maskView.center=sender.center;
+            maskView.center=sender.view.center;
             [[UIApplication sharedApplication].keyWindow addSubview:snapView];
             
         } completion:^(BOOL finished) {
