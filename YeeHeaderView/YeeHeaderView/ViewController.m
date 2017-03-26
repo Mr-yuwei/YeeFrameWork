@@ -21,7 +21,7 @@
 {
     [super viewDidLoad];
     UIButton  *btn=[UIButton buttonWithType:UIButtonTypeCustom];
-    [btn  setFrame:CGRectMake(100, 120, 80, 80)];
+    [btn  setFrame:CGRectMake(70,-40, 120, 300)];
     [btn setBackgroundColor:[UIColor blackColor]];
     [self .view addSubview:btn];
     [btn addTarget:self action:@selector(click:) forControlEvents:UIControlEventTouchUpInside];
@@ -29,35 +29,43 @@
 }
 -(void)click:(UIButton *)sender
 {
-    
-//    - (nullable UIView *)snapshotViewAfterScreenUpdates:(BOOL)afterUpdates NS_AVAILABLE_IOS(7_0);
-    UIView  *maskView=[[UIView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
-    [maskView setBackgroundColor:[UIColor redColor]];
-    
-     [[YeePopCover shareManger] PopMaskView:maskView InView:self.view animations:^{
+      UIView *snapView=[self.view snapshotInView:sender];
+      snapView.frame=sender.frame;
+      [[UIApplication sharedApplication].keyWindow addSubview:snapView];
+     [[YeePopCover shareManger] setBackgroundColor:[UIColor clearColor]];
+     [[YeePopCover shareManger] PopMaskView:snapView InView:nil transformanimation:^{
         
-        [maskView addBaseSpringAnimationType:YeeFromTopType Duration:0.8 completion:^(BOOL finished)
-         {
-             
-         }];
-    } ClickBlock:^{
-      
-        
-        UIView *snapView=[self.view snapshotInView:sender];
-        UIView *coverView=[self.view snapshotInView:self.view];
-        snapView.frame=sender.frame;
-        [coverView addSubview:snapView];
-        [[UIApplication sharedApplication] .keyWindow addSubview:coverView];
-        [UIView animateWithDuration:1.0 animations:^{
+        [UIView animateWithDuration:0.1 animations:^{
             
-            snapView.center=self.view.center;
-            snapView.alpha=1.0;
-        }completion:^(BOOL finished) {
-         
-            [coverView removeFromSuperview];
+            snapView.transform=CGAffineTransformScale(snapView.transform, 1.05, 1.05);
+            
+        } completion:^(BOOL finished)
+         {
+             snapView.transform=CGAffineTransformScale(snapView.transform, 1/1.05, 1/1.05);
+             
+             [UIView animateWithDuration:0.5 animations:^{
+                 snapView.center=[UIApplication sharedApplication].keyWindow.center;
+                 
+             }];
+         }];
+    } ClickBlock:^(UIView *maskView){
+       
+       
+        [UIView animateWithDuration:0.4 animations:^{
+            
+            maskView.center=sender.center;
+            [[UIApplication sharedApplication].keyWindow addSubview:snapView];
+            
+        } completion:^(BOOL finished) {
+            
+            [maskView removeFromSuperview];
             
         }];
+        
     }];
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

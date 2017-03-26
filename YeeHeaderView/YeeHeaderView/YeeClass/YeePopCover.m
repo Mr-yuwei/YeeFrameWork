@@ -23,6 +23,21 @@ static YeePopCover *_instance=nil;
     });
     return _instance;
 }
+//自己添加动画
+-(void)PopMaskView:(UIView *)maskView InView:(UIView *)InView  transformanimation:(void (^)(void))animations  ClickBlock:(YeeCoverClick) clickBlock{
+    
+    
+    if (InView==nil)InView=[UIApplication sharedApplication].keyWindow;
+    [YeePopCover shareManger].clickBlock=nil;
+    [[YeePopCover shareManger] removeCover];
+    [YeePopCover shareManger].frame=InView.bounds;
+    [YeePopCover shareManger].maskView=maskView;
+    if (animations)animations();
+    [YeePopCover shareManger].clickBlock=clickBlock;;
+    [[YeePopCover shareManger] addSubview:maskView];
+    [InView addSubview:[YeePopCover shareManger]];
+    
+}
 //用户可以自定义动画
 -(void)PopMaskView:(UIView *)maskView InView:(UIView *)InView  animations:(void (^)(void))animations  ClickBlock:(YeeCoverClick) clickBlock
 {
@@ -65,11 +80,12 @@ static YeePopCover *_instance=nil;
 {
     if ([YeePopCover shareManger].clickBlock)
     {
-       [YeePopCover shareManger].clickBlock();
+       [YeePopCover shareManger].clickBlock(self.maskView);
     }
     [[YeePopCover shareManger] removeFromSuperview];
     for (UIView *view in [YeePopCover shareManger].subviews)
-    {   [view removeFromSuperview];
+    {
+        [view removeFromSuperview];
     }
 }
 //移除遮罩

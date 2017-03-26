@@ -8,10 +8,12 @@
 //遮罩
 //处理用户点击事件
 #import <UIKit/UIKit.h>
-typedef void(^YeeCoverClick)(void);
+typedef void(^YeeCoverClick)(UIView *maskView);
+
 @interface YeePopCover : UIView
 
 +(YeePopCover *)shareManger;
+-(void)PopMaskView:(UIView *)maskView InView:(UIView *)InView  transformanimation:(void (^)(void))animations  ClickBlock:(YeeCoverClick) clickBlock;
 
 -(void)PopMaskView:(UIView *)maskView InView:(UIView *)InView  animations:(void (^)(void))animations  ClickBlock:(YeeCoverClick) clickBlock;
 //移除遮罩/视图
