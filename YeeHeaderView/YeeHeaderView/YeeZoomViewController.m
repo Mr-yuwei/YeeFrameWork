@@ -8,6 +8,7 @@
 
 #import "YeeZoomViewController.h"
 #import "UIImageView+ClickBlock.h"
+#import "YeeZoomScrollView.h"
 @interface YeeZoomViewController ()
 
 @end
@@ -39,33 +40,37 @@
      imageView.frame = [UIScreen mainScreen].bounds;
         
     } completion:^(BOOL finished) {
+         imageView.hidden=YES;
+        
+        YeeZoomScrollView *scrollView = [[YeeZoomScrollView alloc] initWithFrame:[UIScreen mainScreen].bounds withImageUrlString:originUrl  placeImage:toImageView.image];
+        [scrollView setBackgroundColor:[UIColor blackColor]];
+        [mainView addSubview:scrollView];
 
     }];
     
-    imageView.clickBlock=^(UIImageView *weakImageView){
-        
-        mainView.backgroundColor = [UIColor clearColor];
-        weakImageView.hidden = NO;
-        [UIView animateWithDuration:.25 animations:^{
-         weakImageView.frame = tempF;
-            
-        } completion:^(BOOL finished) {
-            
-           [mainView removeFromSuperview];
-            
-           [self dismissViewControllerAnimated:YES completion:^{
-                
-            }];
-            
-        }];
-    } ;
+//    imageView.clickBlock=^(UIImageView *weakImageView){
+//        
+//        mainView.backgroundColor = [UIColor clearColor];
+//        weakImageView.hidden = NO;
+//        [UIView animateWithDuration:.25 animations:^{
+//         weakImageView.frame = tempF;
+//            
+//        } completion:^(BOOL finished) {
+//            
+//           [mainView removeFromSuperview];
+//            
+//           [self dismissViewControllerAnimated:YES completion:^{
+//                
+//            }];
+//            
+//        }];
+//    } ;
 }
 
 #pragma mark get Controller.view
 - (UIView *)getParsentView:(UIView *)view{
     
     if ([view isKindOfClass:[UITableView class]] || [view isKindOfClass:[UICollectionView class]]){
-        
     }
     if ([[view nextResponder] isKindOfClass:[UIViewController class]] || view == nil) {
         return view;

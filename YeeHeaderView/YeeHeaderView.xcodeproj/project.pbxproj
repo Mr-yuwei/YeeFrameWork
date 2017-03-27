@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B674EB15301F69F6B376D4D4 /* libPods-YeeHeaderView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41F37DEC95EA8D106DF1FCBE /* libPods-YeeHeaderView.a */; };
 		CD08A42B1E7E84FA00D4105D /* UIView+YeeViewAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD08A4281E7E84FA00D4105D /* UIView+YeeViewAnimation.m */; };
 		CD08A42C1E7E84FA00D4105D /* YeePopCover.m in Sources */ = {isa = PBXBuildFile; fileRef = CD08A42A1E7E84FA00D4105D /* YeePopCover.m */; };
 		CD08AFFC1E84F623004E6A44 /* UIView+snapView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD08AFFB1E84F623004E6A44 /* UIView+snapView.m */; };
@@ -24,6 +25,7 @@
 		CD0CD6A31E88B50600DA44FB /* YeeZoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0CD6A21E88B50600DA44FB /* YeeZoomViewController.m */; };
 		CD0CD6A61E88BABA00DA44FB /* UIImageView+ClickBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0CD6A51E88BABA00DA44FB /* UIImageView+ClickBlock.m */; };
 		CD0CD6AC1E88E22A00DA44FB /* SinaHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0CD6AB1E88E22A00DA44FB /* SinaHeaderView.m */; };
+		CD0CD6AF1E88F33D00DA44FB /* YeeZoomScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0CD6AE1E88F33D00DA44FB /* YeeZoomScrollView.m */; };
 		CD17EF691E87C91E0092F56A /* SinaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD17EF681E87C91E0092F56A /* SinaViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +47,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		41F37DEC95EA8D106DF1FCBE /* libPods-YeeHeaderView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YeeHeaderView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EE78B5990815E34B4502593 /* Pods-YeeHeaderView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YeeHeaderView.release.xcconfig"; path = "Pods/Target Support Files/Pods-YeeHeaderView/Pods-YeeHeaderView.release.xcconfig"; sourceTree = "<group>"; };
+		968EAE5EDCD270CE9B448DD8 /* Pods-YeeHeaderView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YeeHeaderView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YeeHeaderView/Pods-YeeHeaderView.debug.xcconfig"; sourceTree = "<group>"; };
 		CD08A4271E7E84FA00D4105D /* UIView+YeeViewAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YeeViewAnimation.h"; sourceTree = "<group>"; };
 		CD08A4281E7E84FA00D4105D /* UIView+YeeViewAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YeeViewAnimation.m"; sourceTree = "<group>"; };
 		CD08A4291E7E84FA00D4105D /* YeePopCover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YeePopCover.h; sourceTree = "<group>"; };
@@ -79,6 +84,8 @@
 		CD0CD6A51E88BABA00DA44FB /* UIImageView+ClickBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ClickBlock.m"; sourceTree = "<group>"; };
 		CD0CD6AA1E88E22A00DA44FB /* SinaHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaHeaderView.h; sourceTree = "<group>"; };
 		CD0CD6AB1E88E22A00DA44FB /* SinaHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaHeaderView.m; sourceTree = "<group>"; };
+		CD0CD6AD1E88F33D00DA44FB /* YeeZoomScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YeeZoomScrollView.h; sourceTree = "<group>"; };
+		CD0CD6AE1E88F33D00DA44FB /* YeeZoomScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YeeZoomScrollView.m; sourceTree = "<group>"; };
 		CD17EF671E87C91E0092F56A /* SinaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaViewController.h; sourceTree = "<group>"; };
 		CD17EF681E87C91E0092F56A /* SinaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B674EB15301F69F6B376D4D4 /* libPods-YeeHeaderView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +116,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DD4F84F6EE2B01888C26B0D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				968EAE5EDCD270CE9B448DD8 /* Pods-YeeHeaderView.debug.xcconfig */,
+				6EE78B5990815E34B4502593 /* Pods-YeeHeaderView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BE9D99A1232631C17755FCFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41F37DEC95EA8D106DF1FCBE /* libPods-YeeHeaderView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CD0B05831E79238C00DDEF42 = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +140,8 @@
 				CD0B05A81E79238C00DDEF42 /* YeeHeaderViewTests */,
 				CD0B05B31E79238C00DDEF42 /* YeeHeaderViewUITests */,
 				CD0B058D1E79238C00DDEF42 /* Products */,
+				0DD4F84F6EE2B01888C26B0D /* Pods */,
+				BE9D99A1232631C17755FCFB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +167,8 @@
 				CD17EF681E87C91E0092F56A /* SinaViewController.m */,
 				CD0CD6AA1E88E22A00DA44FB /* SinaHeaderView.h */,
 				CD0CD6AB1E88E22A00DA44FB /* SinaHeaderView.m */,
+				CD0CD6AD1E88F33D00DA44FB /* YeeZoomScrollView.h */,
+				CD0CD6AE1E88F33D00DA44FB /* YeeZoomScrollView.m */,
 				CD0CD6A11E88B50600DA44FB /* YeeZoomViewController.h */,
 				CD0CD6A21E88B50600DA44FB /* YeeZoomViewController.m */,
 				CD0B05981E79238C00DDEF42 /* Main.storyboard */,
@@ -205,9 +234,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD0B05B91E79238C00DDEF42 /* Build configuration list for PBXNativeTarget "YeeHeaderView" */;
 			buildPhases = (
+				4F3117E5054F4D75130D4BD5 /* [CP] Check Pods Manifest.lock */,
 				CD0B05881E79238C00DDEF42 /* Sources */,
 				CD0B05891E79238C00DDEF42 /* Frameworks */,
 				CD0B058A1E79238C00DDEF42 /* Resources */,
+				A2D349BF5487E644AAF744C0 /* [CP] Embed Pods Frameworks */,
+				99F96AA17A69548294DCB72D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -329,6 +361,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4F3117E5054F4D75130D4BD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		99F96AA17A69548294DCB72D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YeeHeaderView/Pods-YeeHeaderView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2D349BF5487E644AAF744C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YeeHeaderView/Pods-YeeHeaderView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CD0B05881E79238C00DDEF42 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -336,6 +416,7 @@
 			files = (
 				CD08AFFC1E84F623004E6A44 /* UIView+snapView.m in Sources */,
 				CD0B05971E79238C00DDEF42 /* ViewController.m in Sources */,
+				CD0CD6AF1E88F33D00DA44FB /* YeeZoomScrollView.m in Sources */,
 				CD08A42C1E7E84FA00D4105D /* YeePopCover.m in Sources */,
 				CD0B05941E79238C00DDEF42 /* AppDelegate.m in Sources */,
 				CD0CD6A31E88B50600DA44FB /* YeeZoomViewController.m in Sources */,
@@ -491,6 +572,7 @@
 		};
 		CD0B05BA1E79238C00DDEF42 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 968EAE5EDCD270CE9B448DD8 /* Pods-YeeHeaderView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 34TTMZE623;
@@ -504,6 +586,7 @@
 		};
 		CD0B05BB1E79238C00DDEF42 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EE78B5990815E34B4502593 /* Pods-YeeHeaderView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 34TTMZE623;
