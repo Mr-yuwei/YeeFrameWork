@@ -40,47 +40,47 @@
 }
 -(void)click:(UIGestureRecognizer  *)sender
 {
-      UIView *snapView=[self.view snapshotInView:sender.view];
-      snapView.frame=sender.view.frame;
-      [[UIApplication sharedApplication].keyWindow addSubview:snapView];
-     [[YeePopCover shareManger] setBackgroundColor:[UIColor blackColor]];
-     [[YeePopCover shareManger] PopMaskView:snapView InView:nil transformanimation:^{
-        
-        [UIView animateWithDuration:0.1 animations:^{
-            
-            snapView.transform=CGAffineTransformScale(snapView.transform, 1.05, 1.05);
-            
-        } completion:^(BOOL finished)
-         {
-             snapView.transform=CGAffineTransformScale(snapView.transform, 1/1.05, 1/1.05);
-             
-             [UIView animateWithDuration:0.5 animations:^{
-                 snapView.center=[UIApplication sharedApplication].keyWindow.center;
-                 
-             }];
-         }];
-    } ClickBlock:^(UIView *maskView){
-        [[YeePopCover shareManger] setBackgroundColor:[UIColor clearColor]];
-        [UIView animateWithDuration:0.4 animations:^{
-            
-            maskView.center=sender.view.center;
-            [[UIApplication sharedApplication].keyWindow addSubview:snapView];
-            
-        } completion:^(BOOL finished) {
-            
-            [maskView removeFromSuperview];
-            
-        }];
-        
-    }];
-    
-    
-//    YeeZoomViewController  *zoomVC=[[YeeZoomViewController alloc] init];
-//    
-//    [zoomVC  showHeadPortrait:(UIImageView *)sender.view originUrl:@"http://upload-images.jianshu.io/upload_images/1893883-f42d7dc00862bf11.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"];
-//    [self presentViewController:zoomVC animated:YES completion:^{
+//      UIView *snapView=[self.view snapshotInView:sender.view];
+//      snapView.frame=sender.view.frame;
+//      [[UIApplication sharedApplication].keyWindow addSubview:snapView];
+//     [[YeePopCover shareManger] setBackgroundColor:[UIColor blackColor]];
+//     [[YeePopCover shareManger] PopMaskView:snapView InView:nil transformanimation:^{
+//        
+//        [UIView animateWithDuration:0.1 animations:^{
+//            
+//            snapView.transform=CGAffineTransformScale(snapView.transform, 1.05, 1.05);
+//            
+//        } completion:^(BOOL finished)
+//         {
+//             snapView.transform=CGAffineTransformScale(snapView.transform, 1/1.05, 1/1.05);
+//             
+//             [UIView animateWithDuration:0.5 animations:^{
+//                 snapView.center=[UIApplication sharedApplication].keyWindow.center;
+//                 
+//             }];
+//         }];
+//    } ClickBlock:^(UIView *maskView){
+//        [[YeePopCover shareManger] setBackgroundColor:[UIColor clearColor]];
+//        [UIView animateWithDuration:0.4 animations:^{
+//            
+//            maskView.center=sender.view.center;
+//            [[UIApplication sharedApplication].keyWindow addSubview:snapView];
+//            
+//        } completion:^(BOOL finished) {
+//            
+//            [maskView removeFromSuperview];
+//            
+//        }];
 //        
 //    }];
+    
+    
+    YeeZoomViewController  *zoomVC=[[YeeZoomViewController alloc] init];
+    
+    [zoomVC  showHeadPortrait:(UIImageView *)sender.view originUrl:@"http://upload-images.jianshu.io/upload_images/1893883-f42d7dc00862bf11.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"];
+    [self presentViewController:zoomVC animated:YES completion:^{
+        
+    }];
     
 }
 

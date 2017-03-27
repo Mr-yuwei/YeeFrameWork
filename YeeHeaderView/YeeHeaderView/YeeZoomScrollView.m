@@ -8,6 +8,8 @@
 
 #import "YeeZoomScrollView.h"
 #import "UIImageView+WebCache.h"
+#import "MBProgressHUD.h"
+#import "DACircularProgressView.h"
 @interface YeeZoomScrollView ()<UIScrollViewDelegate>
 {
     UIImageView                   *_ImageView;
@@ -68,13 +70,46 @@
     _ImageView=[[UIImageView alloc] initWithFrame:self.bounds];
     _ImageView.contentMode=UIViewContentModeScaleAspectFit;
     _ImageView.clipsToBounds=YES;
+    [self addSubview:_ImageView];
+    
+    
+    
+//    MBProgressHUD *hud=[MBProgressHUD showHUDAddedTo:self animated:YES];
+//    hud.mode=MBProgressHUDModeAnnularDeterminate;
+    
+//    MBRoundProgressView  *goundView=[[MBRoundProgressView alloc] initWithFrame:CGRectMake(0, 0, 50, 50)];
+//    goundView.center=self.center;
+//    [self addSubview:goundView];
+    
+    
+    DACircularProgressView  *ProgressView=[[DACircularProgressView alloc] initWithFrame:CGRectMake(0, 0, 50, 50)];
+    ProgressView.center=self.center;
+    [self addSubview:ProgressView];
+    
+    ProgressView.trackTintColor = [UIColor colorWithWhite:0.7 alpha:0.5];
+    ProgressView.progressTintColor = [UIColor whiteColor];
+    ProgressView.thicknessRatio = 1.0f;
+    //ProgressView.clockwiseProgress = NO;
+//    ProgressView.roundedCorners = YES;
+//   ProgressView.trackTintColor = [UIColor clearColor];
+//    ProgressView.innerTintColor=[UIColor whiteColor];
+//    
+//    ProgressView.trackTintColor=[UIColor clearColor];
+
     [_ImageView sd_setImageWithPreviousCachedImageWithURL:[NSURL URLWithString:_imageUrl] placeholderImage:_placeImage options:SDWebImageHighPriority progress:^(NSInteger receivedSize, NSInteger expectedSize) {
         
+        [ProgressView setProgress:receivedSize/expectedSize*1.0 animated:YES];
+        
+        //[goundView setProgress:receivedSize/expectedSize*1.0];
+       // hud.progress=receivedSize/expectedSize*1.0;
+        
     } completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
+        
+        [ProgressView removeFromSuperview];
+        //[hud hideAnimated:NO];
         [self setNeedsLayout];
         [self layoutIfNeeded];
     }];
-    [self addSubview:_ImageView];
 }
 
 - (void)setFrame:(CGRect)frame
