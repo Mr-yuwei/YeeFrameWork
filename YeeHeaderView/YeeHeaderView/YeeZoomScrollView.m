@@ -30,6 +30,7 @@
 }
 -(instancetype)initWithFrame:(CGRect)frame withImageUrlString:(NSString *)Urlstring placeImage:(UIImage *)image{
     if (self=[super initWithFrame:frame]) {
+        
         _imageUrl=Urlstring;
         _placeImage=image;
         [self configureView];
@@ -166,7 +167,10 @@
 #pragma mark -- single tap gesture method
 - (void)CancelReviewImage
 {
-    self.backgroundColor = [UIColor clearColor];
+    if (_clickBlock&&_ImageView) {
+        
+        _clickBlock(_ImageView);
+    }
 
 }
 

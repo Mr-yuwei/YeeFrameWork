@@ -44,27 +44,26 @@
         
         YeeZoomScrollView *scrollView = [[YeeZoomScrollView alloc] initWithFrame:[UIScreen mainScreen].bounds withImageUrlString:originUrl  placeImage:toImageView.image];
         [scrollView setBackgroundColor:[UIColor blackColor]];
-        [mainView addSubview:scrollView];
+        __weak typeof(YeeZoomScrollView*)weakscrollView=scrollView;
+        scrollView.clickBlock=^(UIImageView  *clickImageView){
+            [weakscrollView removeFromSuperview];
+            mainView.backgroundColor = [UIColor clearColor];
+            imageView.hidden=NO;
+            [UIView animateWithDuration:.25 animations:^{
+                
+                imageView.frame = tempF;
+                
+            } completion:^(BOOL finished) {
+              
+                [mainView removeFromSuperview];
+                [self dismissViewControllerAnimated:YES completion:^{
+                    
+                }];
+            }];
 
+        };
+        [mainView addSubview:scrollView];
     }];
-    
-//    imageView.clickBlock=^(UIImageView *weakImageView){
-//        
-//        mainView.backgroundColor = [UIColor clearColor];
-//        weakImageView.hidden = NO;
-//        [UIView animateWithDuration:.25 animations:^{
-//         weakImageView.frame = tempF;
-//            
-//        } completion:^(BOOL finished) {
-//            
-//           [mainView removeFromSuperview];
-//            
-//           [self dismissViewControllerAnimated:YES completion:^{
-//                
-//            }];
-//            
-//        }];
-//    } ;
 }
 
 #pragma mark get Controller.view

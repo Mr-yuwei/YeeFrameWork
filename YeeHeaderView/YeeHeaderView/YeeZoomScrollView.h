@@ -8,10 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+typedef void(^YeeZoomScrollViewClickBlock)(UIImageView *imageView);
 @interface YeeZoomScrollView : UIScrollView
+
+@property(nonatomic,copy)YeeZoomScrollViewClickBlock clickBlock;
 
 -(instancetype)initWithFrame:(CGRect)frame withImageUrlString:(NSString *)Urlstring;
 
 -(instancetype)initWithFrame:(CGRect)frame withImageUrlString:(NSString *)Urlstring placeImage:(UIImage *)image;
+
 
 @end
