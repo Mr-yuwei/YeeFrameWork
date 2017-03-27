@@ -11,6 +11,7 @@
 #import "UIView+YeeViewAnimation.h"
 #import "YeePopCover.h"
 #import "UIView+snapView.h"
+#import "YeeZoomViewController.h"
 @interface ViewController ()
 
 @end
@@ -27,7 +28,7 @@
 //    [btn addTarget:self action:@selector(click:) forControlEvents:UIControlEventTouchUpInside];
     
     
-    UIImageView  *imageView=[[UIImageView alloc] initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, self.view.frame.size.width*0.5)];
+    UIImageView  *imageView=[[UIImageView alloc] initWithFrame:CGRectMake(0, 64, self.view.frame.size.width, self.view.frame.size.width*0.5)];
     [imageView setImage:[UIImage imageNamed:@"baoming2"]];
     UITapGestureRecognizer *tap=[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(click:)];
     imageView.userInteractionEnabled=YES;
@@ -38,41 +39,46 @@
 }
 -(void)click:(UIGestureRecognizer  *)sender
 {
-      UIView *snapView=[self.view snapshotInView:sender.view];
-      snapView.frame=sender.view.frame;
-      [[UIApplication sharedApplication].keyWindow addSubview:snapView];
-     [[YeePopCover shareManger] setBackgroundColor:[UIColor blackColor]];
-     [[YeePopCover shareManger] PopMaskView:snapView InView:nil transformanimation:^{
-        
-        [UIView animateWithDuration:0.1 animations:^{
-            
-            snapView.transform=CGAffineTransformScale(snapView.transform, 1.05, 1.05);
-            
-        } completion:^(BOOL finished)
-         {
-             snapView.transform=CGAffineTransformScale(snapView.transform, 1/1.05, 1/1.05);
-             
-             [UIView animateWithDuration:0.5 animations:^{
-                 snapView.center=[UIApplication sharedApplication].keyWindow.center;
-                 
-             }];
-         }];
-    } ClickBlock:^(UIView *maskView){
-        [[YeePopCover shareManger] setBackgroundColor:[UIColor clearColor]];
-        [UIView animateWithDuration:0.4 animations:^{
-            
-            maskView.center=sender.view.center;
-            [[UIApplication sharedApplication].keyWindow addSubview:snapView];
-            
-        } completion:^(BOOL finished) {
-            
-            [maskView removeFromSuperview];
-            
-        }];
+//      UIView *snapView=[self.view snapshotInView:sender.view];
+//      snapView.frame=sender.view.frame;
+//      [[UIApplication sharedApplication].keyWindow addSubview:snapView];
+//     [[YeePopCover shareManger] setBackgroundColor:[UIColor blackColor]];
+//     [[YeePopCover shareManger] PopMaskView:snapView InView:nil transformanimation:^{
+//        
+//        [UIView animateWithDuration:0.1 animations:^{
+//            
+//            snapView.transform=CGAffineTransformScale(snapView.transform, 1.05, 1.05);
+//            
+//        } completion:^(BOOL finished)
+//         {
+//             snapView.transform=CGAffineTransformScale(snapView.transform, 1/1.05, 1/1.05);
+//             
+//             [UIView animateWithDuration:0.5 animations:^{
+//                 snapView.center=[UIApplication sharedApplication].keyWindow.center;
+//                 
+//             }];
+//         }];
+//    } ClickBlock:^(UIView *maskView){
+//        [[YeePopCover shareManger] setBackgroundColor:[UIColor clearColor]];
+//        [UIView animateWithDuration:0.4 animations:^{
+//            
+//            maskView.center=sender.view.center;
+//            [[UIApplication sharedApplication].keyWindow addSubview:snapView];
+//            
+//        } completion:^(BOOL finished) {
+//            
+//            [maskView removeFromSuperview];
+//            
+//        }];
+//        
+//    }];
+    
+    
+    YeeZoomViewController  *zoomVC=[[YeeZoomViewController alloc] init];
+    [zoomVC  showHeadPortrait:(UIImageView *)sender.view originUrl:@""];
+    [self presentViewController:zoomVC animated:YES completion:^{
         
     }];
-    
-    
     
 }
 

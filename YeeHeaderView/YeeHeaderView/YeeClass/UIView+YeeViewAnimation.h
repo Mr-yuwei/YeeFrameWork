@@ -9,8 +9,6 @@
 //
 #import <UIKit/UIKit.h>
 
-
-
 typedef NS_ENUM(NSInteger,YeeBaseAnimationType){
     YeeFromTopType,
     YeeFromBottomType,
@@ -23,8 +21,6 @@ typedef NS_ENUM(NSInteger,YeeBaseAnimationType){
 //主要用于显示提示框视图
 //maskView最后一般会出现在视图中央
 -(void)addBaseAnimationType:(YeeBaseAnimationType)Type Duration:(NSTimeInterval)duration ;
-
-
 
 -(void)addBaseSpringAnimationType:(YeeBaseAnimationType)Type Duration:(NSTimeInterval)duration completion:(void (^ __nullable)(BOOL finished))completion;
 

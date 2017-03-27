@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface UIView (snapView)
+
 -(UIView *)snapshotInView:(UIView *)inView ;
 @end

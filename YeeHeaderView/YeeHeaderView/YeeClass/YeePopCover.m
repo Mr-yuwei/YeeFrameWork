@@ -26,7 +26,6 @@ static YeePopCover *_instance=nil;
 //自己添加动画
 -(void)PopMaskView:(UIView *)maskView InView:(UIView *)InView  transformanimation:(void (^)(void))animations  ClickBlock:(YeeCoverClick) clickBlock{
     
-    
     if (InView==nil)InView=[UIApplication sharedApplication].keyWindow;
     [YeePopCover shareManger].clickBlock=nil;
     [[YeePopCover shareManger] removeCover];
