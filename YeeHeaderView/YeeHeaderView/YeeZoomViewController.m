@@ -34,9 +34,10 @@
     imageView.contentMode = UIViewContentModeScaleAspectFit;
     [mainView addSubview:imageView];
     mainView.clipsToBounds = YES;
-    
     [UIView animateWithDuration:.25 animations:^{
-        imageView.frame = [UIScreen mainScreen].bounds;
+        
+     imageView.frame = [UIScreen mainScreen].bounds;
+        
     } completion:^(BOOL finished) {
 
     }];

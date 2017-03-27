@@ -23,6 +23,7 @@
 		CD0B05CB1E7947EC00DDEF42 /* YeeHeaderScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0B05CA1E7947EC00DDEF42 /* YeeHeaderScrollView.m */; };
 		CD0CD6A31E88B50600DA44FB /* YeeZoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0CD6A21E88B50600DA44FB /* YeeZoomViewController.m */; };
 		CD0CD6A61E88BABA00DA44FB /* UIImageView+ClickBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0CD6A51E88BABA00DA44FB /* UIImageView+ClickBlock.m */; };
+		CD0CD6AC1E88E22A00DA44FB /* SinaHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0CD6AB1E88E22A00DA44FB /* SinaHeaderView.m */; };
 		CD17EF691E87C91E0092F56A /* SinaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD17EF681E87C91E0092F56A /* SinaViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -76,6 +77,8 @@
 		CD0CD6A21E88B50600DA44FB /* YeeZoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YeeZoomViewController.m; sourceTree = "<group>"; };
 		CD0CD6A41E88BABA00DA44FB /* UIImageView+ClickBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ClickBlock.h"; sourceTree = "<group>"; };
 		CD0CD6A51E88BABA00DA44FB /* UIImageView+ClickBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ClickBlock.m"; sourceTree = "<group>"; };
+		CD0CD6AA1E88E22A00DA44FB /* SinaHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaHeaderView.h; sourceTree = "<group>"; };
+		CD0CD6AB1E88E22A00DA44FB /* SinaHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaHeaderView.m; sourceTree = "<group>"; };
 		CD17EF671E87C91E0092F56A /* SinaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaViewController.h; sourceTree = "<group>"; };
 		CD17EF681E87C91E0092F56A /* SinaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -135,6 +138,8 @@
 				CD0B05961E79238C00DDEF42 /* ViewController.m */,
 				CD17EF671E87C91E0092F56A /* SinaViewController.h */,
 				CD17EF681E87C91E0092F56A /* SinaViewController.m */,
+				CD0CD6AA1E88E22A00DA44FB /* SinaHeaderView.h */,
+				CD0CD6AB1E88E22A00DA44FB /* SinaHeaderView.m */,
 				CD0CD6A11E88B50600DA44FB /* YeeZoomViewController.h */,
 				CD0CD6A21E88B50600DA44FB /* YeeZoomViewController.m */,
 				CD0B05981E79238C00DDEF42 /* Main.storyboard */,
@@ -334,6 +339,7 @@
 				CD08A42C1E7E84FA00D4105D /* YeePopCover.m in Sources */,
 				CD0B05941E79238C00DDEF42 /* AppDelegate.m in Sources */,
 				CD0CD6A31E88B50600DA44FB /* YeeZoomViewController.m in Sources */,
+				CD0CD6AC1E88E22A00DA44FB /* SinaHeaderView.m in Sources */,
 				CD0B05CB1E7947EC00DDEF42 /* YeeHeaderScrollView.m in Sources */,
 				CD17EF691E87C91E0092F56A /* SinaViewController.m in Sources */,
 				CD0B05C81E79248000DDEF42 /* YeeButton.m in Sources */,

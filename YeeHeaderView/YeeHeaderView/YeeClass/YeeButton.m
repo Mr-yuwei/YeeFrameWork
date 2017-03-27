@@ -41,7 +41,6 @@
         _buttonType=YeeButtonImageLeft;
         [self addSubview:self.imageView];
         [self addSubview:self.titleLable];
-        
     }
     return self;
 }
