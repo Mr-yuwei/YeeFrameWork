@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD0A591D1EA0AE1B0056C3F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0A591C1EA0AE1B0056C3F9 /* main.m */; };
+		CD0A59201EA0AE1B0056C3F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0A591F1EA0AE1B0056C3F9 /* AppDelegate.m */; };
+		CD0A59231EA0AE1B0056C3F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0A59221EA0AE1B0056C3F9 /* ViewController.m */; };
+		CD0A59261EA0AE1C0056C3F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD0A59241EA0AE1C0056C3F9 /* Main.storyboard */; };
+		CD0A59281EA0AE1C0056C3F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD0A59271EA0AE1C0056C3F9 /* Assets.xcassets */; };
+		CD0A592B1EA0AE1C0056C3F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD0A59291EA0AE1C0056C3F9 /* LaunchScreen.storyboard */; };
+		CD0A59361EA0AE1C0056C3F9 /* YeeLinkBlockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0A59351EA0AE1C0056C3F9 /* YeeLinkBlockTests.m */; };
+		CD0A59411EA0AE1C0056C3F9 /* YeeLinkBlockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0A59401EA0AE1C0056C3F9 /* YeeLinkBlockUITests.m */; };
+		CD0A59511EA0AE9A0056C3F9 /* UILabel+LinkBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0A59501EA0AE9A0056C3F9 /* UILabel+LinkBlock.m */; };
+		CD0A59551EA0AF590056C3F9 /* UITextField+LinkBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0A59541EA0AF590056C3F9 /* UITextField+LinkBlock.m */; };
+		CD0A59581EA0B2F80056C3F9 /* UIView+LinkBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0A59571EA0B2F80056C3F9 /* UIView+LinkBlock.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD0A59321EA0AE1C0056C3F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD0A59101EA0AE1B0056C3F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD0A59171EA0AE1B0056C3F9;
+			remoteInfo = YeeLinkBlock;
+		};
+		CD0A593D1EA0AE1C0056C3F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD0A59101EA0AE1B0056C3F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD0A59171EA0AE1B0056C3F9;
+			remoteInfo = YeeLinkBlock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD0A59181EA0AE1B0056C3F9 /* YeeLinkBlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YeeLinkBlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD0A591C1EA0AE1B0056C3F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD0A591E1EA0AE1B0056C3F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD0A591F1EA0AE1B0056C3F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD0A59211EA0AE1B0056C3F9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD0A59221EA0AE1B0056C3F9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD0A59251EA0AE1C0056C3F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD0A59271EA0AE1C0056C3F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD0A592A1EA0AE1C0056C3F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD0A592C1EA0AE1C0056C3F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD0A59311EA0AE1C0056C3F9 /* YeeLinkBlockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YeeLinkBlockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD0A59351EA0AE1C0056C3F9 /* YeeLinkBlockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YeeLinkBlockTests.m; sourceTree = "<group>"; };
+		CD0A59371EA0AE1C0056C3F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD0A593C1EA0AE1C0056C3F9 /* YeeLinkBlockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YeeLinkBlockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD0A59401EA0AE1C0056C3F9 /* YeeLinkBlockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YeeLinkBlockUITests.m; sourceTree = "<group>"; };
+		CD0A59421EA0AE1C0056C3F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD0A594F1EA0AE9A0056C3F9 /* UILabel+LinkBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+LinkBlock.h"; sourceTree = "<group>"; };
+		CD0A59501EA0AE9A0056C3F9 /* UILabel+LinkBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LinkBlock.m"; sourceTree = "<group>"; };
+		CD0A59521EA0AEAB0056C3F9 /* YeeLinkBlockHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YeeLinkBlockHeader.h; sourceTree = "<group>"; };
+		CD0A59531EA0AF590056C3F9 /* UITextField+LinkBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+LinkBlock.h"; sourceTree = "<group>"; };
+		CD0A59541EA0AF590056C3F9 /* UITextField+LinkBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+LinkBlock.m"; sourceTree = "<group>"; };
+		CD0A59561EA0B2F80056C3F9 /* UIView+LinkBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LinkBlock.h"; sourceTree = "<group>"; };
+		CD0A59571EA0B2F80056C3F9 /* UIView+LinkBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LinkBlock.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD0A59151EA0AE1B0056C3F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0A592E1EA0AE1C0056C3F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0A59391EA0AE1C0056C3F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD0A590F1EA0AE1B0056C3F9 = {
+			isa = PBXGroup;
+			children = (
+				CD0A591A1EA0AE1B0056C3F9 /* YeeLinkBlock */,
+				CD0A59341EA0AE1C0056C3F9 /* YeeLinkBlockTests */,
+				CD0A593F1EA0AE1C0056C3F9 /* YeeLinkBlockUITests */,
+				CD0A59191EA0AE1B0056C3F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD0A59191EA0AE1B0056C3F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD0A59181EA0AE1B0056C3F9 /* YeeLinkBlock.app */,
+				CD0A59311EA0AE1C0056C3F9 /* YeeLinkBlockTests.xctest */,
+				CD0A593C1EA0AE1C0056C3F9 /* YeeLinkBlockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD0A591A1EA0AE1B0056C3F9 /* YeeLinkBlock */ = {
+			isa = PBXGroup;
+			children = (
+				CD0A594E1EA0AE450056C3F9 /* YeeLinBlock */,
+				CD0A591E1EA0AE1B0056C3F9 /* AppDelegate.h */,
+				CD0A591F1EA0AE1B0056C3F9 /* AppDelegate.m */,
+				CD0A59211EA0AE1B0056C3F9 /* ViewController.h */,
+				CD0A59221EA0AE1B0056C3F9 /* ViewController.m */,
+				CD0A59241EA0AE1C0056C3F9 /* Main.storyboard */,
+				CD0A59271EA0AE1C0056C3F9 /* Assets.xcassets */,
+				CD0A59291EA0AE1C0056C3F9 /* LaunchScreen.storyboard */,
+				CD0A592C1EA0AE1C0056C3F9 /* Info.plist */,
+				CD0A591B1EA0AE1B0056C3F9 /* Supporting Files */,
+			);
+			path = YeeLinkBlock;
+			sourceTree = "<group>";
+		};
+		CD0A591B1EA0AE1B0056C3F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD0A591C1EA0AE1B0056C3F9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD0A59341EA0AE1C0056C3F9 /* YeeLinkBlockTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD0A59351EA0AE1C0056C3F9 /* YeeLinkBlockTests.m */,
+				CD0A59371EA0AE1C0056C3F9 /* Info.plist */,
+			);
+			path = YeeLinkBlockTests;
+			sourceTree = "<group>";
+		};
+		CD0A593F1EA0AE1C0056C3F9 /* YeeLinkBlockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD0A59401EA0AE1C0056C3F9 /* YeeLinkBlockUITests.m */,
+				CD0A59421EA0AE1C0056C3F9 /* Info.plist */,
+			);
+			path = YeeLinkBlockUITests;
+			sourceTree = "<group>";
+		};
+		CD0A594E1EA0AE450056C3F9 /* YeeLinBlock */ = {
+			isa = PBXGroup;
+			children = (
+				CD0A59521EA0AEAB0056C3F9 /* YeeLinkBlockHeader.h */,
+				CD0A59561EA0B2F80056C3F9 /* UIView+LinkBlock.h */,
+				CD0A59571EA0B2F80056C3F9 /* UIView+LinkBlock.m */,
+				CD0A594F1EA0AE9A0056C3F9 /* UILabel+LinkBlock.h */,
+				CD0A59501EA0AE9A0056C3F9 /* UILabel+LinkBlock.m */,
+				CD0A59531EA0AF590056C3F9 /* UITextField+LinkBlock.h */,
+				CD0A59541EA0AF590056C3F9 /* UITextField+LinkBlock.m */,
+			);
+			path = YeeLinBlock;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD0A59171EA0AE1B0056C3F9 /* YeeLinkBlock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD0A59451EA0AE1C0056C3F9 /* Build configuration list for PBXNativeTarget "YeeLinkBlock" */;
+			buildPhases = (
+				CD0A59141EA0AE1B0056C3F9 /* Sources */,
+				CD0A59151EA0AE1B0056C3F9 /* Frameworks */,
+				CD0A59161EA0AE1B0056C3F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YeeLinkBlock;
+			productName = YeeLinkBlock;
+			productReference = CD0A59181EA0AE1B0056C3F9 /* YeeLinkBlock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD0A59301EA0AE1C0056C3F9 /* YeeLinkBlockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD0A59481EA0AE1C0056C3F9 /* Build configuration list for PBXNativeTarget "YeeLinkBlockTests" */;
+			buildPhases = (
+				CD0A592D1EA0AE1C0056C3F9 /* Sources */,
+				CD0A592E1EA0AE1C0056C3F9 /* Frameworks */,
+				CD0A592F1EA0AE1C0056C3F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD0A59331EA0AE1C0056C3F9 /* PBXTargetDependency */,
+			);
+			name = YeeLinkBlockTests;
+			productName = YeeLinkBlockTests;
+			productReference = CD0A59311EA0AE1C0056C3F9 /* YeeLinkBlockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD0A593B1EA0AE1C0056C3F9 /* YeeLinkBlockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD0A594B1EA0AE1C0056C3F9 /* Build configuration list for PBXNativeTarget "YeeLinkBlockUITests" */;
+			buildPhases = (
+				CD0A59381EA0AE1C0056C3F9 /* Sources */,
+				CD0A59391EA0AE1C0056C3F9 /* Frameworks */,
+				CD0A593A1EA0AE1C0056C3F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD0A593E1EA0AE1C0056C3F9 /* PBXTargetDependency */,
+			);
+			name = YeeLinkBlockUITests;
+			productName = YeeLinkBlockUITests;
+			productReference = CD0A593C1EA0AE1C0056C3F9 /* YeeLinkBlockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD0A59101EA0AE1B0056C3F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "内圈科技";
+				TargetAttributes = {
+					CD0A59171EA0AE1B0056C3F9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 34TTMZE623;
+						ProvisioningStyle = Automatic;
+					};
+					CD0A59301EA0AE1C0056C3F9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 34TTMZE623;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD0A59171EA0AE1B0056C3F9;
+					};
+					CD0A593B1EA0AE1C0056C3F9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 34TTMZE623;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD0A59171EA0AE1B0056C3F9;
+					};
+				};
+			};
+			buildConfigurationList = CD0A59131EA0AE1B0056C3F9 /* Build configuration list for PBXProject "YeeLinkBlock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD0A590F1EA0AE1B0056C3F9;
+			productRefGroup = CD0A59191EA0AE1B0056C3F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD0A59171EA0AE1B0056C3F9 /* YeeLinkBlock */,
+				CD0A59301EA0AE1C0056C3F9 /* YeeLinkBlockTests */,
+				CD0A593B1EA0AE1C0056C3F9 /* YeeLinkBlockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD0A59161EA0AE1B0056C3F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0A592B1EA0AE1C0056C3F9 /* LaunchScreen.storyboard in Resources */,
+				CD0A59281EA0AE1C0056C3F9 /* Assets.xcassets in Resources */,
+				CD0A59261EA0AE1C0056C3F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0A592F1EA0AE1C0056C3F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0A593A1EA0AE1C0056C3F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD0A59141EA0AE1B0056C3F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0A59551EA0AF590056C3F9 /* UITextField+LinkBlock.m in Sources */,
+				CD0A59511EA0AE9A0056C3F9 /* UILabel+LinkBlock.m in Sources */,
+				CD0A59581EA0B2F80056C3F9 /* UIView+LinkBlock.m in Sources */,
+				CD0A59231EA0AE1B0056C3F9 /* ViewController.m in Sources */,
+				CD0A59201EA0AE1B0056C3F9 /* AppDelegate.m in Sources */,
+				CD0A591D1EA0AE1B0056C3F9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0A592D1EA0AE1C0056C3F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0A59361EA0AE1C0056C3F9 /* YeeLinkBlockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0A59381EA0AE1C0056C3F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0A59411EA0AE1C0056C3F9 /* YeeLinkBlockUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD0A59331EA0AE1C0056C3F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD0A59171EA0AE1B0056C3F9 /* YeeLinkBlock */;
+			targetProxy = CD0A59321EA0AE1C0056C3F9 /* PBXContainerItemProxy */;
+		};
+		CD0A593E1EA0AE1C0056C3F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD0A59171EA0AE1B0056C3F9 /* YeeLinkBlock */;
+			targetProxy = CD0A593D1EA0AE1C0056C3F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD0A59241EA0AE1C0056C3F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD0A59251EA0AE1C0056C3F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD0A59291EA0AE1C0056C3F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD0A592A1EA0AE1C0056C3F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD0A59431EA0AE1C0056C3F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD0A59441EA0AE1C0056C3F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD0A59461EA0AE1C0056C3F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 34TTMZE623;
+				INFOPLIST_FILE = YeeLinkBlock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neiquan.YeeLinkBlock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD0A59471EA0AE1C0056C3F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 34TTMZE623;
+				INFOPLIST_FILE = YeeLinkBlock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neiquan.YeeLinkBlock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD0A59491EA0AE1C0056C3F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 34TTMZE623;
+				INFOPLIST_FILE = YeeLinkBlockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neiquan.YeeLinkBlockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YeeLinkBlock.app/YeeLinkBlock";
+			};
+			name = Debug;
+		};
+		CD0A594A1EA0AE1C0056C3F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 34TTMZE623;
+				INFOPLIST_FILE = YeeLinkBlockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neiquan.YeeLinkBlockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YeeLinkBlock.app/YeeLinkBlock";
+			};
+			name = Release;
+		};
+		CD0A594C1EA0AE1C0056C3F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 34TTMZE623;
+				INFOPLIST_FILE = YeeLinkBlockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neiquan.YeeLinkBlockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YeeLinkBlock;
+			};
+			name = Debug;
+		};
+		CD0A594D1EA0AE1C0056C3F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 34TTMZE623;
+				INFOPLIST_FILE = YeeLinkBlockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neiquan.YeeLinkBlockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YeeLinkBlock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD0A59131EA0AE1B0056C3F9 /* Build configuration list for PBXProject "YeeLinkBlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD0A59431EA0AE1C0056C3F9 /* Debug */,
+				CD0A59441EA0AE1C0056C3F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD0A59451EA0AE1C0056C3F9 /* Build configuration list for PBXNativeTarget "YeeLinkBlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD0A59461EA0AE1C0056C3F9 /* Debug */,
+				CD0A59471EA0AE1C0056C3F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD0A59481EA0AE1C0056C3F9 /* Build configuration list for PBXNativeTarget "YeeLinkBlockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD0A59491EA0AE1C0056C3F9 /* Debug */,
+				CD0A594A1EA0AE1C0056C3F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD0A594B1EA0AE1C0056C3F9 /* Build configuration list for PBXNativeTarget "YeeLinkBlockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD0A594C1EA0AE1C0056C3F9 /* Debug */,
+				CD0A594D1EA0AE1C0056C3F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD0A59101EA0AE1B0056C3F9 /* Project object */;
+}
