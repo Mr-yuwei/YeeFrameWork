@@ -1,0 +1,15 @@
+platform :ios ,8.0
+use_frameworks!
+target 'YWZhihuDaily' do
+pod 'AFNetworking', '~> 3.0'
+pod 'MBProgressHUD'
+pod 'SDWebImage', '~> 3.7.6'
+pod 'MJExtension', '~> 3.0.10'
+pod 'MJRefresh', '~> 3.1.0'
+pod 'IQKeyboardManager', '~> 4.0.3'
+pod 'pop', '~> 1.0.9'
+pod 'SDCycleScrollView','~> 1.64'
+#pod 'ReactiveCocoa', '~>4.1.0'
+pod 'RESideMenu', '~> 4.0.7'
+pod 'PureLayout', '~> 3.0.1'
+end
