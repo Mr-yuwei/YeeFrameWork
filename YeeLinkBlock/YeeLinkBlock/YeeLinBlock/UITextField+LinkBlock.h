@@ -33,7 +33,6 @@
 - (UITextField * (^)(UITextBorderStyle borderStyle))yborderStyle;
 
 
-
 //leftView rightView
 
 - (UITextField * (^)(UIView  *leftView))yleftView;

@@ -20,6 +20,24 @@
     [super viewDidLoad];
     [self  addOwnViews];
     
+//    struct Block_layout {
+//        void *isa;
+//        int flags;
+//        int reserved;
+//        void (*invoke)(void *, ...);
+//        struct Block_descriptor *descriptor;
+//        /* Imported variables. */
+//    };
+//    
+//    struct Block_descriptor {
+//        unsigned long int reserved;
+//        unsigned long int size;
+//        void (*copy)(void *dst, void *src);
+//        void (*dispose)(void *);
+//    };
+    
+    
+   // Block_copy(<#...#>)
 }
 
 -(void)addOwnViews{

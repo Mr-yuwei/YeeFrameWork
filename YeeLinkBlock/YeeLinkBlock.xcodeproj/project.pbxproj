@@ -18,6 +18,7 @@
 		CD0A59511EA0AE9A0056C3F9 /* UILabel+LinkBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0A59501EA0AE9A0056C3F9 /* UILabel+LinkBlock.m */; };
 		CD0A59551EA0AF590056C3F9 /* UITextField+LinkBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0A59541EA0AF590056C3F9 /* UITextField+LinkBlock.m */; };
 		CD0A59581EA0B2F80056C3F9 /* UIView+LinkBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0A59571EA0B2F80056C3F9 /* UIView+LinkBlock.m */; };
+		CD0A595B1EA0C6990056C3F9 /* UIButton+LinkBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0A595A1EA0C6990056C3F9 /* UIButton+LinkBlock.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		CD0A59541EA0AF590056C3F9 /* UITextField+LinkBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+LinkBlock.m"; sourceTree = "<group>"; };
 		CD0A59561EA0B2F80056C3F9 /* UIView+LinkBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LinkBlock.h"; sourceTree = "<group>"; };
 		CD0A59571EA0B2F80056C3F9 /* UIView+LinkBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LinkBlock.m"; sourceTree = "<group>"; };
+		CD0A59591EA0C6990056C3F9 /* UIButton+LinkBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+LinkBlock.h"; sourceTree = "<group>"; };
+		CD0A595A1EA0C6990056C3F9 /* UIButton+LinkBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LinkBlock.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +164,8 @@
 				CD0A59501EA0AE9A0056C3F9 /* UILabel+LinkBlock.m */,
 				CD0A59531EA0AF590056C3F9 /* UITextField+LinkBlock.h */,
 				CD0A59541EA0AF590056C3F9 /* UITextField+LinkBlock.m */,
+				CD0A59591EA0C6990056C3F9 /* UIButton+LinkBlock.h */,
+				CD0A595A1EA0C6990056C3F9 /* UIButton+LinkBlock.m */,
 			);
 			path = YeeLinBlock;
 			sourceTree = "<group>";
@@ -306,6 +311,7 @@
 				CD0A59581EA0B2F80056C3F9 /* UIView+LinkBlock.m in Sources */,
 				CD0A59231EA0AE1B0056C3F9 /* ViewController.m in Sources */,
 				CD0A59201EA0AE1B0056C3F9 /* AppDelegate.m in Sources */,
+				CD0A595B1EA0C6990056C3F9 /* UIButton+LinkBlock.m in Sources */,
 				CD0A591D1EA0AE1B0056C3F9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -544,6 +550,7 @@
 				CD0A59471EA0AE1C0056C3F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD0A59481EA0AE1C0056C3F9 /* Build configuration list for PBXNativeTarget "YeeLinkBlockTests" */ = {
 			isa = XCConfigurationList;
@@ -552,6 +559,7 @@
 				CD0A594A1EA0AE1C0056C3F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD0A594B1EA0AE1C0056C3F9 /* Build configuration list for PBXNativeTarget "YeeLinkBlockUITests" */ = {
 			isa = XCConfigurationList;
@@ -560,6 +568,7 @@
 				CD0A594D1EA0AE1C0056C3F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
