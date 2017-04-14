@@ -86,6 +86,18 @@
         return self;
     };
 }
+
+- (UITextField * (^)(UITextBorderStyle borderStyle))yborderStyle{
+    
+    return ^id(UITextBorderStyle  yborderStyle){
+        
+        self.borderStyle= yborderStyle;
+        
+        return self;
+    };
+    
+}
+
 //leftView rightView
 
 - (UITextField * (^)(UIView  *leftView))yleftView{

@@ -30,6 +30,9 @@
 - (UITextField * (^)(NSString *yplaceholder))yplaceholder;
 - (UITextField * (^)(NSAttributedString *attributedPlaceholder))yattributedPlaceholder;
 
+- (UITextField * (^)(UITextBorderStyle borderStyle))yborderStyle;
+
+
 
 //leftView rightView
 
