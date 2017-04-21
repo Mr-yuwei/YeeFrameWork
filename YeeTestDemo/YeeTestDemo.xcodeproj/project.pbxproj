@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD21F9BA1EA9FB76000C8257 /* VC_03.m in Sources */ = {isa = PBXBuildFile; fileRef = CD21F9B91EA9FB76000C8257 /* VC_03.m */; };
+		CD21F9BD1EA9FC85000C8257 /* XRCommonSegMentView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD21F9BC1EA9FC85000C8257 /* XRCommonSegMentView.m */; };
+		CD21F9C01EA9FD72000C8257 /* VC_04.m in Sources */ = {isa = PBXBuildFile; fileRef = CD21F9BF1EA9FD72000C8257 /* VC_04.m */; };
+		CDF801D91EA8DED400F5E63C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF801D81EA8DED400F5E63C /* main.m */; };
+		CDF801DC1EA8DED400F5E63C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF801DB1EA8DED400F5E63C /* AppDelegate.m */; };
+		CDF801E41EA8DED400F5E63C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF801E31EA8DED400F5E63C /* Assets.xcassets */; };
+		CDF801F21EA8DED400F5E63C /* YeeTestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF801F11EA8DED400F5E63C /* YeeTestDemoTests.m */; };
+		CDF801FD1EA8DED400F5E63C /* YeeTestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF801FC1EA8DED400F5E63C /* YeeTestDemoUITests.m */; };
+		CDF8020D1EA8E06100F5E63C /* TabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF8020C1EA8E06100F5E63C /* TabBarVC.m */; };
+		CDF802101EA8E11500F5E63C /* VC_01.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF8020F1EA8E11500F5E63C /* VC_01.m */; };
+		CDF802131EA8E8D000F5E63C /* VC_02.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF802121EA8E8D000F5E63C /* VC_02.m */; };
+		CDF802161EA8EC3900F5E63C /* NavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF802151EA8EC3900F5E63C /* NavigationVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDF801EE1EA8DED400F5E63C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDF801CC1EA8DED400F5E63C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDF801D31EA8DED400F5E63C;
+			remoteInfo = YeeTestDemo;
+		};
+		CDF801F91EA8DED400F5E63C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDF801CC1EA8DED400F5E63C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDF801D31EA8DED400F5E63C;
+			remoteInfo = YeeTestDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD21F9B81EA9FB76000C8257 /* VC_03.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VC_03.h; sourceTree = "<group>"; };
+		CD21F9B91EA9FB76000C8257 /* VC_03.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VC_03.m; sourceTree = "<group>"; };
+		CD21F9BB1EA9FC85000C8257 /* XRCommonSegMentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRCommonSegMentView.h; sourceTree = "<group>"; };
+		CD21F9BC1EA9FC85000C8257 /* XRCommonSegMentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRCommonSegMentView.m; sourceTree = "<group>"; };
+		CD21F9BE1EA9FD72000C8257 /* VC_04.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VC_04.h; sourceTree = "<group>"; };
+		CD21F9BF1EA9FD72000C8257 /* VC_04.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VC_04.m; sourceTree = "<group>"; };
+		CDF801D41EA8DED400F5E63C /* YeeTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YeeTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDF801D81EA8DED400F5E63C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDF801DA1EA8DED400F5E63C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CDF801DB1EA8DED400F5E63C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CDF801E31EA8DED400F5E63C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDF801E81EA8DED400F5E63C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDF801ED1EA8DED400F5E63C /* YeeTestDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YeeTestDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDF801F11EA8DED400F5E63C /* YeeTestDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YeeTestDemoTests.m; sourceTree = "<group>"; };
+		CDF801F31EA8DED400F5E63C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDF801F81EA8DED400F5E63C /* YeeTestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YeeTestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDF801FC1EA8DED400F5E63C /* YeeTestDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YeeTestDemoUITests.m; sourceTree = "<group>"; };
+		CDF801FE1EA8DED400F5E63C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDF8020B1EA8E06100F5E63C /* TabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarVC.h; sourceTree = "<group>"; };
+		CDF8020C1EA8E06100F5E63C /* TabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarVC.m; sourceTree = "<group>"; };
+		CDF8020E1EA8E11500F5E63C /* VC_01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VC_01.h; sourceTree = "<group>"; };
+		CDF8020F1EA8E11500F5E63C /* VC_01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VC_01.m; sourceTree = "<group>"; };
+		CDF802111EA8E8D000F5E63C /* VC_02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VC_02.h; sourceTree = "<group>"; };
+		CDF802121EA8E8D000F5E63C /* VC_02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VC_02.m; sourceTree = "<group>"; };
+		CDF802141EA8EC3900F5E63C /* NavigationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationVC.h; sourceTree = "<group>"; };
+		CDF802151EA8EC3900F5E63C /* NavigationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDF801D11EA8DED400F5E63C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF801EA1EA8DED400F5E63C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF801F51EA8DED400F5E63C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDF801CB1EA8DED400F5E63C = {
+			isa = PBXGroup;
+			children = (
+				CDF801D61EA8DED400F5E63C /* YeeTestDemo */,
+				CDF801F01EA8DED400F5E63C /* YeeTestDemoTests */,
+				CDF801FB1EA8DED400F5E63C /* YeeTestDemoUITests */,
+				CDF801D51EA8DED400F5E63C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDF801D51EA8DED400F5E63C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDF801D41EA8DED400F5E63C /* YeeTestDemo.app */,
+				CDF801ED1EA8DED400F5E63C /* YeeTestDemoTests.xctest */,
+				CDF801F81EA8DED400F5E63C /* YeeTestDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDF801D61EA8DED400F5E63C /* YeeTestDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CDF8020A1EA8DFAD00F5E63C /* YeeClass */,
+				CDF801DA1EA8DED400F5E63C /* AppDelegate.h */,
+				CDF801DB1EA8DED400F5E63C /* AppDelegate.m */,
+				CDF801E31EA8DED400F5E63C /* Assets.xcassets */,
+				CDF801E81EA8DED400F5E63C /* Info.plist */,
+				CDF801D71EA8DED400F5E63C /* Supporting Files */,
+			);
+			path = YeeTestDemo;
+			sourceTree = "<group>";
+		};
+		CDF801D71EA8DED400F5E63C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDF801D81EA8DED400F5E63C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDF801F01EA8DED400F5E63C /* YeeTestDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDF801F11EA8DED400F5E63C /* YeeTestDemoTests.m */,
+				CDF801F31EA8DED400F5E63C /* Info.plist */,
+			);
+			path = YeeTestDemoTests;
+			sourceTree = "<group>";
+		};
+		CDF801FB1EA8DED400F5E63C /* YeeTestDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDF801FC1EA8DED400F5E63C /* YeeTestDemoUITests.m */,
+				CDF801FE1EA8DED400F5E63C /* Info.plist */,
+			);
+			path = YeeTestDemoUITests;
+			sourceTree = "<group>";
+		};
+		CDF8020A1EA8DFAD00F5E63C /* YeeClass */ = {
+			isa = PBXGroup;
+			children = (
+				CD21F9BB1EA9FC85000C8257 /* XRCommonSegMentView.h */,
+				CD21F9BC1EA9FC85000C8257 /* XRCommonSegMentView.m */,
+				CDF8020B1EA8E06100F5E63C /* TabBarVC.h */,
+				CDF8020C1EA8E06100F5E63C /* TabBarVC.m */,
+				CDF802141EA8EC3900F5E63C /* NavigationVC.h */,
+				CDF802151EA8EC3900F5E63C /* NavigationVC.m */,
+				CDF8020E1EA8E11500F5E63C /* VC_01.h */,
+				CDF8020F1EA8E11500F5E63C /* VC_01.m */,
+				CDF802111EA8E8D000F5E63C /* VC_02.h */,
+				CDF802121EA8E8D000F5E63C /* VC_02.m */,
+				CD21F9B81EA9FB76000C8257 /* VC_03.h */,
+				CD21F9B91EA9FB76000C8257 /* VC_03.m */,
+				CD21F9BE1EA9FD72000C8257 /* VC_04.h */,
+				CD21F9BF1EA9FD72000C8257 /* VC_04.m */,
+			);
+			path = YeeClass;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDF801D31EA8DED400F5E63C /* YeeTestDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDF802011EA8DED400F5E63C /* Build configuration list for PBXNativeTarget "YeeTestDemo" */;
+			buildPhases = (
+				CDF801D01EA8DED400F5E63C /* Sources */,
+				CDF801D11EA8DED400F5E63C /* Frameworks */,
+				CDF801D21EA8DED400F5E63C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YeeTestDemo;
+			productName = YeeTestDemo;
+			productReference = CDF801D41EA8DED400F5E63C /* YeeTestDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDF801EC1EA8DED400F5E63C /* YeeTestDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDF802041EA8DED400F5E63C /* Build configuration list for PBXNativeTarget "YeeTestDemoTests" */;
+			buildPhases = (
+				CDF801E91EA8DED400F5E63C /* Sources */,
+				CDF801EA1EA8DED400F5E63C /* Frameworks */,
+				CDF801EB1EA8DED400F5E63C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDF801EF1EA8DED400F5E63C /* PBXTargetDependency */,
+			);
+			name = YeeTestDemoTests;
+			productName = YeeTestDemoTests;
+			productReference = CDF801ED1EA8DED400F5E63C /* YeeTestDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDF801F71EA8DED400F5E63C /* YeeTestDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDF802071EA8DED400F5E63C /* Build configuration list for PBXNativeTarget "YeeTestDemoUITests" */;
+			buildPhases = (
+				CDF801F41EA8DED400F5E63C /* Sources */,
+				CDF801F51EA8DED400F5E63C /* Frameworks */,
+				CDF801F61EA8DED400F5E63C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDF801FA1EA8DED400F5E63C /* PBXTargetDependency */,
+			);
+			name = YeeTestDemoUITests;
+			productName = YeeTestDemoUITests;
+			productReference = CDF801F81EA8DED400F5E63C /* YeeTestDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDF801CC1EA8DED400F5E63C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = CodeYee;
+				TargetAttributes = {
+					CDF801D31EA8DED400F5E63C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3ATF82J34D;
+						ProvisioningStyle = Automatic;
+					};
+					CDF801EC1EA8DED400F5E63C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 34TTMZE623;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CDF801D31EA8DED400F5E63C;
+					};
+					CDF801F71EA8DED400F5E63C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 34TTMZE623;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CDF801D31EA8DED400F5E63C;
+					};
+				};
+			};
+			buildConfigurationList = CDF801CF1EA8DED400F5E63C /* Build configuration list for PBXProject "YeeTestDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDF801CB1EA8DED400F5E63C;
+			productRefGroup = CDF801D51EA8DED400F5E63C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDF801D31EA8DED400F5E63C /* YeeTestDemo */,
+				CDF801EC1EA8DED400F5E63C /* YeeTestDemoTests */,
+				CDF801F71EA8DED400F5E63C /* YeeTestDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDF801D21EA8DED400F5E63C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF801E41EA8DED400F5E63C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF801EB1EA8DED400F5E63C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF801F61EA8DED400F5E63C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDF801D01EA8DED400F5E63C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF801DC1EA8DED400F5E63C /* AppDelegate.m in Sources */,
+				CD21F9BD1EA9FC85000C8257 /* XRCommonSegMentView.m in Sources */,
+				CDF8020D1EA8E06100F5E63C /* TabBarVC.m in Sources */,
+				CD21F9C01EA9FD72000C8257 /* VC_04.m in Sources */,
+				CDF802161EA8EC3900F5E63C /* NavigationVC.m in Sources */,
+				CDF802131EA8E8D000F5E63C /* VC_02.m in Sources */,
+				CD21F9BA1EA9FB76000C8257 /* VC_03.m in Sources */,
+				CDF801D91EA8DED400F5E63C /* main.m in Sources */,
+				CDF802101EA8E11500F5E63C /* VC_01.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF801E91EA8DED400F5E63C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF801F21EA8DED400F5E63C /* YeeTestDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF801F41EA8DED400F5E63C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF801FD1EA8DED400F5E63C /* YeeTestDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDF801EF1EA8DED400F5E63C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDF801D31EA8DED400F5E63C /* YeeTestDemo */;
+			targetProxy = CDF801EE1EA8DED400F5E63C /* PBXContainerItemProxy */;
+		};
+		CDF801FA1EA8DED400F5E63C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDF801D31EA8DED400F5E63C /* YeeTestDemo */;
+			targetProxy = CDF801F91EA8DED400F5E63C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CDF801FF1EA8DED400F5E63C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CDF802001EA8DED400F5E63C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDF802021EA8DED400F5E63C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 3ATF82J34D;
+				INFOPLIST_FILE = YeeTestDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neiquan.ClickC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CDF802031EA8DED400F5E63C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 3ATF82J34D;
+				INFOPLIST_FILE = YeeTestDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neiquan.ClickC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CDF802051EA8DED400F5E63C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 34TTMZE623;
+				INFOPLIST_FILE = YeeTestDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neiquan.YeeTestDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YeeTestDemo.app/YeeTestDemo";
+			};
+			name = Debug;
+		};
+		CDF802061EA8DED400F5E63C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 34TTMZE623;
+				INFOPLIST_FILE = YeeTestDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neiquan.YeeTestDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YeeTestDemo.app/YeeTestDemo";
+			};
+			name = Release;
+		};
+		CDF802081EA8DED400F5E63C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 34TTMZE623;
+				INFOPLIST_FILE = YeeTestDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neiquan.YeeTestDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YeeTestDemo;
+			};
+			name = Debug;
+		};
+		CDF802091EA8DED400F5E63C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 34TTMZE623;
+				INFOPLIST_FILE = YeeTestDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neiquan.YeeTestDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YeeTestDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDF801CF1EA8DED400F5E63C /* Build configuration list for PBXProject "YeeTestDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF801FF1EA8DED400F5E63C /* Debug */,
+				CDF802001EA8DED400F5E63C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDF802011EA8DED400F5E63C /* Build configuration list for PBXNativeTarget "YeeTestDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF802021EA8DED400F5E63C /* Debug */,
+				CDF802031EA8DED400F5E63C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDF802041EA8DED400F5E63C /* Build configuration list for PBXNativeTarget "YeeTestDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF802051EA8DED400F5E63C /* Debug */,
+				CDF802061EA8DED400F5E63C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDF802071EA8DED400F5E63C /* Build configuration list for PBXNativeTarget "YeeTestDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF802081EA8DED400F5E63C /* Debug */,
+				CDF802091EA8DED400F5E63C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDF801CC1EA8DED400F5E63C /* Project object */;
+}

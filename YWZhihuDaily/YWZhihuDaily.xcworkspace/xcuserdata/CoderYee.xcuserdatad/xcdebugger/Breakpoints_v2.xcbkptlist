@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YWZhihuDaily/MainFile/AppDelegate+Launch.m"
+            timestampString = "514450275.424083"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "-getlanuchimageData:authorlable:backimageView:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YWZhihuDaily/MainFile/AppDelegate+Launch.m"
+            timestampString = "514450275.424083"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "-getlanuchimageData:authorlable:backimageView:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__68-[AppDelegate(Launch) getlanuchimageData:authorlable:backimageView:]_block_invoke.80"
+                  moduleName = "YWZhihuDaily"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/CoderYee/YeeFrameWork/YWZhihuDaily/YWZhihuDaily/MainFile/AppDelegate+Launch.m"
+                  timestampString = "514450276.492384"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "46">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__destroy_helper_block_.84"
+                  moduleName = "YWZhihuDaily"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/CoderYee/YeeFrameWork/YWZhihuDaily/YWZhihuDaily/MainFile/AppDelegate+Launch.m"
+                  timestampString = "514450276.497066"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "29">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YWZhihuDaily/MainFile/AppDelegate+Launch.m"
+            timestampString = "514450275.424083"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "-getlanuchimageData:authorlable:backimageView:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YWZhihuDaily/MainFile/AppDelegate+Launch.m"
+            timestampString = "514450275.424083"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "-getlanuchimageData:authorlable:backimageView:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__68-[AppDelegate(Launch) getlanuchimageData:authorlable:backimageView:]_block_invoke_2"
+                  moduleName = "YWZhihuDaily"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/CoderYee/YeeFrameWork/YWZhihuDaily/YWZhihuDaily/MainFile/AppDelegate+Launch.m"
+                  timestampString = "514450276.511999"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "153">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__68-[AppDelegate(Launch) getlanuchimageData:authorlable:backimageView:]_block_invoke_3"
+                  moduleName = "YWZhihuDaily"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/CoderYee/YeeFrameWork/YWZhihuDaily/YWZhihuDaily/MainFile/AppDelegate+Launch.m"
+                  timestampString = "514450276.514805"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YWZhihuDaily/MainFile/AppDelegate+Launch.m"
+            timestampString = "514450275.424083"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "-getlanuchimageData:authorlable:backimageView:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

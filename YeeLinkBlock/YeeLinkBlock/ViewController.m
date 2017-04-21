@@ -49,6 +49,17 @@
     [textField showInView:self.view];
 
     
+    /*
+     
+   
+     
+     后台接口  1 用户第三方登陆绑定手机号 2 用户注册 3用户修改密码 4 忘记密码
+
+     
+     
+     */
+    
+    
         
 }
 - (void)didReceiveMemoryWarning {

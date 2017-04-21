@@ -60,11 +60,18 @@
 #pragma mark --每次启动获取启动图数据
 -(void)getlanuchimageData:(UIImageView *)lanuchImage authorlable:(UILabel*)lable backimageView:(UIImageView*)backImageView
 {
+    
+    //
+    
     //URL: http://news-at.zhihu.com/api/4/start-image/1080*1776
     //start-image 后为图像分辨率，接受任意的 number*number 格式， number 为任意非负整数，返回值均相同。
-    [YWNetWorkRequest GetWithURLString:[NSString stringWithFormat:@"http://news-at.zhihu.com/api/4/start-image/%d*%d",(int)kScreenWidth,(int)kScreenHeight] parameters:nil SuccessBlock:^(NSDictionary *dic)
+    [YWNetWorkRequest GetWithURLString:[NSString stringWithFormat:@"http://news-at.zhihu.com/api/7/prefetch-launch-images/%d*%d",(int)kScreenWidth,(int)kScreenHeight] parameters:nil SuccessBlock:^(NSDictionary *dic)
     {
-       [lanuchImage sd_setImageWithURL:[NSURL URLWithString:dic[@"img"]] completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL)
+        NSArray *array=dic[@"creatives"];
+        NSDictionary  *dictionary=array[0];
+        
+        
+       [lanuchImage sd_setImageWithURL:[NSURL URLWithString:dictionary[@"url"]] completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL)
         {
             dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0f * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
                 [UIView animateWithDuration:1.5 animations:^{
