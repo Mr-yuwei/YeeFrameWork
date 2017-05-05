@@ -1,0 +1,23 @@
+//
+//  MVVMPrefixHeader.pch
+//  YeeMVVMDemo
+//
+//  Created by CoderYee on 2017/5/5.
+//  Copyright © 2017年 CodeYee. All rights reserved.
+//
+
+#ifndef MVVMPrefixHeader_pch
+#define MVVMPrefixHeader_pch
+
+#import "VendorHeader.h"
+#import "ColorHeader.h"
+#import "FontHeader.h"
+#import "VendorHeader.h"
+#import "APIHeader.h"
+#import "ContHeader.h"
+#import "CategoryHeader.h"
+#import "CommonHeader.h"
+#import "ImageHeader.h"
+#import "MacHeader.h"
+
+#endif /* MVVMPrefixHeader_pch */
