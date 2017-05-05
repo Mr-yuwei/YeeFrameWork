@@ -1,14 +1,13 @@
 //
-//  TabBarVC.h
+//  YTableViewModel.m
 //  YeeMVVMDemo
 //
 //  Created by CoderYee on 2017/5/5.
 //  Copyright © 2017年 CodeYee. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "YTableViewModel.h"
 
-@interface TabBarVC : UITabBarController
-
+@implementation YTableViewModel
 
 @end

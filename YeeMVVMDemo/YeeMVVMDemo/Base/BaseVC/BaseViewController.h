@@ -1,5 +1,5 @@
 //
-//  TabBarVC.h
+//  BaseViewController.h
 //  YeeMVVMDemo
 //
 //  Created by CoderYee on 2017/5/5.
@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface TabBarVC : UITabBarController
+#import "BaseViewControllerProtocolHeader.h"
+@interface BaseViewController : UIViewController<BaseViewControllerProtocol>
 
 
 @end

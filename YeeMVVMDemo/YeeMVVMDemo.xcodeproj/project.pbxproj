@@ -51,6 +51,10 @@
 		CD1097911EBC7D2500EBF943 /* ZDTostView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1097661EBC7D2500EBF943 /* ZDTostView.m */; };
 		CD1097921EBC7D2500EBF943 /* UIViewController+ActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1097691EBC7D2500EBF943 /* UIViewController+ActionSheet.m */; };
 		CD1097931EBC7D2500EBF943 /* UIViewController+AlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = CD10976B1EBC7D2500EBF943 /* UIViewController+AlertAction.m */; };
+		CD10979C1EBC837300EBF943 /* YViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD10979B1EBC837300EBF943 /* YViewModel.m */; };
+		CD10979F1EBC838D00EBF943 /* YTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD10979E1EBC838D00EBF943 /* YTableViewModel.m */; };
+		CD1097A21EBC83A900EBF943 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1097A11EBC83A900EBF943 /* BaseModel.m */; };
+		CD1097A51EBC846900EBF943 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1097A41EBC846900EBF943 /* BaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -167,6 +171,16 @@
 		CD1097691EBC7D2500EBF943 /* UIViewController+ActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ActionSheet.m"; sourceTree = "<group>"; };
 		CD10976A1EBC7D2500EBF943 /* UIViewController+AlertAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AlertAction.h"; sourceTree = "<group>"; };
 		CD10976B1EBC7D2500EBF943 /* UIViewController+AlertAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AlertAction.m"; sourceTree = "<group>"; };
+		CD1097981EBC811100EBF943 /* BaseViewProtocolHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewProtocolHeader.h; sourceTree = "<group>"; };
+		CD1097991EBC817600EBF943 /* BaseViewControllerProtocolHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewControllerProtocolHeader.h; sourceTree = "<group>"; };
+		CD10979A1EBC837300EBF943 /* YViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YViewModel.h; sourceTree = "<group>"; };
+		CD10979B1EBC837300EBF943 /* YViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YViewModel.m; sourceTree = "<group>"; };
+		CD10979D1EBC838D00EBF943 /* YTableViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTableViewModel.h; sourceTree = "<group>"; };
+		CD10979E1EBC838D00EBF943 /* YTableViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTableViewModel.m; sourceTree = "<group>"; };
+		CD1097A01EBC83A900EBF943 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		CD1097A11EBC83A900EBF943 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		CD1097A31EBC846900EBF943 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		CD1097A41EBC846900EBF943 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -331,6 +345,7 @@
 		CD1096FC1EBC799600EBF943 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				CD1097971EBC80F300EBF943 /* BaseProtocol */,
 				CD1096FE1EBC79C600EBF943 /* BaseModel */,
 				CD1096FF1EBC79C600EBF943 /* BaseVC */,
 				CD1097001EBC79C600EBF943 /* BaseView */,
@@ -349,6 +364,8 @@
 		CD1096FE1EBC79C600EBF943 /* BaseModel */ = {
 			isa = PBXGroup;
 			children = (
+				CD1097A01EBC83A900EBF943 /* BaseModel.h */,
+				CD1097A11EBC83A900EBF943 /* BaseModel.m */,
 			);
 			path = BaseModel;
 			sourceTree = "<group>";
@@ -356,6 +373,8 @@
 		CD1096FF1EBC79C600EBF943 /* BaseVC */ = {
 			isa = PBXGroup;
 			children = (
+				CD1097A31EBC846900EBF943 /* BaseViewController.h */,
+				CD1097A41EBC846900EBF943 /* BaseViewController.m */,
 			);
 			path = BaseVC;
 			sourceTree = "<group>";
@@ -370,6 +389,10 @@
 		CD1097011EBC79C600EBF943 /* BaseViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				CD10979A1EBC837300EBF943 /* YViewModel.h */,
+				CD10979B1EBC837300EBF943 /* YViewModel.m */,
+				CD10979D1EBC838D00EBF943 /* YTableViewModel.h */,
+				CD10979E1EBC838D00EBF943 /* YTableViewModel.m */,
 			);
 			path = BaseViewModel;
 			sourceTree = "<group>";
@@ -593,6 +616,15 @@
 			path = UIViewController;
 			sourceTree = "<group>";
 		};
+		CD1097971EBC80F300EBF943 /* BaseProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				CD1097981EBC811100EBF943 /* BaseViewProtocolHeader.h */,
+				CD1097991EBC817600EBF943 /* BaseViewControllerProtocolHeader.h */,
+			);
+			path = BaseProtocol;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -794,19 +826,23 @@
 				CD1097771EBC7D2500EBF943 /* UIButton+LinkBlock.m in Sources */,
 				CD1097871EBC7D2500EBF943 /* UIView+Layer.m in Sources */,
 				CD1097801EBC7D2500EBF943 /* BAFPSLabel.m in Sources */,
+				CD1097A21EBC83A900EBF943 /* BaseModel.m in Sources */,
 				CD1097091EBC7AC200EBF943 /* TabBarVC.m in Sources */,
 				CD1097911EBC7D2500EBF943 /* ZDTostView.m in Sources */,
 				CD1097761EBC7D2500EBF943 /* UIButton+ActionInterval.m in Sources */,
+				CD10979F1EBC838D00EBF943 /* YTableViewModel.m in Sources */,
 				CD1097781EBC7D2500EBF943 /* YeeButton.m in Sources */,
 				CD10977E1EBC7D2500EBF943 /* UIImageView+GradualWebCache.m in Sources */,
 				CD1097931EBC7D2500EBF943 /* UIViewController+AlertAction.m in Sources */,
 				CD10977A1EBC7D2500EBF943 /* UIColor+MLPFlatColors.m in Sources */,
+				CD1097A51EBC846900EBF943 /* BaseViewController.m in Sources */,
 				CD1097861EBC7D2500EBF943 /* UIView+YeeFrameExt.m in Sources */,
 				CD1097831EBC7D2500EBF943 /* UITextField+LeftSpaceView.m in Sources */,
 				CD10977D1EBC7D2500EBF943 /* UIImage+TintColor.m in Sources */,
 				CD10970C1EBC7AE300EBF943 /* NavigationVC.m in Sources */,
 				CD1097811EBC7D2500EBF943 /* UILabel+LinkBlock.m in Sources */,
 				CD10978F1EBC7D2500EBF943 /* UIView+Toast.m in Sources */,
+				CD10979C1EBC837300EBF943 /* YViewModel.m in Sources */,
 				CD1096C71EBC6E2F00EBF943 /* main.m in Sources */,
 				CD1097821EBC7D2500EBF943 /* UINavigationController+Transition.m in Sources */,
 				CD1097741EBC7D2500EBF943 /* NSString+Trim.m in Sources */,

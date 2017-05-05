@@ -19,10 +19,6 @@
 #define kBackgroundColor        RGB(246,248,248)
 #endif
 
-//按钮颜色
-#ifndef kbuttongroundColor
-#define kbuttongroundColor        RGB(58,160,235)
-#endif
 
 //按钮颜色
 #ifndef kredTextColor
