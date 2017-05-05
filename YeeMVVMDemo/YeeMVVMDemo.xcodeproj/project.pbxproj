@@ -55,6 +55,7 @@
 		CD10979F1EBC838D00EBF943 /* YTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD10979E1EBC838D00EBF943 /* YTableViewModel.m */; };
 		CD1097A21EBC83A900EBF943 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1097A11EBC83A900EBF943 /* BaseModel.m */; };
 		CD1097A51EBC846900EBF943 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1097A41EBC846900EBF943 /* BaseViewController.m */; };
+		CD1097A81EBC9BE500EBF943 /* UIViewController+NavigationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1097A71EBC9BE500EBF943 /* UIViewController+NavigationItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -181,6 +182,8 @@
 		CD1097A11EBC83A900EBF943 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
 		CD1097A31EBC846900EBF943 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		CD1097A41EBC846900EBF943 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		CD1097A61EBC9BE500EBF943 /* UIViewController+NavigationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NavigationItem.h"; sourceTree = "<group>"; };
+		CD1097A71EBC9BE500EBF943 /* UIViewController+NavigationItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NavigationItem.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -612,6 +615,8 @@
 				CD1097691EBC7D2500EBF943 /* UIViewController+ActionSheet.m */,
 				CD10976A1EBC7D2500EBF943 /* UIViewController+AlertAction.h */,
 				CD10976B1EBC7D2500EBF943 /* UIViewController+AlertAction.m */,
+				CD1097A61EBC9BE500EBF943 /* UIViewController+NavigationItem.h */,
+				CD1097A71EBC9BE500EBF943 /* UIViewController+NavigationItem.m */,
 			);
 			path = UIViewController;
 			sourceTree = "<group>";
@@ -846,6 +851,7 @@
 				CD1096C71EBC6E2F00EBF943 /* main.m in Sources */,
 				CD1097821EBC7D2500EBF943 /* UINavigationController+Transition.m in Sources */,
 				CD1097741EBC7D2500EBF943 /* NSString+Trim.m in Sources */,
+				CD1097A81EBC9BE500EBF943 /* UIViewController+NavigationItem.m in Sources */,
 				CD1097731EBC7D2500EBF943 /* NSString+System.m in Sources */,
 				CD1097751EBC7D2500EBF943 /* UIAlertView+AlertAction.m in Sources */,
 				CD1097791EBC7D2500EBF943 /* UIColor+expanded.m in Sources */,

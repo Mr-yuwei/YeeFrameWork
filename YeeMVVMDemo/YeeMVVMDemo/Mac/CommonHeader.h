@@ -9,6 +9,10 @@
 #ifndef CommonHeader_h
 #define CommonHeader_h
 
+#import "BaseModel.h"
+#import "YTableViewModel.h"
+
+#import "BaseViewController.h"
 
 
 #endif /* CommonHeader_h */

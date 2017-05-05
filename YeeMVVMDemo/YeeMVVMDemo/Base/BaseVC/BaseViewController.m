@@ -10,10 +10,20 @@
 
 @interface BaseViewController ()
 
+@property (nonatomic, strong, readwrite) YViewModel *viewModel;
+
 @end
 
 @implementation BaseViewController
 
+- (BaseViewController *)initWithViewModel:(id)viewModel {
+    self = [super init];
+    if (self) {
+        
+        self.viewModel = viewModel;
+    }
+    return self;
+}
 - (void)viewDidLoad {
     
     [super viewDidLoad];
