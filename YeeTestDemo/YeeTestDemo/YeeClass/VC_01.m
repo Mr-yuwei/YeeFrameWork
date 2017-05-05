@@ -9,6 +9,7 @@
 #import "VC_01.h"
 #import "VC_02.h"
 #import "VC_03.h"
+#import "VC_05.h"
 @interface VC_01 ()
 
 @end
@@ -35,6 +36,16 @@
     [btn2 setTitle:@"VC_03" forState:UIControlStateNormal];
     [self.view addSubview:btn2];
     [btn2 addTarget:self action:@selector(clickEvent:) forControlEvents:UIControlEventTouchUpInside];
+    
+    
+    
+    UIButton  *btn3=[UIButton buttonWithType:UIButtonTypeCustom];
+    [btn3 setFrame:CGRectMake(80, 180, 60, 40)];
+    btn3.tag=3;
+    [btn3 setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [btn3 setTitle:@"VC_05" forState:UIControlStateNormal];
+    [self.view addSubview:btn3];
+    [btn3 addTarget:self action:@selector(clickEvent:) forControlEvents:UIControlEventTouchUpInside];
 
     
 }
@@ -52,6 +63,13 @@
         vc.hidesBottomBarWhenPushed=YES;
         [self.navigationController pushViewController:vc animated:YES];
 
+        
+    }else{
+        
+        
+        VC_05  *vc=[VC_05 new];
+        vc.hidesBottomBarWhenPushed=YES;
+        [self.navigationController pushViewController:vc animated:YES];
         
     }
     

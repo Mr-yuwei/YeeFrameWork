@@ -10,6 +10,7 @@
 		CD21F9BA1EA9FB76000C8257 /* VC_03.m in Sources */ = {isa = PBXBuildFile; fileRef = CD21F9B91EA9FB76000C8257 /* VC_03.m */; };
 		CD21F9BD1EA9FC85000C8257 /* XRCommonSegMentView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD21F9BC1EA9FC85000C8257 /* XRCommonSegMentView.m */; };
 		CD21F9C01EA9FD72000C8257 /* VC_04.m in Sources */ = {isa = PBXBuildFile; fileRef = CD21F9BF1EA9FD72000C8257 /* VC_04.m */; };
+		CD21F9C31EAA1382000C8257 /* VC_05.m in Sources */ = {isa = PBXBuildFile; fileRef = CD21F9C21EAA1382000C8257 /* VC_05.m */; };
 		CDF801D91EA8DED400F5E63C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF801D81EA8DED400F5E63C /* main.m */; };
 		CDF801DC1EA8DED400F5E63C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF801DB1EA8DED400F5E63C /* AppDelegate.m */; };
 		CDF801E41EA8DED400F5E63C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF801E31EA8DED400F5E63C /* Assets.xcassets */; };
@@ -45,6 +46,8 @@
 		CD21F9BC1EA9FC85000C8257 /* XRCommonSegMentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRCommonSegMentView.m; sourceTree = "<group>"; };
 		CD21F9BE1EA9FD72000C8257 /* VC_04.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VC_04.h; sourceTree = "<group>"; };
 		CD21F9BF1EA9FD72000C8257 /* VC_04.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VC_04.m; sourceTree = "<group>"; };
+		CD21F9C11EAA1382000C8257 /* VC_05.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VC_05.h; sourceTree = "<group>"; };
+		CD21F9C21EAA1382000C8257 /* VC_05.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VC_05.m; sourceTree = "<group>"; };
 		CDF801D41EA8DED400F5E63C /* YeeTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YeeTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDF801D81EA8DED400F5E63C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CDF801DA1EA8DED400F5E63C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -168,6 +171,8 @@
 				CD21F9B91EA9FB76000C8257 /* VC_03.m */,
 				CD21F9BE1EA9FD72000C8257 /* VC_04.h */,
 				CD21F9BF1EA9FD72000C8257 /* VC_04.m */,
+				CD21F9C11EAA1382000C8257 /* VC_05.h */,
+				CD21F9C21EAA1382000C8257 /* VC_05.m */,
 			);
 			path = YeeClass;
 			sourceTree = "<group>";
@@ -311,6 +316,7 @@
 				CDF8020D1EA8E06100F5E63C /* TabBarVC.m in Sources */,
 				CD21F9C01EA9FD72000C8257 /* VC_04.m in Sources */,
 				CDF802161EA8EC3900F5E63C /* NavigationVC.m in Sources */,
+				CD21F9C31EAA1382000C8257 /* VC_05.m in Sources */,
 				CDF802131EA8E8D000F5E63C /* VC_02.m in Sources */,
 				CD21F9BA1EA9FB76000C8257 /* VC_03.m in Sources */,
 				CDF801D91EA8DED400F5E63C /* main.m in Sources */,

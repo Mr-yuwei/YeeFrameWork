@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD1096C71EBC6E2F00EBF943 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1096C61EBC6E2F00EBF943 /* main.m */; };
+		CD1096CA1EBC6E2F00EBF943 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1096C91EBC6E2F00EBF943 /* AppDelegate.m */; };
+		CD1096CD1EBC6E2F00EBF943 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1096CC1EBC6E2F00EBF943 /* ViewController.m */; };
+		CD1096D01EBC6E2F00EBF943 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1096CE1EBC6E2F00EBF943 /* Main.storyboard */; };
+		CD1096D21EBC6E2F00EBF943 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD1096D11EBC6E2F00EBF943 /* Assets.xcassets */; };
+		CD1096D51EBC6E2F00EBF943 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1096D31EBC6E2F00EBF943 /* LaunchScreen.storyboard */; };
+		CD1096E01EBC6E2F00EBF943 /* YeeMVVMDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1096DF1EBC6E2F00EBF943 /* YeeMVVMDemoTests.m */; };
+		CD1096EB1EBC6E2F00EBF943 /* YeeMVVMDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1096EA1EBC6E2F00EBF943 /* YeeMVVMDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD1096DC1EBC6E2F00EBF943 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD1096BA1EBC6E2F00EBF943 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD1096C11EBC6E2F00EBF943;
+			remoteInfo = YeeMVVMDemo;
+		};
+		CD1096E71EBC6E2F00EBF943 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD1096BA1EBC6E2F00EBF943 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD1096C11EBC6E2F00EBF943;
+			remoteInfo = YeeMVVMDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD1096C21EBC6E2F00EBF943 /* YeeMVVMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YeeMVVMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1096C61EBC6E2F00EBF943 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD1096C81EBC6E2F00EBF943 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD1096C91EBC6E2F00EBF943 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD1096CB1EBC6E2F00EBF943 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD1096CC1EBC6E2F00EBF943 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD1096CF1EBC6E2F00EBF943 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD1096D11EBC6E2F00EBF943 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD1096D41EBC6E2F00EBF943 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD1096D61EBC6E2F00EBF943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD1096DB1EBC6E2F00EBF943 /* YeeMVVMDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YeeMVVMDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1096DF1EBC6E2F00EBF943 /* YeeMVVMDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YeeMVVMDemoTests.m; sourceTree = "<group>"; };
+		CD1096E11EBC6E2F00EBF943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD1096E61EBC6E2F00EBF943 /* YeeMVVMDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YeeMVVMDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1096EA1EBC6E2F00EBF943 /* YeeMVVMDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YeeMVVMDemoUITests.m; sourceTree = "<group>"; };
+		CD1096EC1EBC6E2F00EBF943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD1096BF1EBC6E2F00EBF943 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1096D81EBC6E2F00EBF943 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1096E31EBC6E2F00EBF943 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD1096B91EBC6E2F00EBF943 = {
+			isa = PBXGroup;
+			children = (
+				CD1096C41EBC6E2F00EBF943 /* YeeMVVMDemo */,
+				CD1096DE1EBC6E2F00EBF943 /* YeeMVVMDemoTests */,
+				CD1096E91EBC6E2F00EBF943 /* YeeMVVMDemoUITests */,
+				CD1096C31EBC6E2F00EBF943 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD1096C31EBC6E2F00EBF943 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD1096C21EBC6E2F00EBF943 /* YeeMVVMDemo.app */,
+				CD1096DB1EBC6E2F00EBF943 /* YeeMVVMDemoTests.xctest */,
+				CD1096E61EBC6E2F00EBF943 /* YeeMVVMDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD1096C41EBC6E2F00EBF943 /* YeeMVVMDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CD1096C81EBC6E2F00EBF943 /* AppDelegate.h */,
+				CD1096C91EBC6E2F00EBF943 /* AppDelegate.m */,
+				CD1096CB1EBC6E2F00EBF943 /* ViewController.h */,
+				CD1096CC1EBC6E2F00EBF943 /* ViewController.m */,
+				CD1096CE1EBC6E2F00EBF943 /* Main.storyboard */,
+				CD1096D11EBC6E2F00EBF943 /* Assets.xcassets */,
+				CD1096D31EBC6E2F00EBF943 /* LaunchScreen.storyboard */,
+				CD1096D61EBC6E2F00EBF943 /* Info.plist */,
+				CD1096C51EBC6E2F00EBF943 /* Supporting Files */,
+			);
+			path = YeeMVVMDemo;
+			sourceTree = "<group>";
+		};
+		CD1096C51EBC6E2F00EBF943 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD1096C61EBC6E2F00EBF943 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD1096DE1EBC6E2F00EBF943 /* YeeMVVMDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD1096DF1EBC6E2F00EBF943 /* YeeMVVMDemoTests.m */,
+				CD1096E11EBC6E2F00EBF943 /* Info.plist */,
+			);
+			path = YeeMVVMDemoTests;
+			sourceTree = "<group>";
+		};
+		CD1096E91EBC6E2F00EBF943 /* YeeMVVMDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD1096EA1EBC6E2F00EBF943 /* YeeMVVMDemoUITests.m */,
+				CD1096EC1EBC6E2F00EBF943 /* Info.plist */,
+			);
+			path = YeeMVVMDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD1096C11EBC6E2F00EBF943 /* YeeMVVMDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD1096EF1EBC6E2F00EBF943 /* Build configuration list for PBXNativeTarget "YeeMVVMDemo" */;
+			buildPhases = (
+				CD1096BE1EBC6E2F00EBF943 /* Sources */,
+				CD1096BF1EBC6E2F00EBF943 /* Frameworks */,
+				CD1096C01EBC6E2F00EBF943 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YeeMVVMDemo;
+			productName = YeeMVVMDemo;
+			productReference = CD1096C21EBC6E2F00EBF943 /* YeeMVVMDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD1096DA1EBC6E2F00EBF943 /* YeeMVVMDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD1096F21EBC6E2F00EBF943 /* Build configuration list for PBXNativeTarget "YeeMVVMDemoTests" */;
+			buildPhases = (
+				CD1096D71EBC6E2F00EBF943 /* Sources */,
+				CD1096D81EBC6E2F00EBF943 /* Frameworks */,
+				CD1096D91EBC6E2F00EBF943 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD1096DD1EBC6E2F00EBF943 /* PBXTargetDependency */,
+			);
+			name = YeeMVVMDemoTests;
+			productName = YeeMVVMDemoTests;
+			productReference = CD1096DB1EBC6E2F00EBF943 /* YeeMVVMDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD1096E51EBC6E2F00EBF943 /* YeeMVVMDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD1096F51EBC6E2F00EBF943 /* Build configuration list for PBXNativeTarget "YeeMVVMDemoUITests" */;
+			buildPhases = (
+				CD1096E21EBC6E2F00EBF943 /* Sources */,
+				CD1096E31EBC6E2F00EBF943 /* Frameworks */,
+				CD1096E41EBC6E2F00EBF943 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD1096E81EBC6E2F00EBF943 /* PBXTargetDependency */,
+			);
+			name = YeeMVVMDemoUITests;
+			productName = YeeMVVMDemoUITests;
+			productReference = CD1096E61EBC6E2F00EBF943 /* YeeMVVMDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD1096BA1EBC6E2F00EBF943 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = CodeYee;
+				TargetAttributes = {
+					CD1096C11EBC6E2F00EBF943 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 34TTMZE623;
+						ProvisioningStyle = Automatic;
+					};
+					CD1096DA1EBC6E2F00EBF943 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 34TTMZE623;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD1096C11EBC6E2F00EBF943;
+					};
+					CD1096E51EBC6E2F00EBF943 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 34TTMZE623;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD1096C11EBC6E2F00EBF943;
+					};
+				};
+			};
+			buildConfigurationList = CD1096BD1EBC6E2F00EBF943 /* Build configuration list for PBXProject "YeeMVVMDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD1096B91EBC6E2F00EBF943;
+			productRefGroup = CD1096C31EBC6E2F00EBF943 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD1096C11EBC6E2F00EBF943 /* YeeMVVMDemo */,
+				CD1096DA1EBC6E2F00EBF943 /* YeeMVVMDemoTests */,
+				CD1096E51EBC6E2F00EBF943 /* YeeMVVMDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD1096C01EBC6E2F00EBF943 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1096D51EBC6E2F00EBF943 /* LaunchScreen.storyboard in Resources */,
+				CD1096D21EBC6E2F00EBF943 /* Assets.xcassets in Resources */,
+				CD1096D01EBC6E2F00EBF943 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1096D91EBC6E2F00EBF943 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1096E41EBC6E2F00EBF943 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD1096BE1EBC6E2F00EBF943 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1096CD1EBC6E2F00EBF943 /* ViewController.m in Sources */,
+				CD1096CA1EBC6E2F00EBF943 /* AppDelegate.m in Sources */,
+				CD1096C71EBC6E2F00EBF943 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1096D71EBC6E2F00EBF943 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1096E01EBC6E2F00EBF943 /* YeeMVVMDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1096E21EBC6E2F00EBF943 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1096EB1EBC6E2F00EBF943 /* YeeMVVMDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD1096DD1EBC6E2F00EBF943 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD1096C11EBC6E2F00EBF943 /* YeeMVVMDemo */;
+			targetProxy = CD1096DC1EBC6E2F00EBF943 /* PBXContainerItemProxy */;
+		};
+		CD1096E81EBC6E2F00EBF943 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD1096C11EBC6E2F00EBF943 /* YeeMVVMDemo */;
+			targetProxy = CD1096E71EBC6E2F00EBF943 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD1096CE1EBC6E2F00EBF943 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD1096CF1EBC6E2F00EBF943 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD1096D31EBC6E2F00EBF943 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD1096D41EBC6E2F00EBF943 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD1096ED1EBC6E2F00EBF943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD1096EE1EBC6E2F00EBF943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD1096F01EBC6E2F00EBF943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 34TTMZE623;
+				INFOPLIST_FILE = YeeMVVMDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neiquan.YeeMVVMDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD1096F11EBC6E2F00EBF943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 34TTMZE623;
+				INFOPLIST_FILE = YeeMVVMDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neiquan.YeeMVVMDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD1096F31EBC6E2F00EBF943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 34TTMZE623;
+				INFOPLIST_FILE = YeeMVVMDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neiquan.YeeMVVMDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YeeMVVMDemo.app/YeeMVVMDemo";
+			};
+			name = Debug;
+		};
+		CD1096F41EBC6E2F00EBF943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 34TTMZE623;
+				INFOPLIST_FILE = YeeMVVMDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neiquan.YeeMVVMDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YeeMVVMDemo.app/YeeMVVMDemo";
+			};
+			name = Release;
+		};
+		CD1096F61EBC6E2F00EBF943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 34TTMZE623;
+				INFOPLIST_FILE = YeeMVVMDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neiquan.YeeMVVMDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YeeMVVMDemo;
+			};
+			name = Debug;
+		};
+		CD1096F71EBC6E2F00EBF943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 34TTMZE623;
+				INFOPLIST_FILE = YeeMVVMDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neiquan.YeeMVVMDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YeeMVVMDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD1096BD1EBC6E2F00EBF943 /* Build configuration list for PBXProject "YeeMVVMDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1096ED1EBC6E2F00EBF943 /* Debug */,
+				CD1096EE1EBC6E2F00EBF943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD1096EF1EBC6E2F00EBF943 /* Build configuration list for PBXNativeTarget "YeeMVVMDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1096F01EBC6E2F00EBF943 /* Debug */,
+				CD1096F11EBC6E2F00EBF943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD1096F21EBC6E2F00EBF943 /* Build configuration list for PBXNativeTarget "YeeMVVMDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1096F31EBC6E2F00EBF943 /* Debug */,
+				CD1096F41EBC6E2F00EBF943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD1096F51EBC6E2F00EBF943 /* Build configuration list for PBXNativeTarget "YeeMVVMDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1096F61EBC6E2F00EBF943 /* Debug */,
+				CD1096F71EBC6E2F00EBF943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD1096BA1EBC6E2F00EBF943 /* Project object */;
+}
