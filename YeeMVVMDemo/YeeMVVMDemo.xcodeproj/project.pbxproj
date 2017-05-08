@@ -56,6 +56,7 @@
 		CD1097A21EBC83A900EBF943 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1097A11EBC83A900EBF943 /* BaseModel.m */; };
 		CD1097A51EBC846900EBF943 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1097A41EBC846900EBF943 /* BaseViewController.m */; };
 		CD1097A81EBC9BE500EBF943 /* UIViewController+NavigationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1097A71EBC9BE500EBF943 /* UIViewController+NavigationItem.m */; };
+		CD9615DD1EC0865600EF0F46 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9615DC1EC0865600EF0F46 /* BaseTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -184,6 +185,8 @@
 		CD1097A41EBC846900EBF943 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		CD1097A61EBC9BE500EBF943 /* UIViewController+NavigationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NavigationItem.h"; sourceTree = "<group>"; };
 		CD1097A71EBC9BE500EBF943 /* UIViewController+NavigationItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NavigationItem.m"; sourceTree = "<group>"; };
+		CD9615DB1EC0865600EF0F46 /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		CD9615DC1EC0865600EF0F46 /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -378,6 +381,8 @@
 			children = (
 				CD1097A31EBC846900EBF943 /* BaseViewController.h */,
 				CD1097A41EBC846900EBF943 /* BaseViewController.m */,
+				CD9615DB1EC0865600EF0F46 /* BaseTableViewController.h */,
+				CD9615DC1EC0865600EF0F46 /* BaseTableViewController.m */,
 			);
 			path = BaseVC;
 			sourceTree = "<group>";
@@ -835,6 +840,7 @@
 				CD1097091EBC7AC200EBF943 /* TabBarVC.m in Sources */,
 				CD1097911EBC7D2500EBF943 /* ZDTostView.m in Sources */,
 				CD1097761EBC7D2500EBF943 /* UIButton+ActionInterval.m in Sources */,
+				CD9615DD1EC0865600EF0F46 /* BaseTableViewController.m in Sources */,
 				CD10979F1EBC838D00EBF943 /* YTableViewModel.m in Sources */,
 				CD1097781EBC7D2500EBF943 /* YeeButton.m in Sources */,
 				CD10977E1EBC7D2500EBF943 /* UIImageView+GradualWebCache.m in Sources */,

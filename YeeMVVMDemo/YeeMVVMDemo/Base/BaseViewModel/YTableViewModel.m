@@ -42,8 +42,7 @@
 }
 - (BOOL (^)(NSError *error))requestRemoteDataErrorsFilter {
     return ^(NSError *error) {
-        
-        
+    //在这里过滤错误信息
         return YES;
     };
 }
