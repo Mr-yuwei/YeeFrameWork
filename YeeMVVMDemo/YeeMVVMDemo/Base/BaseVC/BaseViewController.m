@@ -21,12 +21,20 @@
     if (self) {
         
         self.viewModel = viewModel;
+        if (self.viewModel.shouldRequestRemoteDataOnViewDidLoad) {
+            @weakify(self)
+            [[self rac_signalForSelector:@selector(viewDidLoad)] subscribeNext:^(id x) {
+                @strongify(self)
+                [self.viewModel.requestCommand execute:@1];
+            }];
+        }
     }
     return self;
 }
 - (void)viewDidLoad {
     
     [super viewDidLoad];
+    self.navigationController.navigationBar.translucent = YES;
     [self addNavbarView];
     [self addOwnViews];
     [self configOwnViews];
