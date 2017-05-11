@@ -57,6 +57,8 @@
 		CD1097A51EBC846900EBF943 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1097A41EBC846900EBF943 /* BaseViewController.m */; };
 		CD1097A81EBC9BE500EBF943 /* UIViewController+NavigationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1097A71EBC9BE500EBF943 /* UIViewController+NavigationItem.m */; };
 		CD9615DD1EC0865600EF0F46 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9615DC1EC0865600EF0F46 /* BaseTableViewController.m */; };
+		CDA03D131EC47C4700DB60B3 /* YeeRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA03D121EC47C4700DB60B3 /* YeeRouter.m */; };
+		CDA03D171EC480FA00DB60B3 /* ViewModelServices.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA03D161EC480FA00DB60B3 /* ViewModelServices.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -187,6 +189,11 @@
 		CD1097A71EBC9BE500EBF943 /* UIViewController+NavigationItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NavigationItem.m"; sourceTree = "<group>"; };
 		CD9615DB1EC0865600EF0F46 /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
 		CD9615DC1EC0865600EF0F46 /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		CDA03D111EC47C4700DB60B3 /* YeeRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YeeRouter.h; sourceTree = "<group>"; };
+		CDA03D121EC47C4700DB60B3 /* YeeRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YeeRouter.m; sourceTree = "<group>"; };
+		CDA03D141EC47DBB00DB60B3 /* NavigationProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationProtocol.h; sourceTree = "<group>"; };
+		CDA03D151EC480FA00DB60B3 /* ViewModelServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewModelServices.h; sourceTree = "<group>"; };
+		CDA03D161EC480FA00DB60B3 /* ViewModelServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewModelServices.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -257,6 +264,7 @@
 		CD1096C41EBC6E2F00EBF943 /* YeeMVVMDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CDA03D101EC47B9300DB60B3 /* YeeRouter */,
 				CD1097021EBC7A4900EBF943 /* AppDelegate */,
 				CD1097061EBC7A9000EBF943 /* TabBar */,
 				CD1096FC1EBC799600EBF943 /* Base */,
@@ -629,10 +637,22 @@
 		CD1097971EBC80F300EBF943 /* BaseProtocol */ = {
 			isa = PBXGroup;
 			children = (
+				CDA03D141EC47DBB00DB60B3 /* NavigationProtocol.h */,
+				CDA03D151EC480FA00DB60B3 /* ViewModelServices.h */,
+				CDA03D161EC480FA00DB60B3 /* ViewModelServices.m */,
 				CD1097981EBC811100EBF943 /* BaseViewProtocolHeader.h */,
 				CD1097991EBC817600EBF943 /* BaseViewControllerProtocolHeader.h */,
 			);
 			path = BaseProtocol;
+			sourceTree = "<group>";
+		};
+		CDA03D101EC47B9300DB60B3 /* YeeRouter */ = {
+			isa = PBXGroup;
+			children = (
+				CDA03D111EC47C4700DB60B3 /* YeeRouter.h */,
+				CDA03D121EC47C4700DB60B3 /* YeeRouter.m */,
+			);
+			path = YeeRouter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -827,6 +847,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD1097901EBC7D2500EBF943 /* ZDChatroomAlertView.m in Sources */,
+				CDA03D131EC47C4700DB60B3 /* YeeRouter.m in Sources */,
 				CD10977B1EBC7D2500EBF943 /* UIImage+Common.m in Sources */,
 				CD1097851EBC7D2500EBF943 /* UIView+ClickBlock.m in Sources */,
 				CD1097051EBC7A4900EBF943 /* AppDelegate.m in Sources */,
@@ -845,6 +866,7 @@
 				CD1097781EBC7D2500EBF943 /* YeeButton.m in Sources */,
 				CD10977E1EBC7D2500EBF943 /* UIImageView+GradualWebCache.m in Sources */,
 				CD1097931EBC7D2500EBF943 /* UIViewController+AlertAction.m in Sources */,
+				CDA03D171EC480FA00DB60B3 /* ViewModelServices.m in Sources */,
 				CD10977A1EBC7D2500EBF943 /* UIColor+MLPFlatColors.m in Sources */,
 				CD1097A51EBC846900EBF943 /* BaseViewController.m in Sources */,
 				CD1097861EBC7D2500EBF943 /* UIView+YeeFrameExt.m in Sources */,

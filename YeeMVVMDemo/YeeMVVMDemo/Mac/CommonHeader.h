@@ -13,6 +13,7 @@
 #import "YTableViewModel.h"
 
 #import "BaseViewController.h"
+#import "NavigationProtocol.h"
 
 
 #endif /* CommonHeader_h */
