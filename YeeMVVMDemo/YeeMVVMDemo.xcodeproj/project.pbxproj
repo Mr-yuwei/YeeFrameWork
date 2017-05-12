@@ -16,6 +16,7 @@
 		CD0AF0B21EC5601300273A25 /* MVVMTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0AF0B11EC5601300273A25 /* MVVMTabBarVC.m */; };
 		CD0AF0B51EC5633600273A25 /* TabBarViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0AF0B41EC5633600273A25 /* TabBarViewModel.m */; };
 		CD0AF0B81EC5635B00273A25 /* MVVMTabBarViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0AF0B71EC5635B00273A25 /* MVVMTabBarViewModel.m */; };
+		CD0AF0BB1EC567F200273A25 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0AF0BA1EC567F200273A25 /* HomeVC.m */; };
 		CD1096C71EBC6E2F00EBF943 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1096C61EBC6E2F00EBF943 /* main.m */; };
 		CD1096D21EBC6E2F00EBF943 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD1096D11EBC6E2F00EBF943 /* Assets.xcassets */; };
 		CD1096E01EBC6E2F00EBF943 /* YeeMVVMDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1096DF1EBC6E2F00EBF943 /* YeeMVVMDemoTests.m */; };
@@ -88,6 +89,7 @@
 		4368CBE91D736DA128D89224 /* Pods_YeeMVVMDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YeeMVVMDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		665B8AD0D6B005DAC401E124 /* Pods-YeeMVVMDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YeeMVVMDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YeeMVVMDemo/Pods-YeeMVVMDemo.release.xcconfig"; sourceTree = "<group>"; };
 		C985728DA26CE06BE6D83DEF /* Pods-YeeMVVMDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YeeMVVMDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YeeMVVMDemo/Pods-YeeMVVMDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CD083D171EC586FE0001392F /* YeeNavigationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YeeNavigationProtocol.h; sourceTree = "<group>"; };
 		CD0AF08E1EC54DF200273A25 /* NavigationControllerStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationControllerStack.h; sourceTree = "<group>"; };
 		CD0AF08F1EC54DF200273A25 /* NavigationControllerStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationControllerStack.m; sourceTree = "<group>"; };
 		CD0AF0911EC5540C00273A25 /* AppDelegate+ConfigureApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+ConfigureApp.h"; sourceTree = "<group>"; };
@@ -104,6 +106,8 @@
 		CD0AF0B41EC5633600273A25 /* TabBarViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewModel.m; sourceTree = "<group>"; };
 		CD0AF0B61EC5635B00273A25 /* MVVMTabBarViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVVMTabBarViewModel.h; sourceTree = "<group>"; };
 		CD0AF0B71EC5635B00273A25 /* MVVMTabBarViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVVMTabBarViewModel.m; sourceTree = "<group>"; };
+		CD0AF0B91EC567F200273A25 /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		CD0AF0BA1EC567F200273A25 /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
 		CD1096C21EBC6E2F00EBF943 /* YeeMVVMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YeeMVVMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD1096C61EBC6E2F00EBF943 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CD1096D11EBC6E2F00EBF943 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -209,7 +213,6 @@
 		CD9615DC1EC0865600EF0F46 /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
 		CDA03D111EC47C4700DB60B3 /* YeeRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YeeRouter.h; sourceTree = "<group>"; };
 		CDA03D121EC47C4700DB60B3 /* YeeRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YeeRouter.m; sourceTree = "<group>"; };
-		CDA03D141EC47DBB00DB60B3 /* NavigationProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationProtocol.h; sourceTree = "<group>"; };
 		CDA03D151EC480FA00DB60B3 /* ViewModelServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewModelServices.h; sourceTree = "<group>"; };
 		CDA03D161EC480FA00DB60B3 /* ViewModelServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewModelServices.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -325,6 +328,8 @@
 		CD0AF0A11EC55A1200273A25 /* VC */ = {
 			isa = PBXGroup;
 			children = (
+				CD0AF0B91EC567F200273A25 /* HomeVC.h */,
+				CD0AF0BA1EC567F200273A25 /* HomeVC.m */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -817,13 +822,13 @@
 		CD1097971EBC80F300EBF943 /* BaseProtocol */ = {
 			isa = PBXGroup;
 			children = (
-				CDA03D141EC47DBB00DB60B3 /* NavigationProtocol.h */,
 				CDA03D151EC480FA00DB60B3 /* ViewModelServices.h */,
 				CDA03D161EC480FA00DB60B3 /* ViewModelServices.m */,
 				CD0AF08E1EC54DF200273A25 /* NavigationControllerStack.h */,
 				CD0AF08F1EC54DF200273A25 /* NavigationControllerStack.m */,
 				CD1097981EBC811100EBF943 /* BaseViewProtocolHeader.h */,
 				CD1097991EBC817600EBF943 /* BaseViewControllerProtocolHeader.h */,
+				CD083D171EC586FE0001392F /* YeeNavigationProtocol.h */,
 			);
 			path = BaseProtocol;
 			sourceTree = "<group>";
@@ -1059,6 +1064,7 @@
 				CD10977D1EBC7D2500EBF943 /* UIImage+TintColor.m in Sources */,
 				CD1097811EBC7D2500EBF943 /* UILabel+LinkBlock.m in Sources */,
 				CD0AF09C1EC5596F00273A25 /* NavigationVC.m in Sources */,
+				CD0AF0BB1EC567F200273A25 /* HomeVC.m in Sources */,
 				CD10978F1EBC7D2500EBF943 /* UIView+Toast.m in Sources */,
 				CD10979C1EBC837300EBF943 /* YViewModel.m in Sources */,
 				CD0AF0931EC5540C00273A25 /* AppDelegate+ConfigureApp.m in Sources */,

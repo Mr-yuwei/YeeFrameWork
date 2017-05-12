@@ -26,8 +26,23 @@
             @weakify(self)
             [[self rac_signalForSelector:@selector(viewDidLoad)] subscribeNext:^(id x) {
                 @strongify(self)
-                
-                [self.viewModel.requestRemoteDataCommand execute:@1];
+                [[[self.viewModel.requestRemoteDataCommand execute:(@(1))] deliverOnMainThread]subscribeNext:^(NSMutableArray   *array) {
+                    //这里获取到数据
+                    @strongify(self)
+                    self.viewModel.page=1;
+                    [self.viewModel.dataSource removeAllObjects];
+                    [self.viewModel.dataSource addObjectsFromArray:array];
+                    [self.tableView.mj_header endRefreshing];
+                    [self.tableView reloadData];
+                } error:^(NSError * _Nullable error) {
+                    
+                    [self.view showNBNetErrorWithMessage:error.userInfo[@"NSLocalizedDescription"]];
+                    [self.tableView.mj_header endRefreshing];
+                    
+                } completed:^{
+                    
+                    
+                }] ;
             }];
         }
     }
@@ -83,7 +98,6 @@
     cell.textLabel.textColor=kBlackColor;
     cell.textLabel.text=@"yeeOS";
     return cell;
-    
 }
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     
@@ -96,7 +110,6 @@
 -(UITableView *)tableView{
     
     if (_tableView==nil) {
-        
         _tableView=[[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
         _tableView.delegate=self;
         _tableView.dataSource=self;

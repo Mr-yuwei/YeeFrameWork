@@ -7,8 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+@protocol YeeNavigationProtocol;
 
 @interface YViewModel : NSObject
+
+- (instancetype)initWithServices:(id<YeeNavigationProtocol>)services params:(NSDictionary *)params;
+
+@property (nonatomic, strong, readonly) id<YeeNavigationProtocol> services;
+
+@property (nonatomic, copy, readonly)   NSDictionary *params;
 
 @property (nonatomic, strong, readonly) RACCommand *requestCommand;
 

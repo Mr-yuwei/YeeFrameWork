@@ -7,8 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-
-@interface ViewModelServices : NSObject<NavigationProtocol>
+#import "YeeNavigationProtocol.h"
+@interface ViewModelServices : NSObject<YeeNavigationProtocol>
 
 
 

@@ -1,16 +1,14 @@
 //
-//  NavigationProtocol.h
+//  YeeNavigationProtocol.h
 //  YeeMVVMDemo
 //
-//  Created by CoderYee on 2017/5/11.
+//  Created by CoderYee on 2017/5/12.
 //  Copyright © 2017年 CodeYee. All rights reserved.
 //
+
 #import <Foundation/Foundation.h>
 typedef void (^VoidBlock)();
-
-@protocol NavigationProtocol <NSObject>
-
-@optional
+@protocol YeeNavigationProtocol <NSObject>
 
 - (void)pushViewModel:(YViewModel *)viewModel animated:(BOOL)animated;
 
@@ -23,5 +21,6 @@ typedef void (^VoidBlock)();
 - (void)dismissViewModelAnimated:(BOOL)animated completion:(VoidBlock)completion;
 
 - (void)resetRootViewModel:(YViewModel *)viewModel;
+
 
 @end

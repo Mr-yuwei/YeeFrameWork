@@ -13,10 +13,10 @@
 #import "YTableViewModel.h"
 #import "TabBarVC.h"
 #import "BaseViewController.h"
-#import "NavigationProtocol.h"
 #import "ViewModelServices.h"
 #import "NavigationControllerStack.h"
 #import "NavigationVC.h"
+#import "YeeNavigationProtocol.h"
 
 
 #endif /* CommonHeader_h */

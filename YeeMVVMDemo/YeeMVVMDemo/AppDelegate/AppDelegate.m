@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "AppDelegate+ConfigureApp.h"
+#import "MVVMTabBarVC.h"
 
 @interface AppDelegate ()
 
@@ -31,7 +32,8 @@
     [self configureNetWork];
     self.services = [[ViewModelServices alloc] init];
     self.navigationControllerStack = [[NavigationControllerStack alloc] initWithServices:self.services];
-    [self.services resetRootViewModel:[self createInitialViewModel]];
+    self.window.rootViewController=[[TabBarVC alloc] init];
+   // [self.services resetRootViewModel:[self createInitialViewModel]];
 
     return YES;
 }

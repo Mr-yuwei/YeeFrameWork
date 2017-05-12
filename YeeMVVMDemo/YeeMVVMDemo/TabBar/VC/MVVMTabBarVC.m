@@ -23,7 +23,7 @@
 -(void)addOwnTabBarSellerVC{
     
     //设置数据源
-    NSArray *vcNames = @[@"Seller_StockVC",@"Selller_OrderVC", @"MessageVC",@"MineVC"];
+    NSArray *vcNames = @[@"BaseViewController",@"BaseViewController", @"BaseViewController",@"BaseViewController"];
     
     NSArray *imageArray=@[@"icon_shangjia_home1",@"icon_dingdan1",@"icon_xiaoxi1",@"icon_wode"];
     

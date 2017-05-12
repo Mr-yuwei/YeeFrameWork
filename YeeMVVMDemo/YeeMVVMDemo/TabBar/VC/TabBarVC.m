@@ -23,8 +23,6 @@
 }
 -(void)addOWnView{
     
-    
-    
     self.tabBar.translucent = YES;
     //设置数据源
     NSArray *vcNames = @[@"BaseViewController",@"BaseViewController", @"BaseViewController",@"BaseViewController"];

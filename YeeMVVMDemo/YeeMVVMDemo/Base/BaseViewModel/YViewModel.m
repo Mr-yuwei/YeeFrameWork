@@ -8,20 +8,34 @@
 
 #import "YViewModel.h"
 @interface YViewModel ()
-
+@property (nonatomic, strong, readwrite) id<YeeNavigationProtocol> services;
+@property (nonatomic, copy, readwrite)   NSDictionary *params;
 @property (nonatomic, strong, readwrite) RACCommand *requestCommand;
 @property (nonatomic, strong, readwrite) RACSubject *errors;
 
 @end
 @implementation YViewModel
 
--(instancetype)init{
+
++ (instancetype)allocWithZone:(struct _NSZone *)zone {
+    YViewModel *viewModel = [super allocWithZone:zone];
     
-    if (self=[super init]) {
-        
+    @weakify(viewModel)
+    [[viewModel
+      rac_signalForSelector:@selector(initWithServices:params:)]
+    	subscribeNext:^(id x) {
+            @strongify(viewModel)
+            [viewModel initialize];
+        }];
+    
+    return viewModel;
+}
+- (instancetype)initWithServices:(id<YeeNavigationProtocol>)services params:(NSDictionary *)params {
+    self = [super init];
+    if (self) {
         self.shouldRequestRemoteDataOnViewDidLoad = YES;//进入界面是否请求数据
-        
-        [self initialize];
+        self.services = services;
+        self.params   = params;
     }
     return self;
 }
