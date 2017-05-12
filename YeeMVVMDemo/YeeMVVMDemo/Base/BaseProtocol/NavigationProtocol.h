@@ -10,6 +10,8 @@ typedef void (^VoidBlock)();
 
 @protocol NavigationProtocol <NSObject>
 
+@optional
+
 - (void)pushViewModel:(YViewModel *)viewModel animated:(BOOL)animated;
 
 - (void)popViewModelAnimated:(BOOL)animated;

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		945D0C4DE99AFB39E373D84C /* Pods_YeeMVVMDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4368CBE91D736DA128D89224 /* Pods_YeeMVVMDemo.framework */; };
+		CD0AF0901EC54DF200273A25 /* NavigationControllerStack.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0AF08F1EC54DF200273A25 /* NavigationControllerStack.m */; };
+		CD0AF0931EC5540C00273A25 /* AppDelegate+ConfigureApp.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0AF0921EC5540C00273A25 /* AppDelegate+ConfigureApp.m */; };
 		CD1096C71EBC6E2F00EBF943 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1096C61EBC6E2F00EBF943 /* main.m */; };
 		CD1096D21EBC6E2F00EBF943 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD1096D11EBC6E2F00EBF943 /* Assets.xcassets */; };
 		CD1096E01EBC6E2F00EBF943 /* YeeMVVMDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1096DF1EBC6E2F00EBF943 /* YeeMVVMDemoTests.m */; };
@@ -82,6 +84,10 @@
 		4368CBE91D736DA128D89224 /* Pods_YeeMVVMDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YeeMVVMDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		665B8AD0D6B005DAC401E124 /* Pods-YeeMVVMDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YeeMVVMDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YeeMVVMDemo/Pods-YeeMVVMDemo.release.xcconfig"; sourceTree = "<group>"; };
 		C985728DA26CE06BE6D83DEF /* Pods-YeeMVVMDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YeeMVVMDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YeeMVVMDemo/Pods-YeeMVVMDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CD0AF08E1EC54DF200273A25 /* NavigationControllerStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationControllerStack.h; sourceTree = "<group>"; };
+		CD0AF08F1EC54DF200273A25 /* NavigationControllerStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationControllerStack.m; sourceTree = "<group>"; };
+		CD0AF0911EC5540C00273A25 /* AppDelegate+ConfigureApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+ConfigureApp.h"; sourceTree = "<group>"; };
+		CD0AF0921EC5540C00273A25 /* AppDelegate+ConfigureApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+ConfigureApp.m"; sourceTree = "<group>"; };
 		CD1096C21EBC6E2F00EBF943 /* YeeMVVMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YeeMVVMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD1096C61EBC6E2F00EBF943 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CD1096D11EBC6E2F00EBF943 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -418,6 +424,8 @@
 			children = (
 				CD1097031EBC7A4900EBF943 /* AppDelegate.h */,
 				CD1097041EBC7A4900EBF943 /* AppDelegate.m */,
+				CD0AF0911EC5540C00273A25 /* AppDelegate+ConfigureApp.h */,
+				CD0AF0921EC5540C00273A25 /* AppDelegate+ConfigureApp.m */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -640,6 +648,8 @@
 				CDA03D141EC47DBB00DB60B3 /* NavigationProtocol.h */,
 				CDA03D151EC480FA00DB60B3 /* ViewModelServices.h */,
 				CDA03D161EC480FA00DB60B3 /* ViewModelServices.m */,
+				CD0AF08E1EC54DF200273A25 /* NavigationControllerStack.h */,
+				CD0AF08F1EC54DF200273A25 /* NavigationControllerStack.m */,
 				CD1097981EBC811100EBF943 /* BaseViewProtocolHeader.h */,
 				CD1097991EBC817600EBF943 /* BaseViewControllerProtocolHeader.h */,
 			);
@@ -858,6 +868,7 @@
 				CD1097871EBC7D2500EBF943 /* UIView+Layer.m in Sources */,
 				CD1097801EBC7D2500EBF943 /* BAFPSLabel.m in Sources */,
 				CD1097A21EBC83A900EBF943 /* BaseModel.m in Sources */,
+				CD0AF0901EC54DF200273A25 /* NavigationControllerStack.m in Sources */,
 				CD1097091EBC7AC200EBF943 /* TabBarVC.m in Sources */,
 				CD1097911EBC7D2500EBF943 /* ZDTostView.m in Sources */,
 				CD1097761EBC7D2500EBF943 /* UIButton+ActionInterval.m in Sources */,
@@ -876,6 +887,7 @@
 				CD1097811EBC7D2500EBF943 /* UILabel+LinkBlock.m in Sources */,
 				CD10978F1EBC7D2500EBF943 /* UIView+Toast.m in Sources */,
 				CD10979C1EBC837300EBF943 /* YViewModel.m in Sources */,
+				CD0AF0931EC5540C00273A25 /* AppDelegate+ConfigureApp.m in Sources */,
 				CD1096C71EBC6E2F00EBF943 /* main.m in Sources */,
 				CD1097821EBC7D2500EBF943 /* UINavigationController+Transition.m in Sources */,
 				CD1097741EBC7D2500EBF943 /* NSString+Trim.m in Sources */,

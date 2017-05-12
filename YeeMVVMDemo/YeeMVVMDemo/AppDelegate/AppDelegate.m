@@ -7,9 +7,13 @@
 //
 
 #import "AppDelegate.h"
-#import "TabBarVC.h"
+#import "AppDelegate+ConfigureApp.h"
 
 @interface AppDelegate ()
+
+@property (nonatomic, strong) ViewModelServices *services;
+@property (nonatomic, strong) YViewModel *viewModel;
+@property (nonatomic, strong, readwrite) NavigationControllerStack *navigationControllerStack;
 
 @end
 
@@ -18,9 +22,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
+   
     self.window=[[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     [self.window setBackgroundColor:[UIColor whiteColor]];
     [self.window makeKeyAndVisible];
+    [self configAppearance];
+    [self configureIQKeyboard];
+    [self configureNetWork];
     self.window.rootViewController=[[TabBarVC alloc] init];
     return YES;
 }
