@@ -16,6 +16,7 @@
 #import "NavigationProtocol.h"
 #import "ViewModelServices.h"
 #import "NavigationControllerStack.h"
+#import "NavigationVC.h"
 
 
 #endif /* CommonHeader_h */

@@ -10,13 +10,17 @@
 		945D0C4DE99AFB39E373D84C /* Pods_YeeMVVMDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4368CBE91D736DA128D89224 /* Pods_YeeMVVMDemo.framework */; };
 		CD0AF0901EC54DF200273A25 /* NavigationControllerStack.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0AF08F1EC54DF200273A25 /* NavigationControllerStack.m */; };
 		CD0AF0931EC5540C00273A25 /* AppDelegate+ConfigureApp.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0AF0921EC5540C00273A25 /* AppDelegate+ConfigureApp.m */; };
+		CD0AF09C1EC5596F00273A25 /* NavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0AF0981EC5596E00273A25 /* NavigationVC.m */; };
+		CD0AF09D1EC5596F00273A25 /* TabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0AF09A1EC5596F00273A25 /* TabBarVC.m */; };
+		CD0AF0AF1EC55AFD00273A25 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0AF0AE1EC55AFD00273A25 /* TabBarController.m */; };
+		CD0AF0B21EC5601300273A25 /* MVVMTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0AF0B11EC5601300273A25 /* MVVMTabBarVC.m */; };
+		CD0AF0B51EC5633600273A25 /* TabBarViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0AF0B41EC5633600273A25 /* TabBarViewModel.m */; };
+		CD0AF0B81EC5635B00273A25 /* MVVMTabBarViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0AF0B71EC5635B00273A25 /* MVVMTabBarViewModel.m */; };
 		CD1096C71EBC6E2F00EBF943 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1096C61EBC6E2F00EBF943 /* main.m */; };
 		CD1096D21EBC6E2F00EBF943 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD1096D11EBC6E2F00EBF943 /* Assets.xcassets */; };
 		CD1096E01EBC6E2F00EBF943 /* YeeMVVMDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1096DF1EBC6E2F00EBF943 /* YeeMVVMDemoTests.m */; };
 		CD1096EB1EBC6E2F00EBF943 /* YeeMVVMDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1096EA1EBC6E2F00EBF943 /* YeeMVVMDemoUITests.m */; };
 		CD1097051EBC7A4900EBF943 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1097041EBC7A4900EBF943 /* AppDelegate.m */; };
-		CD1097091EBC7AC200EBF943 /* TabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1097081EBC7AC200EBF943 /* TabBarVC.m */; };
-		CD10970C1EBC7AE300EBF943 /* NavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CD10970B1EBC7AE300EBF943 /* NavigationVC.m */; };
 		CD1097701EBC7D2500EBF943 /* NSString+AttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1097191EBC7D2500EBF943 /* NSString+AttributedString.m */; };
 		CD1097711EBC7D2500EBF943 /* NSString+Avail.m in Sources */ = {isa = PBXBuildFile; fileRef = CD10971B1EBC7D2500EBF943 /* NSString+Avail.m */; };
 		CD1097721EBC7D2500EBF943 /* NSString+FrameSize.m in Sources */ = {isa = PBXBuildFile; fileRef = CD10971D1EBC7D2500EBF943 /* NSString+FrameSize.m */; };
@@ -88,6 +92,18 @@
 		CD0AF08F1EC54DF200273A25 /* NavigationControllerStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationControllerStack.m; sourceTree = "<group>"; };
 		CD0AF0911EC5540C00273A25 /* AppDelegate+ConfigureApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+ConfigureApp.h"; sourceTree = "<group>"; };
 		CD0AF0921EC5540C00273A25 /* AppDelegate+ConfigureApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+ConfigureApp.m"; sourceTree = "<group>"; };
+		CD0AF0971EC5596E00273A25 /* NavigationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationVC.h; sourceTree = "<group>"; };
+		CD0AF0981EC5596E00273A25 /* NavigationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationVC.m; sourceTree = "<group>"; };
+		CD0AF0991EC5596E00273A25 /* TabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarVC.h; sourceTree = "<group>"; };
+		CD0AF09A1EC5596F00273A25 /* TabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarVC.m; sourceTree = "<group>"; };
+		CD0AF0AD1EC55AFD00273A25 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		CD0AF0AE1EC55AFD00273A25 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		CD0AF0B01EC5601300273A25 /* MVVMTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVVMTabBarVC.h; sourceTree = "<group>"; };
+		CD0AF0B11EC5601300273A25 /* MVVMTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVVMTabBarVC.m; sourceTree = "<group>"; };
+		CD0AF0B31EC5633600273A25 /* TabBarViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewModel.h; sourceTree = "<group>"; };
+		CD0AF0B41EC5633600273A25 /* TabBarViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewModel.m; sourceTree = "<group>"; };
+		CD0AF0B61EC5635B00273A25 /* MVVMTabBarViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVVMTabBarViewModel.h; sourceTree = "<group>"; };
+		CD0AF0B71EC5635B00273A25 /* MVVMTabBarViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVVMTabBarViewModel.m; sourceTree = "<group>"; };
 		CD1096C21EBC6E2F00EBF943 /* YeeMVVMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YeeMVVMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD1096C61EBC6E2F00EBF943 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CD1096D11EBC6E2F00EBF943 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,10 +116,6 @@
 		CD1096EC1EBC6E2F00EBF943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD1097031EBC7A4900EBF943 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CD1097041EBC7A4900EBF943 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CD1097071EBC7AC200EBF943 /* TabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarVC.h; sourceTree = "<group>"; };
-		CD1097081EBC7AC200EBF943 /* TabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarVC.m; sourceTree = "<group>"; };
-		CD10970A1EBC7AE300EBF943 /* NavigationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationVC.h; sourceTree = "<group>"; };
-		CD10970B1EBC7AE300EBF943 /* NavigationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationVC.m; sourceTree = "<group>"; };
 		CD10970D1EBC7AFD00EBF943 /* MVVMPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMPrefixHeader.pch; sourceTree = "<group>"; };
 		CD10970E1EBC7C0800EBF943 /* APIHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIHeader.h; sourceTree = "<group>"; };
 		CD10970F1EBC7C0800EBF943 /* ColorHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorHeader.h; sourceTree = "<group>"; };
@@ -245,6 +257,163 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CD0AF0941EC5596E00273A25 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		CD0AF0951EC5596E00273A25 /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		CD0AF0961EC5596E00273A25 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				CD0AF0B01EC5601300273A25 /* MVVMTabBarVC.h */,
+				CD0AF0B11EC5601300273A25 /* MVVMTabBarVC.m */,
+				CD0AF0AD1EC55AFD00273A25 /* TabBarController.h */,
+				CD0AF0AE1EC55AFD00273A25 /* TabBarController.m */,
+				CD0AF0971EC5596E00273A25 /* NavigationVC.h */,
+				CD0AF0981EC5596E00273A25 /* NavigationVC.m */,
+				CD0AF0991EC5596E00273A25 /* TabBarVC.h */,
+				CD0AF09A1EC5596F00273A25 /* TabBarVC.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		CD0AF09B1EC5596F00273A25 /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				CD0AF0B31EC5633600273A25 /* TabBarViewModel.h */,
+				CD0AF0B41EC5633600273A25 /* TabBarViewModel.m */,
+				CD0AF0B61EC5635B00273A25 /* MVVMTabBarViewModel.h */,
+				CD0AF0B71EC5635B00273A25 /* MVVMTabBarViewModel.m */,
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		CD0AF09E1EC55A1200273A25 /* HomeClass */ = {
+			isa = PBXGroup;
+			children = (
+				CD0AF09F1EC55A1200273A25 /* M */,
+				CD0AF0A01EC55A1200273A25 /* V */,
+				CD0AF0A11EC55A1200273A25 /* VC */,
+				CD0AF0A21EC55A1200273A25 /* VM */,
+			);
+			path = HomeClass;
+			sourceTree = "<group>";
+		};
+		CD0AF09F1EC55A1200273A25 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		CD0AF0A01EC55A1200273A25 /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		CD0AF0A11EC55A1200273A25 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		CD0AF0A21EC55A1200273A25 /* VM */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		CD0AF0A31EC55A1200273A25 /* MineClass */ = {
+			isa = PBXGroup;
+			children = (
+				CD0AF0A41EC55A1200273A25 /* M */,
+				CD0AF0A51EC55A1200273A25 /* V */,
+				CD0AF0A61EC55A1200273A25 /* VC */,
+				CD0AF0A71EC55A1200273A25 /* VM */,
+			);
+			path = MineClass;
+			sourceTree = "<group>";
+		};
+		CD0AF0A41EC55A1200273A25 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		CD0AF0A51EC55A1200273A25 /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		CD0AF0A61EC55A1200273A25 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		CD0AF0A71EC55A1200273A25 /* VM */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		CD0AF0A81EC55A1200273A25 /* VideoClass */ = {
+			isa = PBXGroup;
+			children = (
+				CD0AF0A91EC55A1200273A25 /* M */,
+				CD0AF0AA1EC55A1200273A25 /* V */,
+				CD0AF0AB1EC55A1200273A25 /* VC */,
+				CD0AF0AC1EC55A1200273A25 /* VM */,
+			);
+			path = VideoClass;
+			sourceTree = "<group>";
+		};
+		CD0AF0A91EC55A1200273A25 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		CD0AF0AA1EC55A1200273A25 /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		CD0AF0AB1EC55A1200273A25 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		CD0AF0AC1EC55A1200273A25 /* VM */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
 		CD1096B91EBC6E2F00EBF943 = {
 			isa = PBXGroup;
 			children = (
@@ -377,6 +546,9 @@
 		CD1096FD1EBC799600EBF943 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				CD0AF09E1EC55A1200273A25 /* HomeClass */,
+				CD0AF0A31EC55A1200273A25 /* MineClass */,
+				CD0AF0A81EC55A1200273A25 /* VideoClass */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -433,10 +605,10 @@
 		CD1097061EBC7A9000EBF943 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
-				CD1097071EBC7AC200EBF943 /* TabBarVC.h */,
-				CD1097081EBC7AC200EBF943 /* TabBarVC.m */,
-				CD10970A1EBC7AE300EBF943 /* NavigationVC.h */,
-				CD10970B1EBC7AE300EBF943 /* NavigationVC.m */,
+				CD0AF0941EC5596E00273A25 /* M */,
+				CD0AF0951EC5596E00273A25 /* V */,
+				CD0AF0961EC5596E00273A25 /* VC */,
+				CD0AF09B1EC5596F00273A25 /* VM */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -867,9 +1039,10 @@
 				CD1097771EBC7D2500EBF943 /* UIButton+LinkBlock.m in Sources */,
 				CD1097871EBC7D2500EBF943 /* UIView+Layer.m in Sources */,
 				CD1097801EBC7D2500EBF943 /* BAFPSLabel.m in Sources */,
+				CD0AF0B51EC5633600273A25 /* TabBarViewModel.m in Sources */,
 				CD1097A21EBC83A900EBF943 /* BaseModel.m in Sources */,
+				CD0AF0AF1EC55AFD00273A25 /* TabBarController.m in Sources */,
 				CD0AF0901EC54DF200273A25 /* NavigationControllerStack.m in Sources */,
-				CD1097091EBC7AC200EBF943 /* TabBarVC.m in Sources */,
 				CD1097911EBC7D2500EBF943 /* ZDTostView.m in Sources */,
 				CD1097761EBC7D2500EBF943 /* UIButton+ActionInterval.m in Sources */,
 				CD9615DD1EC0865600EF0F46 /* BaseTableViewController.m in Sources */,
@@ -882,15 +1055,17 @@
 				CD1097A51EBC846900EBF943 /* BaseViewController.m in Sources */,
 				CD1097861EBC7D2500EBF943 /* UIView+YeeFrameExt.m in Sources */,
 				CD1097831EBC7D2500EBF943 /* UITextField+LeftSpaceView.m in Sources */,
+				CD0AF0B21EC5601300273A25 /* MVVMTabBarVC.m in Sources */,
 				CD10977D1EBC7D2500EBF943 /* UIImage+TintColor.m in Sources */,
-				CD10970C1EBC7AE300EBF943 /* NavigationVC.m in Sources */,
 				CD1097811EBC7D2500EBF943 /* UILabel+LinkBlock.m in Sources */,
+				CD0AF09C1EC5596F00273A25 /* NavigationVC.m in Sources */,
 				CD10978F1EBC7D2500EBF943 /* UIView+Toast.m in Sources */,
 				CD10979C1EBC837300EBF943 /* YViewModel.m in Sources */,
 				CD0AF0931EC5540C00273A25 /* AppDelegate+ConfigureApp.m in Sources */,
 				CD1096C71EBC6E2F00EBF943 /* main.m in Sources */,
 				CD1097821EBC7D2500EBF943 /* UINavigationController+Transition.m in Sources */,
 				CD1097741EBC7D2500EBF943 /* NSString+Trim.m in Sources */,
+				CD0AF09D1EC5596F00273A25 /* TabBarVC.m in Sources */,
 				CD1097A81EBC9BE500EBF943 /* UIViewController+NavigationItem.m in Sources */,
 				CD1097731EBC7D2500EBF943 /* NSString+System.m in Sources */,
 				CD1097751EBC7D2500EBF943 /* UIAlertView+AlertAction.m in Sources */,
@@ -899,6 +1074,7 @@
 				CD1097721EBC7D2500EBF943 /* NSString+FrameSize.m in Sources */,
 				CD10977F1EBC7D2500EBF943 /* UIImageView+LinkBlock.m in Sources */,
 				CD10978E1EBC7D2500EBF943 /* UIView+NBCustomToast.m in Sources */,
+				CD0AF0B81EC5635B00273A25 /* MVVMTabBarViewModel.m in Sources */,
 				CD1097711EBC7D2500EBF943 /* NSString+Avail.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

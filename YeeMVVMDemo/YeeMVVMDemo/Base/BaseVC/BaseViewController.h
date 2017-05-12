@@ -11,7 +11,6 @@
 @class YViewModel;
 @interface BaseViewController : UIViewController<BaseViewControllerProtocol>
 
-
 //ViewModel
 @property (nonatomic, strong, readonly) YViewModel *viewModel;
 

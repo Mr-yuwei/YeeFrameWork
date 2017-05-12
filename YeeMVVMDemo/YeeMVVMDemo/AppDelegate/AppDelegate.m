@@ -29,7 +29,10 @@
     [self configAppearance];
     [self configureIQKeyboard];
     [self configureNetWork];
-    self.window.rootViewController=[[TabBarVC alloc] init];
+    self.services = [[ViewModelServices alloc] init];
+    self.navigationControllerStack = [[NavigationControllerStack alloc] initWithServices:self.services];
+    [self.services resetRootViewModel:[self createInitialViewModel]];
+
     return YES;
 }
 - (void)applicationWillResignActive:(UIApplication *)application {
@@ -57,6 +60,16 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
-
+- (YViewModel *)createInitialViewModel {
+    // The user has logged-in.
+    if (@"133") {
+     //在这里需要判断用户是否登录
+        
+    } else {
+        
+      
+    }
+    return nil;
+}
 
 @end
