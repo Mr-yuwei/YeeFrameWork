@@ -66,6 +66,7 @@
 		CD47F8FB1EC9A54600B236E6 /* Home_ViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD47F8FA1EC9A54600B236E6 /* Home_ViewModel.m */; };
 		CD47F8FE1EC9A68400B236E6 /* Home_DetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CD47F8FD1EC9A68400B236E6 /* Home_DetailVC.m */; };
 		CD47F9011EC9A6A400B236E6 /* Home_Detial_ViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD47F9001EC9A6A400B236E6 /* Home_Detial_ViewModel.m */; };
+		CD47F9041EC9C74400B236E6 /* ServiceObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = CD47F9031EC9C74400B236E6 /* ServiceObjC.m */; };
 		CD9615DD1EC0865600EF0F46 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9615DC1EC0865600EF0F46 /* BaseTableViewController.m */; };
 		CDA03D131EC47C4700DB60B3 /* YeeRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA03D121EC47C4700DB60B3 /* YeeRouter.m */; };
 		CDA03D171EC480FA00DB60B3 /* ViewModelServices.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA03D161EC480FA00DB60B3 /* ViewModelServices.m */; };
@@ -218,6 +219,8 @@
 		CD47F8FD1EC9A68400B236E6 /* Home_DetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Home_DetailVC.m; sourceTree = "<group>"; };
 		CD47F8FF1EC9A6A400B236E6 /* Home_Detial_ViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Home_Detial_ViewModel.h; sourceTree = "<group>"; };
 		CD47F9001EC9A6A400B236E6 /* Home_Detial_ViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Home_Detial_ViewModel.m; sourceTree = "<group>"; };
+		CD47F9021EC9C74400B236E6 /* ServiceObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceObjC.h; sourceTree = "<group>"; };
+		CD47F9031EC9C74400B236E6 /* ServiceObjC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceObjC.m; sourceTree = "<group>"; };
 		CD9615DB1EC0865600EF0F46 /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
 		CD9615DC1EC0865600EF0F46 /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
 		CDA03D111EC47C4700DB60B3 /* YeeRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YeeRouter.h; sourceTree = "<group>"; };
@@ -505,6 +508,8 @@
 		CD1096F81EBC795000EBF943 /* Helps */ = {
 			isa = PBXGroup;
 			children = (
+				CD47F9021EC9C74400B236E6 /* ServiceObjC.h */,
+				CD47F9031EC9C74400B236E6 /* ServiceObjC.m */,
 			);
 			path = Helps;
 			sourceTree = "<group>";
@@ -1098,6 +1103,7 @@
 				CD1097721EBC7D2500EBF943 /* NSString+FrameSize.m in Sources */,
 				CD10977F1EBC7D2500EBF943 /* UIImageView+LinkBlock.m in Sources */,
 				CD10978E1EBC7D2500EBF943 /* UIView+NBCustomToast.m in Sources */,
+				CD47F9041EC9C74400B236E6 /* ServiceObjC.m in Sources */,
 				CD0AF0B81EC5635B00273A25 /* MVVMTabBarViewModel.m in Sources */,
 				CD1097711EBC7D2500EBF943 /* NSString+Avail.m in Sources */,
 			);
