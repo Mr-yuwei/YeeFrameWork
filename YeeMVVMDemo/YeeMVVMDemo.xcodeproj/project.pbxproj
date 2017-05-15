@@ -63,6 +63,9 @@
 		CD1097A21EBC83A900EBF943 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1097A11EBC83A900EBF943 /* BaseModel.m */; };
 		CD1097A51EBC846900EBF943 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1097A41EBC846900EBF943 /* BaseViewController.m */; };
 		CD1097A81EBC9BE500EBF943 /* UIViewController+NavigationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1097A71EBC9BE500EBF943 /* UIViewController+NavigationItem.m */; };
+		CD47F8FB1EC9A54600B236E6 /* Home_ViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD47F8FA1EC9A54600B236E6 /* Home_ViewModel.m */; };
+		CD47F8FE1EC9A68400B236E6 /* Home_DetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CD47F8FD1EC9A68400B236E6 /* Home_DetailVC.m */; };
+		CD47F9011EC9A6A400B236E6 /* Home_Detial_ViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD47F9001EC9A6A400B236E6 /* Home_Detial_ViewModel.m */; };
 		CD9615DD1EC0865600EF0F46 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9615DC1EC0865600EF0F46 /* BaseTableViewController.m */; };
 		CDA03D131EC47C4700DB60B3 /* YeeRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA03D121EC47C4700DB60B3 /* YeeRouter.m */; };
 		CDA03D171EC480FA00DB60B3 /* ViewModelServices.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA03D161EC480FA00DB60B3 /* ViewModelServices.m */; };
@@ -209,6 +212,12 @@
 		CD1097A41EBC846900EBF943 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		CD1097A61EBC9BE500EBF943 /* UIViewController+NavigationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NavigationItem.h"; sourceTree = "<group>"; };
 		CD1097A71EBC9BE500EBF943 /* UIViewController+NavigationItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NavigationItem.m"; sourceTree = "<group>"; };
+		CD47F8F91EC9A54600B236E6 /* Home_ViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Home_ViewModel.h; sourceTree = "<group>"; };
+		CD47F8FA1EC9A54600B236E6 /* Home_ViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Home_ViewModel.m; sourceTree = "<group>"; };
+		CD47F8FC1EC9A68400B236E6 /* Home_DetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Home_DetailVC.h; sourceTree = "<group>"; };
+		CD47F8FD1EC9A68400B236E6 /* Home_DetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Home_DetailVC.m; sourceTree = "<group>"; };
+		CD47F8FF1EC9A6A400B236E6 /* Home_Detial_ViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Home_Detial_ViewModel.h; sourceTree = "<group>"; };
+		CD47F9001EC9A6A400B236E6 /* Home_Detial_ViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Home_Detial_ViewModel.m; sourceTree = "<group>"; };
 		CD9615DB1EC0865600EF0F46 /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
 		CD9615DC1EC0865600EF0F46 /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
 		CDA03D111EC47C4700DB60B3 /* YeeRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YeeRouter.h; sourceTree = "<group>"; };
@@ -330,6 +339,8 @@
 			children = (
 				CD0AF0B91EC567F200273A25 /* HomeVC.h */,
 				CD0AF0BA1EC567F200273A25 /* HomeVC.m */,
+				CD47F8FC1EC9A68400B236E6 /* Home_DetailVC.h */,
+				CD47F8FD1EC9A68400B236E6 /* Home_DetailVC.m */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -337,6 +348,10 @@
 		CD0AF0A21EC55A1200273A25 /* VM */ = {
 			isa = PBXGroup;
 			children = (
+				CD47F8F91EC9A54600B236E6 /* Home_ViewModel.h */,
+				CD47F8FA1EC9A54600B236E6 /* Home_ViewModel.m */,
+				CD47F8FF1EC9A6A400B236E6 /* Home_Detial_ViewModel.h */,
+				CD47F9001EC9A6A400B236E6 /* Home_Detial_ViewModel.m */,
 			);
 			path = VM;
 			sourceTree = "<group>";
@@ -1049,9 +1064,11 @@
 				CD0AF0AF1EC55AFD00273A25 /* TabBarController.m in Sources */,
 				CD0AF0901EC54DF200273A25 /* NavigationControllerStack.m in Sources */,
 				CD1097911EBC7D2500EBF943 /* ZDTostView.m in Sources */,
+				CD47F9011EC9A6A400B236E6 /* Home_Detial_ViewModel.m in Sources */,
 				CD1097761EBC7D2500EBF943 /* UIButton+ActionInterval.m in Sources */,
 				CD9615DD1EC0865600EF0F46 /* BaseTableViewController.m in Sources */,
 				CD10979F1EBC838D00EBF943 /* YTableViewModel.m in Sources */,
+				CD47F8FE1EC9A68400B236E6 /* Home_DetailVC.m in Sources */,
 				CD1097781EBC7D2500EBF943 /* YeeButton.m in Sources */,
 				CD10977E1EBC7D2500EBF943 /* UIImageView+GradualWebCache.m in Sources */,
 				CD1097931EBC7D2500EBF943 /* UIViewController+AlertAction.m in Sources */,
@@ -1070,6 +1087,7 @@
 				CD0AF0931EC5540C00273A25 /* AppDelegate+ConfigureApp.m in Sources */,
 				CD1096C71EBC6E2F00EBF943 /* main.m in Sources */,
 				CD1097821EBC7D2500EBF943 /* UINavigationController+Transition.m in Sources */,
+				CD47F8FB1EC9A54600B236E6 /* Home_ViewModel.m in Sources */,
 				CD1097741EBC7D2500EBF943 /* NSString+Trim.m in Sources */,
 				CD0AF09D1EC5596F00273A25 /* TabBarVC.m in Sources */,
 				CD1097A81EBC9BE500EBF943 /* UIViewController+NavigationItem.m in Sources */,

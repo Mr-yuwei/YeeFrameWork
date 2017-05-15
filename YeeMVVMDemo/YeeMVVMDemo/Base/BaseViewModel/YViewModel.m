@@ -17,25 +17,26 @@
 @implementation YViewModel
 
 
-+ (instancetype)allocWithZone:(struct _NSZone *)zone {
-    YViewModel *viewModel = [super allocWithZone:zone];
-    
-    @weakify(viewModel)
-    [[viewModel
-      rac_signalForSelector:@selector(initWithServices:params:)]
-    	subscribeNext:^(id x) {
-            @strongify(viewModel)
-            [viewModel initialize];
-        }];
-    
-    return viewModel;
-}
+//+ (instancetype)allocWithZone:(struct _NSZone *)zone {
+//    YViewModel *viewModel = [super allocWithZone:zone];
+//    
+//    @weakify(viewModel)
+//    [[viewModel
+//      rac_signalForSelector:@selector(initWithServices:params:)]
+//    	subscribeNext:^(id x) {
+//            @strongify(viewModel)
+//            [viewModel initialize];
+//        }];
+//    
+//    return viewModel;
+//}
 - (instancetype)initWithServices:(id<YeeNavigationProtocol>)services params:(NSDictionary *)params {
     self = [super init];
     if (self) {
         self.shouldRequestRemoteDataOnViewDidLoad = YES;//进入界面是否请求数据
         self.services = services;
         self.params   = params;
+        [self initialize];
     }
     return self;
 }

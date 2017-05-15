@@ -8,44 +8,72 @@
 
 #import "TabBarVC.h"
 #import "BaseViewController.h"
-@interface TabBarVC ()
+#import "TabBarViewModel.h"
+
+#import "HomeVC.h"
+
+@interface TabBarVC ()<UITabBarControllerDelegate>
+
+
 
 @end
 
 @implementation TabBarVC
 
-- (void)viewDidLoad {
+- (instancetype)initWithViewModel:(TabBarViewModel *)viewModel{
     
-    [super viewDidLoad];
+    if (self=[super init]) {
+      
+        self.viewModel=viewModel;
+        
+         [self  addOWnView];
+    }
     
-    [self  addOWnView];
-   
+    return self;
 }
+
 -(void)addOWnView{
     
-    self.tabBar.translucent = YES;
-    //设置数据源
-    NSArray *vcNames = @[@"BaseViewController",@"BaseViewController", @"BaseViewController",@"BaseViewController"];
-       NSArray *imageArray=@[@"icon_maijia_home1",@"icon_choucang1",@"icon_xiaoxi1",@"icon_wode"];
+    UINavigationController *newsNavigationController = ({
+        HomeVC *newsViewController = [[HomeVC alloc] initWithViewModel:self.viewModel.newsViewModel];
+        newsViewController.title =@"首页";
+        [[UINavigationController alloc] initWithRootViewController:newsViewController];
+    });
     
-    NSArray *selectedimageArray=@[@"icon_maijia_home2",@"icon_choucang2",@"icon_xiaoxi2",@"icon_shezhi_yidianji"];
+    UINavigationController *reposNavigationController = ({
+        BaseTableViewController *reposViewController = [[BaseTableViewController alloc] initWithViewModel:self.viewModel.reposViewModel];
+         reposViewController.title =@"收藏";
+        [[UINavigationController alloc] initWithRootViewController:reposViewController];
+    });
     
-    NSArray *titleArray=@[@"首页",@"收藏",@"消息",@"我的"];
-    NSMutableArray *vcArr = [NSMutableArray array];
-    NSMutableArray *nvArr = [NSMutableArray array];
-    for (NSInteger i = 0; i < vcNames.count; i++)
-    {
-        Class vcClass = NSClassFromString(vcNames[i]);
+    UINavigationController *exploreNavigationController = ({
+        BaseTableViewController *exploreViewController = [[BaseTableViewController alloc] initWithViewModel:self.viewModel.exploreViewModel];
+        exploreViewController.title =@"消息";
         
-        BaseViewController *vc = [[vcClass alloc] init];
-        vc.title = titleArray[i];
-        vc.tabBarItem.image = [UIImage imageNamed:[NSString stringWithFormat:@"%@",imageArray[i]] ];
-        vc.tabBarItem.selectedImage = [UIImage imageNamed:[NSString stringWithFormat:@"%@",selectedimageArray[i]]];
-        UINavigationController *nc = [[UINavigationController alloc] initWithRootViewController:vc];
-        [vcArr addObject:vc];
-        [nvArr addObject:nc];
-    }
-    self.viewControllers = nvArr;
+        [[UINavigationController alloc] initWithRootViewController:exploreViewController];
+    });
+    
+    UINavigationController *profileNavigationController = ({
+        BaseTableViewController *profileViewController = [[BaseTableViewController alloc] initWithViewModel:self.viewModel.profileViewModel];
+         profileViewController.title =@"我的";
+        [[UINavigationController alloc] initWithRootViewController:profileViewController];
+    });
+    
+    self.viewControllers = @[newsNavigationController, reposNavigationController, exploreNavigationController, profileNavigationController ];
+    
+    //初始化选中一个  
+    [[AppDelegate sharedAppDelegate].navigationControllerStack  pushNavigationController:newsNavigationController];
+    
+    [[self
+      rac_signalForSelector:@selector(tabBarController:didSelectViewController:)
+      fromProtocol:@protocol(UITabBarControllerDelegate)]
+     subscribeNext:^(RACTuple *tuple) {
+         
+         [[AppDelegate sharedAppDelegate].navigationControllerStack popNavigationController];
+         [[AppDelegate sharedAppDelegate].navigationControllerStack pushNavigationController:tuple.second];
+     }];
+    self.delegate=self;
+
 }
 - (void)didReceiveMemoryWarning {
     

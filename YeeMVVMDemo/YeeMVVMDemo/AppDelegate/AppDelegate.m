@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 #import "AppDelegate+ConfigureApp.h"
 #import "MVVMTabBarVC.h"
-
+#import "TabBarViewModel.h"
 @interface AppDelegate ()
 
 @property (nonatomic, strong) ViewModelServices *services;
@@ -20,10 +20,12 @@
 
 @implementation AppDelegate
 
-
++ (instancetype)sharedAppDelegate{
+    
+    return  (AppDelegate*)[UIApplication sharedApplication].delegate;
+}
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-   
     self.window=[[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     [self.window setBackgroundColor:[UIColor whiteColor]];
     [self.window makeKeyAndVisible];
@@ -32,10 +34,12 @@
     [self configureNetWork];
     self.services = [[ViewModelServices alloc] init];
     self.navigationControllerStack = [[NavigationControllerStack alloc] initWithServices:self.services];
-    self.window.rootViewController=[[TabBarVC alloc] init];
-   // [self.services resetRootViewModel:[self createInitialViewModel]];
-
-    return YES;
+    
+    TabBarViewModel *viewModel=[[TabBarViewModel alloc] initWithServices:self.services params:nil];
+    
+    TabBarVC *rootVC=[[TabBarVC alloc] initWithViewModel: viewModel];
+    self.window.rootViewController=rootVC;
+      return YES;
 }
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

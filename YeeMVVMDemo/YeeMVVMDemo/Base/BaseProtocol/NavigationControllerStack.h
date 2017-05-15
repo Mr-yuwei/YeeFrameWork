@@ -9,11 +9,12 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol NavigationProtocol;
+@protocol YeeNavigationProtocol;
 
 @interface NavigationControllerStack : NSObject
 
-- (instancetype)initWithServices:(id<NavigationProtocol>)services;
+
+- (instancetype)initWithServices:(id<YeeNavigationProtocol>)services;
 
 - (void)pushNavigationController:(UINavigationController *)navigationController;
 

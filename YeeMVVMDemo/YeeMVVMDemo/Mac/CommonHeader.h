@@ -17,6 +17,8 @@
 #import "NavigationControllerStack.h"
 #import "NavigationVC.h"
 #import "YeeNavigationProtocol.h"
+#import "BaseTableViewController.h"
+#import "AppDelegate.h"
 
 
 #endif /* CommonHeader_h */

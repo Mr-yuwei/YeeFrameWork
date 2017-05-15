@@ -35,7 +35,8 @@
 #pragma mark 映射的关系
 - (NSDictionary *)viewModelViewMappings {
     return @{
-             @"MRCLoginViewModel": @"MRCLoginViewController",
+             @"Home_ViewModel": @"HomeVC", @"Home_Detial_ViewModel": @"Home_DetailVC",
+
              
              };
 }

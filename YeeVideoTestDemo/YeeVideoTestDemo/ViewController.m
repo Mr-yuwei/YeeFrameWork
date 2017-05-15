@@ -28,6 +28,7 @@
 - (void)viewDidLoad {
     
     [super viewDidLoad];
+    
     _videoCamera = [[GPUImageVideoCamera alloc] initWithSessionPreset:AVCaptureSessionPreset640x480 cameraPosition:AVCaptureDevicePositionBack];
     _videoCamera.outputImageOrientation = [UIApplication sharedApplication].statusBarOrientation;
     
@@ -66,12 +67,14 @@
     NSLog(@"test");
 }
 - (void)onTimer:(id)sender {
+    
     _mLabel.text  = [NSString stringWithFormat:@"录制时间:%lds", _mLabelTime++];
     [_mLabel sizeToFit];
 }
 
 - (void)onClick:(UIButton *)sender {
-    NSString *pathToMovie = [NSHomeDirectory() stringByAppendingPathComponent:@"Documents/Movie4.m4v"];
+    
+    NSString *pathToMovie = [NSHomeDirectory() stringByAppendingPathComponent:@"Documents/Movie4.mp4"];
     NSURL *movieURL = [NSURL fileURLWithPath:pathToMovie];
     if([sender.currentTitle isEqualToString:@"录制"]) {
         [sender setTitle:@"结束" forState:UIControlStateNormal];

@@ -13,9 +13,12 @@
 		CD083F091EC5D0AD0001392F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD083F081EC5D0AD0001392F /* ViewController.m */; };
 		CD083F0C1EC5D0AD0001392F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD083F0A1EC5D0AD0001392F /* Main.storyboard */; };
 		CD083F0E1EC5D0AD0001392F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD083F0D1EC5D0AD0001392F /* Assets.xcassets */; };
-		CD083F111EC5D0AD0001392F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD083F0F1EC5D0AD0001392F /* LaunchScreen.storyboard */; };
 		CD083F1C1EC5D0AD0001392F /* YeeVideoTestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD083F1B1EC5D0AD0001392F /* YeeVideoTestDemoTests.m */; };
 		CD083F271EC5D0AD0001392F /* YeeVideoTestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD083F261EC5D0AD0001392F /* YeeVideoTestDemoUITests.m */; };
+		CD083F371EC830460001392F /* GPUVideoCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = CD083F361EC830460001392F /* GPUVideoCamera.m */; };
+		CD083F3A1EC830720001392F /* CustomVideoCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = CD083F391EC830720001392F /* CustomVideoCamera.m */; };
+		CD083F3D1EC8308E0001392F /* VideoCameraUI.m in Sources */ = {isa = PBXBuildFile; fileRef = CD083F3C1EC8308E0001392F /* VideoCameraUI.m */; };
+		CD083F401EC832EA0001392F /* GPUImageBeautifyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = CD083F3F1EC832EA0001392F /* GPUImageBeautifyFilter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +50,6 @@
 		CD083F081EC5D0AD0001392F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CD083F0B1EC5D0AD0001392F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD083F0D1EC5D0AD0001392F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CD083F101EC5D0AD0001392F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD083F121EC5D0AD0001392F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD083F171EC5D0AD0001392F /* YeeVideoTestDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YeeVideoTestDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD083F1B1EC5D0AD0001392F /* YeeVideoTestDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YeeVideoTestDemoTests.m; sourceTree = "<group>"; };
@@ -55,6 +57,14 @@
 		CD083F221EC5D0AD0001392F /* YeeVideoTestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YeeVideoTestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD083F261EC5D0AD0001392F /* YeeVideoTestDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YeeVideoTestDemoUITests.m; sourceTree = "<group>"; };
 		CD083F281EC5D0AD0001392F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD083F351EC830450001392F /* GPUVideoCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUVideoCamera.h; sourceTree = "<group>"; };
+		CD083F361EC830460001392F /* GPUVideoCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUVideoCamera.m; sourceTree = "<group>"; };
+		CD083F381EC830720001392F /* CustomVideoCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomVideoCamera.h; sourceTree = "<group>"; };
+		CD083F391EC830720001392F /* CustomVideoCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomVideoCamera.m; sourceTree = "<group>"; };
+		CD083F3B1EC8308E0001392F /* VideoCameraUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCameraUI.h; sourceTree = "<group>"; };
+		CD083F3C1EC8308E0001392F /* VideoCameraUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCameraUI.m; sourceTree = "<group>"; };
+		CD083F3E1EC832EA0001392F /* GPUImageBeautifyFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageBeautifyFilter.h; sourceTree = "<group>"; };
+		CD083F3F1EC832EA0001392F /* GPUImageBeautifyFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageBeautifyFilter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,13 +135,13 @@
 		CD083F001EC5D0AD0001392F /* YeeVideoTestDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CD083F341EC82F630001392F /* VideoClass */,
 				CD083F041EC5D0AD0001392F /* AppDelegate.h */,
 				CD083F051EC5D0AD0001392F /* AppDelegate.m */,
 				CD083F071EC5D0AD0001392F /* ViewController.h */,
 				CD083F081EC5D0AD0001392F /* ViewController.m */,
 				CD083F0A1EC5D0AD0001392F /* Main.storyboard */,
 				CD083F0D1EC5D0AD0001392F /* Assets.xcassets */,
-				CD083F0F1EC5D0AD0001392F /* LaunchScreen.storyboard */,
 				CD083F121EC5D0AD0001392F /* Info.plist */,
 				CD083F011EC5D0AD0001392F /* Supporting Files */,
 			);
@@ -162,6 +172,21 @@
 				CD083F281EC5D0AD0001392F /* Info.plist */,
 			);
 			path = YeeVideoTestDemoUITests;
+			sourceTree = "<group>";
+		};
+		CD083F341EC82F630001392F /* VideoClass */ = {
+			isa = PBXGroup;
+			children = (
+				CD083F3E1EC832EA0001392F /* GPUImageBeautifyFilter.h */,
+				CD083F3F1EC832EA0001392F /* GPUImageBeautifyFilter.m */,
+				CD083F351EC830450001392F /* GPUVideoCamera.h */,
+				CD083F361EC830460001392F /* GPUVideoCamera.m */,
+				CD083F381EC830720001392F /* CustomVideoCamera.h */,
+				CD083F391EC830720001392F /* CustomVideoCamera.m */,
+				CD083F3B1EC8308E0001392F /* VideoCameraUI.h */,
+				CD083F3C1EC8308E0001392F /* VideoCameraUI.m */,
+			);
+			path = VideoClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,7 +301,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD083F111EC5D0AD0001392F /* LaunchScreen.storyboard in Resources */,
 				CD083F0E1EC5D0AD0001392F /* Assets.xcassets in Resources */,
 				CD083F0C1EC5D0AD0001392F /* Main.storyboard in Resources */,
 			);
@@ -353,7 +377,11 @@
 			files = (
 				CD083F091EC5D0AD0001392F /* ViewController.m in Sources */,
 				CD083F061EC5D0AD0001392F /* AppDelegate.m in Sources */,
+				CD083F3D1EC8308E0001392F /* VideoCameraUI.m in Sources */,
+				CD083F401EC832EA0001392F /* GPUImageBeautifyFilter.m in Sources */,
+				CD083F3A1EC830720001392F /* CustomVideoCamera.m in Sources */,
 				CD083F031EC5D0AD0001392F /* main.m in Sources */,
+				CD083F371EC830460001392F /* GPUVideoCamera.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,14 +423,6 @@
 				CD083F0B1EC5D0AD0001392F /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CD083F0F1EC5D0AD0001392F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CD083F101EC5D0AD0001392F /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -503,6 +523,7 @@
 			baseConfigurationReference = 1875E287546D86E6F6F54447 /* Pods-YeeVideoTestDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 34TTMZE623;
 				INFOPLIST_FILE = YeeVideoTestDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -517,6 +538,7 @@
 			baseConfigurationReference = 2644517569EC0B3905F01A50 /* Pods-YeeVideoTestDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 34TTMZE623;
 				INFOPLIST_FILE = YeeVideoTestDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;

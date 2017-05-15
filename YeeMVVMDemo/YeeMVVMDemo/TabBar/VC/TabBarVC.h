@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class TabBarViewModel;
 @interface TabBarVC : UITabBarController
 
+@property(nonatomic,retain)TabBarViewModel *viewModel;
+
+
+- (instancetype)initWithViewModel:(TabBarViewModel *)viewModel;
 
 @end

@@ -1,24 +1,21 @@
 //
-//  HomeVC.m
+//  Home_DetailVC.m
 //  YeeMVVMDemo
 //
-//  Created by CoderYee on 2017/5/12.
+//  Created by CoderYee on 2017/5/15.
 //  Copyright © 2017年 CodeYee. All rights reserved.
 //
 
-#import "HomeVC.h"
-#import "Home_ViewModel.h"
+#import "Home_DetailVC.h"
 #import "Home_Detial_ViewModel.h"
+@interface Home_DetailVC ()
+@property (nonatomic, strong)Home_Detial_ViewModel  *viewModel;
 
-
-@interface HomeVC ()
-
-@property (nonatomic, strong)Home_ViewModel  *viewModel;
 @end
 
-@implementation HomeVC
-
+@implementation Home_DetailVC
 @dynamic viewModel;
+
 -(void)addNavbarView{
     
     [super addNavbarView];
@@ -58,4 +55,6 @@
     
     return 44;
 }
+
+
 @end

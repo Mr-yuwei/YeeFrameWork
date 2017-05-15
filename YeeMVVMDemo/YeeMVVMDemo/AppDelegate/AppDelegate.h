@@ -11,6 +11,7 @@
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
++ (instancetype)sharedAppDelegate;
 @property (strong, nonatomic) UIWindow *window;
 
 @property (nonatomic, strong, readonly) NavigationControllerStack *navigationControllerStack;
