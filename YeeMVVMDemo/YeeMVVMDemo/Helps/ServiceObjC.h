@@ -7,7 +7,6 @@
 //  这里存放网络请求,返回的信号
 
 #import <Foundation/Foundation.h>
-#import "ReactiveObjC.h "
 @interface ServiceObjC : NSObject
 
 +(RACSignal*)postRequestWithUrl:(NSString *)Url parameters:(NSDictionary *)parameters;

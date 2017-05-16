@@ -26,10 +26,57 @@
 -(void)configOwnViews{
     
     [super configOwnViews];
+    
+    RACCommand *testCommand=[[RACCommand alloc] initWithSignalBlock:^RACSignal * _Nonnull(id  _Nullable input) {
+        
+      return  [RACSignal createSignal:^RACDisposable * _Nullable(id<RACSubscriber>  _Nonnull subscriber) {
+          
+          [subscriber sendNext:@(1)];
+          [subscriber sendCompleted];
+          return [RACDisposable disposableWithBlock:^{
+          //信号取消
+          }];
+        }];
+    }];
+    
+    [testCommand.executing subscribeNext:^(NSNumber *execut) {
+      
+        
+    }];
+    
+    [[[testCommand execute:@1] takeUntil:self.rac_willDeallocSignal ]subscribeNext:^(id  _Nullable x) {
+        
+        NSLog(@"23344");
+    } completed:^{
+        
+    }];
+    
+    
+//
+//    [[testCommand.executionSignals switchToLatest ]subscribeNext:^(id  _Nullable x) {
+//      
+//        NSLog(@"1233");
+//        
+//    } completed:^{
+//        
+//    }];
+//    
+   [testCommand execute:@(3)];
+//    
+//    
+//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+//       
+//         [testCommand execute:@(2)];
+//    });
+   
 }
 -(void)addOwnViews{
     
     [super  addOwnViews];
+    
+    
+    
+    
 }
 //需要子类从写 --
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
