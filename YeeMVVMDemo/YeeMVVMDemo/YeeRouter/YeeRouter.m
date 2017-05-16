@@ -26,7 +26,7 @@
 
 - (BaseViewController *)viewControllerForViewModel:(YViewModel *)viewModel {
     NSString *viewController = self.viewModelViewMappings[NSStringFromClass(viewModel.class)];
-    
+    //判断是否是BaseViewController的子类关系
     NSParameterAssert([NSClassFromString(viewController) isSubclassOfClass:[BaseViewController class]]);
     NSParameterAssert([NSClassFromString(viewController) instancesRespondToSelector:@selector(initWithViewModel:)]);
     

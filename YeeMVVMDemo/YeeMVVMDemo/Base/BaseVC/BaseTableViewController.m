@@ -119,6 +119,16 @@
     }
     return _tableView;
 }
+-(void)viewWillLayoutSubviews{
+    
+    [super viewWillLayoutSubviews];
+    
+    self.tableView.frame=self.view.bounds;
+}
+-(void)viewDidLayoutSubviews{
+    
+    [super viewDidLayoutSubviews];
+}
 - (void)didReceiveMemoryWarning {
     
     [super didReceiveMemoryWarning];

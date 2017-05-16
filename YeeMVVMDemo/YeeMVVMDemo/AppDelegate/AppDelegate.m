@@ -34,12 +34,14 @@
     [self configureNetWork];
     self.services = [[ViewModelServices alloc] init];
     self.navigationControllerStack = [[NavigationControllerStack alloc] initWithServices:self.services];
-    
     TabBarViewModel *viewModel=[[TabBarViewModel alloc] initWithServices:self.services params:nil];
-    
     TabBarVC *rootVC=[[TabBarVC alloc] initWithViewModel: viewModel];
     self.window.rootViewController=rootVC;
       return YES;
+}
+- (UIInterfaceOrientationMask)supportedInterfaceOrientationsForWindow:(nullable UIWindow *)window{
+    
+    return UIInterfaceOrientationMaskAll;//支持所有方向
 }
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
