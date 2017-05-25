@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '7DF6CF15CDC466D6BF1291431AD571C3'
+               BlueprintIdentifier = '05D4A4F2070A0BE441137EC9EE9D765C'
                BlueprintName = 'Pods-YeeHeaderView'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-YeeHeaderView.a'>

@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+#import "ASViewController.h"
+@interface ViewController : ASViewController
 
 
 @end

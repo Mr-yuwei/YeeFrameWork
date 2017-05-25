@@ -1,20 +1,49 @@
 PODS:
+  - AsyncDisplayKit (2.2):
+    - AsyncDisplayKit/PINRemoteImage (= 2.2)
+  - AsyncDisplayKit/Core (2.2)
+  - AsyncDisplayKit/PINRemoteImage (2.2):
+    - AsyncDisplayKit/Core
+    - PINRemoteImage/iOS (= 3.0.0-beta.8)
+    - PINRemoteImage/PINCache
   - DACircularProgress (2.3.1)
   - MBProgressHUD (1.0.0)
+  - MJRefresh (3.1.12)
+  - PINCache (3.0.1-beta.4):
+    - PINCache/Arc-exception-safe (= 3.0.1-beta.4)
+    - PINCache/Core (= 3.0.1-beta.4)
+  - PINCache/Arc-exception-safe (3.0.1-beta.4):
+    - PINCache/Core
+  - PINCache/Core (3.0.1-beta.4):
+    - PINOperation (= 1.0.3)
+  - PINOperation (1.0.3)
+  - PINRemoteImage/Core (3.0.0-beta.8)
+  - PINRemoteImage/iOS (3.0.0-beta.8):
+    - PINRemoteImage/Core
+  - PINRemoteImage/PINCache (3.0.0-beta.8):
+    - PINCache (= 3.0.1-beta.4)
+    - PINRemoteImage/Core
   - SDWebImage (3.7.6):
     - SDWebImage/Core (= 3.7.6)
   - SDWebImage/Core (3.7.6)
 
 DEPENDENCIES:
+  - AsyncDisplayKit (~> 2.2)
   - DACircularProgress (~> 2.3.1)
   - MBProgressHUD (~> 1.0.0)
+  - MJRefresh (~> 3.1.12)
   - SDWebImage (~> 3.7.5)
 
 SPEC CHECKSUMS:
+  AsyncDisplayKit: 1585f6cd0531ae9b30476f5912f577b73ebcb0e4
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  PINCache: a89c8f609232afac77128557bd12c861844423d7
+  PINOperation: ac23db44796d4a564ecf9b5ea7163510f579b71d
+  PINRemoteImage: c4f9f16932840c597f32e69dd288e10e111a1929
   SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
 
-PODFILE CHECKSUM: 7f554bc7e5af5002d04b8da356a4f1fdb256385e
+PODFILE CHECKSUM: e5430762e556e7c4545056c28959ff711e7fc943
 
 COCOAPODS: 1.2.0

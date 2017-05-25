@@ -4,12 +4,37 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AsyncDisplayKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>DACircularProgress.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>MBProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MJRefresh.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>PINCache.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>PINOperation.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>PINRemoteImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -27,22 +52,47 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>04CF549EBEEE7BC87AEAE35397184D94</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>05D4A4F2070A0BE441137EC9EE9D765C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1998CA3029B7202E0A3CAC7A9AAD615E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>586F2DFA9BDCC6675C2546793A69E5CC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7DF6CF15CDC466D6BF1291431AD571C3</key>
+		<key>700758C6C76B91FE462532FED6E4131D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AB7891D62B7DF4193E98F04F0883F6F5</key>
+		<key>8586BC1CCCEA41239BBA567020B94D71</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A89C52C6948621A698B8D27A2503EAF0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>C791F0A928C1A8FE97074DFC9ACF4E75</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FC4655FBCB040281316DB614B1F2D87A</key>
 		<dict>
 			<key>primary</key>
 			<true/>

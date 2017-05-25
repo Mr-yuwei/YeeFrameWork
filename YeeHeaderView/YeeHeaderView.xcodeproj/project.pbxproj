@@ -27,6 +27,7 @@
 		CD0CD6AC1E88E22A00DA44FB /* SinaHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0CD6AB1E88E22A00DA44FB /* SinaHeaderView.m */; };
 		CD0CD6AF1E88F33D00DA44FB /* YeeZoomScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0CD6AE1E88F33D00DA44FB /* YeeZoomScrollView.m */; };
 		CD17EF691E87C91E0092F56A /* SinaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD17EF681E87C91E0092F56A /* SinaViewController.m */; };
+		CD8ADBDC1ED2D8C7001DED4C /* KittenNode.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8ADBDB1ED2D8C7001DED4C /* KittenNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +89,8 @@
 		CD0CD6AE1E88F33D00DA44FB /* YeeZoomScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YeeZoomScrollView.m; sourceTree = "<group>"; };
 		CD17EF671E87C91E0092F56A /* SinaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaViewController.h; sourceTree = "<group>"; };
 		CD17EF681E87C91E0092F56A /* SinaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaViewController.m; sourceTree = "<group>"; };
+		CD8ADBDA1ED2D8C7001DED4C /* KittenNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KittenNode.h; sourceTree = "<group>"; };
+		CD8ADBDB1ED2D8C7001DED4C /* KittenNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KittenNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +166,8 @@
 				CD0B05931E79238C00DDEF42 /* AppDelegate.m */,
 				CD0B05951E79238C00DDEF42 /* ViewController.h */,
 				CD0B05961E79238C00DDEF42 /* ViewController.m */,
+				CD8ADBDA1ED2D8C7001DED4C /* KittenNode.h */,
+				CD8ADBDB1ED2D8C7001DED4C /* KittenNode.m */,
 				CD17EF671E87C91E0092F56A /* SinaViewController.h */,
 				CD17EF681E87C91E0092F56A /* SinaViewController.m */,
 				CD0CD6AA1E88E22A00DA44FB /* SinaHeaderView.h */,
@@ -297,7 +302,7 @@
 				TargetAttributes = {
 					CD0B058B1E79238C00DDEF42 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 34TTMZE623;
+						DevelopmentTeam = 3ATF82J34D;
 						ProvisioningStyle = Automatic;
 					};
 					CD0B05A41E79238C00DDEF42 = {
@@ -424,6 +429,7 @@
 				CD0B05CB1E7947EC00DDEF42 /* YeeHeaderScrollView.m in Sources */,
 				CD17EF691E87C91E0092F56A /* SinaViewController.m in Sources */,
 				CD0B05C81E79248000DDEF42 /* YeeButton.m in Sources */,
+				CD8ADBDC1ED2D8C7001DED4C /* KittenNode.m in Sources */,
 				CD0B05C51E7923FD00DDEF42 /* UIView+YeeFrameExt.m in Sources */,
 				CD08A42B1E7E84FA00D4105D /* UIView+YeeViewAnimation.m in Sources */,
 				CD0B05911E79238C00DDEF42 /* main.m in Sources */,
@@ -575,11 +581,11 @@
 			baseConfigurationReference = 968EAE5EDCD270CE9B448DD8 /* Pods-YeeHeaderView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 34TTMZE623;
+				DEVELOPMENT_TEAM = 3ATF82J34D;
 				INFOPLIST_FILE = YeeHeaderView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = www.neiquan.YWBaseFrameWork;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neiquan.ClickC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -589,11 +595,11 @@
 			baseConfigurationReference = 6EE78B5990815E34B4502593 /* Pods-YeeHeaderView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 34TTMZE623;
+				DEVELOPMENT_TEAM = 3ATF82J34D;
 				INFOPLIST_FILE = YeeHeaderView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = www.neiquan.YWBaseFrameWork;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neiquan.ClickC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

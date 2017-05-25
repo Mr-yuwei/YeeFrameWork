@@ -5,7 +5,8 @@ target ‘YeeHeaderView’ do
  pod 'SDWebImage', '~> 3.7.5'
  pod 'MBProgressHUD', '~> 1.0.0'
  pod 'DACircularProgress', '~> 2.3.1'
- #pod 'AsyncDisplayKit', '~> 2.2'
+ pod 'AsyncDisplayKit', '~> 2.2'
+ pod 'MJRefresh', '~> 3.1.12'
  #pod 'YYKit', '~> 1.0.9'
 
 end

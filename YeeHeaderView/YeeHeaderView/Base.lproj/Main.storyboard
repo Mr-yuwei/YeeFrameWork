@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="mXJ-AL-doA">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="mXJ-AL-doA">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Tab Bar Controller-->
         <scene sceneID="7Ia-00-8Oy">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="fkV-BB-KnH" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tabBarController id="mXJ-AL-doA" sceneMemberID="viewController">
+                <tabBarController id="mXJ-AL-doA" customClass="ASTabBarController" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="55c-dE-NXi">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -24,13 +23,14 @@
                         <segue destination="m47-Sl-Inb" kind="relationship" relationship="viewControllers" id="m7o-PH-ZcW"/>
                     </connections>
                 </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fkV-BB-KnH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2167" y="-1137"/>
         </scene>
         <!--test-->
         <scene sceneID="Ntb-Ev-zK8">
             <objects>
-                <navigationController id="IQ6-Wy-bXC" sceneMemberID="viewController">
+                <navigationController id="IQ6-Wy-bXC" customClass="ASNavigationController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="test" id="QMe-br-zHf"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="BZz-ca-NEd">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
