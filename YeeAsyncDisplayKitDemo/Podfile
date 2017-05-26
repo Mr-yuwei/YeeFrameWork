@@ -1,0 +1,8 @@
+platform :ios ,’8.0’
+target ‘YeeAsyncDisplayKitDemo’ do
+
+ pod 'MBProgressHUD', '~> 1.0.0'
+ pod 'DACircularProgress', '~> 2.3.1'
+ pod 'AsyncDisplayKit', '~> 2.2'
+
+end

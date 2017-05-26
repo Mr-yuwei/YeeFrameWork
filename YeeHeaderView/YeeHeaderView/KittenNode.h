@@ -12,7 +12,7 @@
 
 - (instancetype)initWithKittenOfSize:(CGSize)size;
 
-- (void)toggleImageEnlargement;
+
 
 
 @end

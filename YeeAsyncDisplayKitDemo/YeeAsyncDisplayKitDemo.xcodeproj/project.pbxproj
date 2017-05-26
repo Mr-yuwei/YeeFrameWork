@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55E8BF34E014680EE7F8FD3B /* libPods-YeeAsyncDisplayKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B08358A60B5046B5C1C47A5 /* libPods-YeeAsyncDisplayKitDemo.a */; };
+		CD9A9CDD1ED818E100023EEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9A9CDC1ED818E100023EEA /* main.m */; };
+		CD9A9CE01ED818E100023EEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9A9CDF1ED818E100023EEA /* AppDelegate.m */; };
+		CD9A9CE81ED818E100023EEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD9A9CE71ED818E100023EEA /* Assets.xcassets */; };
+		CD9A9CF61ED818E100023EEA /* YeeAsyncDisplayKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9A9CF51ED818E100023EEA /* YeeAsyncDisplayKitDemoTests.m */; };
+		CD9A9D011ED818E100023EEA /* YeeAsyncDisplayKitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9A9D001ED818E100023EEA /* YeeAsyncDisplayKitDemoUITests.m */; };
+		CD9A9D161ED81DD600023EEA /* TaBbarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9A9D151ED81DD600023EEA /* TaBbarVC.m */; };
+		CD9A9D191ED81DFD00023EEA /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9A9D181ED81DFD00023EEA /* NavigationViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD9A9CF21ED818E100023EEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD9A9CD01ED818E100023EEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD9A9CD71ED818E100023EEA;
+			remoteInfo = YeeAsyncDisplayKitDemo;
+		};
+		CD9A9CFD1ED818E100023EEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD9A9CD01ED818E100023EEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD9A9CD71ED818E100023EEA;
+			remoteInfo = YeeAsyncDisplayKitDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B08358A60B5046B5C1C47A5 /* libPods-YeeAsyncDisplayKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YeeAsyncDisplayKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44CBA91EF45465258CBCB8AC /* Pods-YeeAsyncDisplayKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YeeAsyncDisplayKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YeeAsyncDisplayKitDemo/Pods-YeeAsyncDisplayKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CD9A9CD81ED818E100023EEA /* YeeAsyncDisplayKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YeeAsyncDisplayKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9A9CDC1ED818E100023EEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD9A9CDE1ED818E100023EEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD9A9CDF1ED818E100023EEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD9A9CE71ED818E100023EEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD9A9CEC1ED818E100023EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD9A9CF11ED818E100023EEA /* YeeAsyncDisplayKitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YeeAsyncDisplayKitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9A9CF51ED818E100023EEA /* YeeAsyncDisplayKitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YeeAsyncDisplayKitDemoTests.m; sourceTree = "<group>"; };
+		CD9A9CF71ED818E100023EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD9A9CFC1ED818E100023EEA /* YeeAsyncDisplayKitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YeeAsyncDisplayKitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9A9D001ED818E100023EEA /* YeeAsyncDisplayKitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YeeAsyncDisplayKitDemoUITests.m; sourceTree = "<group>"; };
+		CD9A9D021ED818E100023EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD9A9D141ED81DD600023EEA /* TaBbarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaBbarVC.h; sourceTree = "<group>"; };
+		CD9A9D151ED81DD600023EEA /* TaBbarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaBbarVC.m; sourceTree = "<group>"; };
+		CD9A9D171ED81DFD00023EEA /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		CD9A9D181ED81DFD00023EEA /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+		D7C9E08B0D957CFD5ED9B804 /* Pods-YeeAsyncDisplayKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YeeAsyncDisplayKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YeeAsyncDisplayKitDemo/Pods-YeeAsyncDisplayKitDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD9A9CD51ED818E100023EEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E8BF34E014680EE7F8FD3B /* libPods-YeeAsyncDisplayKitDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9A9CEE1ED818E100023EEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9A9CF91ED818E100023EEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C370526F4352F05BB284DE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B08358A60B5046B5C1C47A5 /* libPods-YeeAsyncDisplayKitDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD5D9E3333C2FFCA34434D7C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44CBA91EF45465258CBCB8AC /* Pods-YeeAsyncDisplayKitDemo.debug.xcconfig */,
+				D7C9E08B0D957CFD5ED9B804 /* Pods-YeeAsyncDisplayKitDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CD9A9CCF1ED818E100023EEA = {
+			isa = PBXGroup;
+			children = (
+				CD9A9CDA1ED818E100023EEA /* YeeAsyncDisplayKitDemo */,
+				CD9A9CF41ED818E100023EEA /* YeeAsyncDisplayKitDemoTests */,
+				CD9A9CFF1ED818E100023EEA /* YeeAsyncDisplayKitDemoUITests */,
+				CD9A9CD91ED818E100023EEA /* Products */,
+				BD5D9E3333C2FFCA34434D7C /* Pods */,
+				1C370526F4352F05BB284DE9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CD9A9CD91ED818E100023EEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD9A9CD81ED818E100023EEA /* YeeAsyncDisplayKitDemo.app */,
+				CD9A9CF11ED818E100023EEA /* YeeAsyncDisplayKitDemoTests.xctest */,
+				CD9A9CFC1ED818E100023EEA /* YeeAsyncDisplayKitDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD9A9CDA1ED818E100023EEA /* YeeAsyncDisplayKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CD9A9D131ED81D0A00023EEA /* Main */,
+				CD9A9D0E1ED81CB600023EEA /* Base */,
+				CD9A9D0F1ED81CB600023EEA /* Category */,
+				CD9A9D101ED81CB600023EEA /* Helps */,
+				CD9A9D111ED81CB600023EEA /* Mac */,
+				CD9A9D121ED81CB600023EEA /* UI */,
+				CD9A9CDE1ED818E100023EEA /* AppDelegate.h */,
+				CD9A9CDF1ED818E100023EEA /* AppDelegate.m */,
+				CD9A9CE71ED818E100023EEA /* Assets.xcassets */,
+				CD9A9CEC1ED818E100023EEA /* Info.plist */,
+				CD9A9CDB1ED818E100023EEA /* Supporting Files */,
+			);
+			path = YeeAsyncDisplayKitDemo;
+			sourceTree = "<group>";
+		};
+		CD9A9CDB1ED818E100023EEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD9A9CDC1ED818E100023EEA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD9A9CF41ED818E100023EEA /* YeeAsyncDisplayKitDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD9A9CF51ED818E100023EEA /* YeeAsyncDisplayKitDemoTests.m */,
+				CD9A9CF71ED818E100023EEA /* Info.plist */,
+			);
+			path = YeeAsyncDisplayKitDemoTests;
+			sourceTree = "<group>";
+		};
+		CD9A9CFF1ED818E100023EEA /* YeeAsyncDisplayKitDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD9A9D001ED818E100023EEA /* YeeAsyncDisplayKitDemoUITests.m */,
+				CD9A9D021ED818E100023EEA /* Info.plist */,
+			);
+			path = YeeAsyncDisplayKitDemoUITests;
+			sourceTree = "<group>";
+		};
+		CD9A9D0E1ED81CB600023EEA /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		CD9A9D0F1ED81CB600023EEA /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		CD9A9D101ED81CB600023EEA /* Helps */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helps;
+			sourceTree = "<group>";
+		};
+		CD9A9D111ED81CB600023EEA /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mac;
+			sourceTree = "<group>";
+		};
+		CD9A9D121ED81CB600023EEA /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		CD9A9D131ED81D0A00023EEA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CD9A9D141ED81DD600023EEA /* TaBbarVC.h */,
+				CD9A9D151ED81DD600023EEA /* TaBbarVC.m */,
+				CD9A9D171ED81DFD00023EEA /* NavigationViewController.h */,
+				CD9A9D181ED81DFD00023EEA /* NavigationViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD9A9CD71ED818E100023EEA /* YeeAsyncDisplayKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD9A9D051ED818E100023EEA /* Build configuration list for PBXNativeTarget "YeeAsyncDisplayKitDemo" */;
+			buildPhases = (
+				54BCADCB7BEB93F2149FB88F /* [CP] Check Pods Manifest.lock */,
+				CD9A9CD41ED818E100023EEA /* Sources */,
+				CD9A9CD51ED818E100023EEA /* Frameworks */,
+				CD9A9CD61ED818E100023EEA /* Resources */,
+				E7FBCDF451D8C236EA310DA3 /* [CP] Embed Pods Frameworks */,
+				416CE993EEA523B18D3E6F32 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YeeAsyncDisplayKitDemo;
+			productName = YeeAsyncDisplayKitDemo;
+			productReference = CD9A9CD81ED818E100023EEA /* YeeAsyncDisplayKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD9A9CF01ED818E100023EEA /* YeeAsyncDisplayKitDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD9A9D081ED818E100023EEA /* Build configuration list for PBXNativeTarget "YeeAsyncDisplayKitDemoTests" */;
+			buildPhases = (
+				CD9A9CED1ED818E100023EEA /* Sources */,
+				CD9A9CEE1ED818E100023EEA /* Frameworks */,
+				CD9A9CEF1ED818E100023EEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD9A9CF31ED818E100023EEA /* PBXTargetDependency */,
+			);
+			name = YeeAsyncDisplayKitDemoTests;
+			productName = YeeAsyncDisplayKitDemoTests;
+			productReference = CD9A9CF11ED818E100023EEA /* YeeAsyncDisplayKitDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD9A9CFB1ED818E100023EEA /* YeeAsyncDisplayKitDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD9A9D0B1ED818E100023EEA /* Build configuration list for PBXNativeTarget "YeeAsyncDisplayKitDemoUITests" */;
+			buildPhases = (
+				CD9A9CF81ED818E100023EEA /* Sources */,
+				CD9A9CF91ED818E100023EEA /* Frameworks */,
+				CD9A9CFA1ED818E100023EEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD9A9CFE1ED818E100023EEA /* PBXTargetDependency */,
+			);
+			name = YeeAsyncDisplayKitDemoUITests;
+			productName = YeeAsyncDisplayKitDemoUITests;
+			productReference = CD9A9CFC1ED818E100023EEA /* YeeAsyncDisplayKitDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD9A9CD01ED818E100023EEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = CodeYee;
+				TargetAttributes = {
+					CD9A9CD71ED818E100023EEA = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 34TTMZE623;
+						ProvisioningStyle = Automatic;
+					};
+					CD9A9CF01ED818E100023EEA = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 34TTMZE623;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD9A9CD71ED818E100023EEA;
+					};
+					CD9A9CFB1ED818E100023EEA = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 34TTMZE623;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD9A9CD71ED818E100023EEA;
+					};
+				};
+			};
+			buildConfigurationList = CD9A9CD31ED818E100023EEA /* Build configuration list for PBXProject "YeeAsyncDisplayKitDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD9A9CCF1ED818E100023EEA;
+			productRefGroup = CD9A9CD91ED818E100023EEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD9A9CD71ED818E100023EEA /* YeeAsyncDisplayKitDemo */,
+				CD9A9CF01ED818E100023EEA /* YeeAsyncDisplayKitDemoTests */,
+				CD9A9CFB1ED818E100023EEA /* YeeAsyncDisplayKitDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD9A9CD61ED818E100023EEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9A9CE81ED818E100023EEA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9A9CEF1ED818E100023EEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9A9CFA1ED818E100023EEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		416CE993EEA523B18D3E6F32 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YeeAsyncDisplayKitDemo/Pods-YeeAsyncDisplayKitDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54BCADCB7BEB93F2149FB88F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E7FBCDF451D8C236EA310DA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YeeAsyncDisplayKitDemo/Pods-YeeAsyncDisplayKitDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD9A9CD41ED818E100023EEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9A9D191ED81DFD00023EEA /* NavigationViewController.m in Sources */,
+				CD9A9D161ED81DD600023EEA /* TaBbarVC.m in Sources */,
+				CD9A9CE01ED818E100023EEA /* AppDelegate.m in Sources */,
+				CD9A9CDD1ED818E100023EEA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9A9CED1ED818E100023EEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9A9CF61ED818E100023EEA /* YeeAsyncDisplayKitDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD9A9CF81ED818E100023EEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9A9D011ED818E100023EEA /* YeeAsyncDisplayKitDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD9A9CF31ED818E100023EEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD9A9CD71ED818E100023EEA /* YeeAsyncDisplayKitDemo */;
+			targetProxy = CD9A9CF21ED818E100023EEA /* PBXContainerItemProxy */;
+		};
+		CD9A9CFE1ED818E100023EEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD9A9CD71ED818E100023EEA /* YeeAsyncDisplayKitDemo */;
+			targetProxy = CD9A9CFD1ED818E100023EEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CD9A9D031ED818E100023EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD9A9D041ED818E100023EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD9A9D061ED818E100023EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44CBA91EF45465258CBCB8AC /* Pods-YeeAsyncDisplayKitDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 34TTMZE623;
+				INFOPLIST_FILE = YeeAsyncDisplayKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CodeYee.YeeAsyncDisplayKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD9A9D071ED818E100023EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7C9E08B0D957CFD5ED9B804 /* Pods-YeeAsyncDisplayKitDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 34TTMZE623;
+				INFOPLIST_FILE = YeeAsyncDisplayKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CodeYee.YeeAsyncDisplayKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD9A9D091ED818E100023EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 34TTMZE623;
+				INFOPLIST_FILE = YeeAsyncDisplayKitDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CodeYee.YeeAsyncDisplayKitDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YeeAsyncDisplayKitDemo.app/YeeAsyncDisplayKitDemo";
+			};
+			name = Debug;
+		};
+		CD9A9D0A1ED818E100023EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 34TTMZE623;
+				INFOPLIST_FILE = YeeAsyncDisplayKitDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CodeYee.YeeAsyncDisplayKitDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YeeAsyncDisplayKitDemo.app/YeeAsyncDisplayKitDemo";
+			};
+			name = Release;
+		};
+		CD9A9D0C1ED818E100023EEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 34TTMZE623;
+				INFOPLIST_FILE = YeeAsyncDisplayKitDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CodeYee.YeeAsyncDisplayKitDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YeeAsyncDisplayKitDemo;
+			};
+			name = Debug;
+		};
+		CD9A9D0D1ED818E100023EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 34TTMZE623;
+				INFOPLIST_FILE = YeeAsyncDisplayKitDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CodeYee.YeeAsyncDisplayKitDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YeeAsyncDisplayKitDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD9A9CD31ED818E100023EEA /* Build configuration list for PBXProject "YeeAsyncDisplayKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9A9D031ED818E100023EEA /* Debug */,
+				CD9A9D041ED818E100023EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD9A9D051ED818E100023EEA /* Build configuration list for PBXNativeTarget "YeeAsyncDisplayKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9A9D061ED818E100023EEA /* Debug */,
+				CD9A9D071ED818E100023EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD9A9D081ED818E100023EEA /* Build configuration list for PBXNativeTarget "YeeAsyncDisplayKitDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9A9D091ED818E100023EEA /* Debug */,
+				CD9A9D0A1ED818E100023EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD9A9D0B1ED818E100023EEA /* Build configuration list for PBXNativeTarget "YeeAsyncDisplayKitDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9A9D0C1ED818E100023EEA /* Debug */,
+				CD9A9D0D1ED818E100023EEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD9A9CD01ED818E100023EEA /* Project object */;
+}

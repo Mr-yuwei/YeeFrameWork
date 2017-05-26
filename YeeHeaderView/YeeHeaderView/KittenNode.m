@@ -7,81 +7,66 @@
 //  ASTableNode练习尝试
 
 #import "KittenNode.h"
-
-static const CGFloat kImageSize = 80.0f;
-static const CGFloat kOuterPadding = 16.0f;
-static const CGFloat kInnerPadding = 10.0f;
-
 @interface KittenNode ()
 {
-    CGSize _kittenSize;
-    
-    ASNetworkImageNode *_imageNode; //网络图片
-    ASTextNode *_textNode;
-    ASDisplayNode *_divider;
-    BOOL _isImageEnlarged;
-    BOOL _swappedTextAndImage;
+    ASNetworkImageNode  *_imageNode;
+    ASTextNode          *_titlNodel;
+    ASTextNode          *_priceNodel;
+    ASDisplayNode       *_lineNode;//分割线
 }
 @end
-
 @implementation KittenNode
 
 - (instancetype)initWithKittenOfSize:(CGSize)size{
    
     if (self=[super init]) {
-       
-        _kittenSize = size;
-     //   self.backgroundColor=[UIColor redColor];
-        _imageNode = [[ASNetworkImageNode alloc] init];
-        _imageNode.URL = [NSURL URLWithString:@"http://upload-images.jianshu.io/upload_images/1893883-f42d7dc00862bf11.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"];
-        _imageNode.placeholderFadeDuration = .5;
-        _imageNode.placeholderColor = ASDisplayNodeDefaultPlaceholderColor();
-        _imageNode.contentMode = UIViewContentModeCenter;
-        [self addSubnode:_imageNode];
         
-        // lorem ipsum text, plus some nice styling
-        _textNode = [[ASTextNode alloc] init];
-        _textNode.attributedText = [[NSAttributedString alloc] initWithString:@"12344"];
-        [self addSubnode:_textNode];
+        self.selectionStyle=UITableViewCellSelectionStyleNone;
         
-        // hairline cell separator
-        _divider = [[ASDisplayNode alloc] init];
-        _divider.backgroundColor = [UIColor lightGrayColor];
-        [self addSubnode:_divider];
-        
-
+        [self addOwnView];
     }
-    
     return self;
 }
-- (ASLayoutSpec *)layoutSpecThatFits:(ASSizeRange)constrainedSize
-{
-    // Set an intrinsic size for the image node
-    CGSize imageSize = _isImageEnlarged ? CGSizeMake(2.0 * kImageSize, 2.0 * kImageSize) : CGSizeMake(kImageSize, kImageSize);
-    _imageNode.style.preferredSize = imageSize;
+-(void)addOwnView{
     
-    // Shrink the text node in case the image + text gonna be too wide
-    _textNode.style.flexShrink = 1.0;
+    _imageNode=[[ASNetworkImageNode alloc] init];
+    _imageNode.URL=[NSURL URLWithString:@"http://upload-images.jianshu.io/upload_images/1893883-f42d7dc00862bf11.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"];
+    _imageNode.placeholderColor=[UIColor  grayColor];
     
-    // Configure stack
-    ASStackLayoutSpec *stackLayoutSpec =
-    [ASStackLayoutSpec
-     stackLayoutSpecWithDirection:ASStackLayoutDirectionHorizontal
-     spacing:kInnerPadding
-     justifyContent:ASStackLayoutJustifyContentStart
-     alignItems:ASStackLayoutAlignItemsStart
-     children:_swappedTextAndImage ? @[_textNode, _imageNode] : @[_imageNode, _textNode]];
+    _titlNodel=[[ASTextNode alloc] init];
     
-    // Add inset
-    return [ASInsetLayoutSpec
-            insetLayoutSpecWithInsets:UIEdgeInsetsMake(kOuterPadding, kOuterPadding, kOuterPadding, kOuterPadding)
-            child:stackLayoutSpec];
-}
-- (void)toggleImageEnlargement{
-    
-    
+    _titlNodel.attributedText=[[NSAttributedString alloc] initWithString:@"标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题"];
+    _priceNodel=[[ASTextNode alloc] init];
+   
+    _priceNodel.attributedText=[[NSAttributedString alloc] initWithString:@"100"];
+    _lineNode=[[ASDisplayNode alloc] init];
+    _lineNode.backgroundColor=[UIColor grayColor];
+    [self addSubnode:_imageNode];
+    [self addSubnode:_titlNodel];
+    [self addSubnode:_priceNodel];
+    [self addSubnode:_lineNode];
     
 }
-
-
+//设置布局
+-(ASLayoutSpec*)layoutSpecThatFits:(ASSizeRange)constrainedSize{
+    
+    _imageNode.style.preferredSize=CGSizeMake(80, 80);
+    _titlNodel.style.flexShrink=YES;
+    _titlNodel.layerBacked = YES;
+    
+    _priceNodel.style.preferredSize=CGSizeMake(100, 21);
+    _priceNodel.layerBacked = YES;
+    _priceNodel.style.flexShrink=YES;
+    _priceNodel.maximumNumberOfLines = 1;
+    
+  
+    ASStackLayoutSpec *hpri=[ASStackLayoutSpec stackLayoutSpecWithDirection:ASStackLayoutDirectionHorizontal spacing:0 justifyContent:ASStackLayoutJustifyContentStart alignItems:ASStackLayoutAlignItemsStart children:@[_priceNodel]];
+    
+    
+    ASStackLayoutSpec   *verLayoutSpec=[ASStackLayoutSpec stackLayoutSpecWithDirection:ASStackLayoutDirectionVertical spacing:5 justifyContent:ASStackLayoutJustifyContentSpaceBetween alignItems:ASStackLayoutAlignItemsStart children:@[_titlNodel,hpri]];
+    ASStackLayoutSpec  *hLayoutSpec=[ASStackLayoutSpec stackLayoutSpecWithDirection:ASStackLayoutDirectionHorizontal spacing:5 justifyContent:ASStackLayoutJustifyContentStart alignItems:ASStackLayoutAlignItemsStart children:@[_imageNode,verLayoutSpec]];
+    
+    return  [ASInsetLayoutSpec insetLayoutSpecWithInsets:UIEdgeInsetsMake(0, 5, 5, 5) child:hLayoutSpec];
+    
+}
 @end

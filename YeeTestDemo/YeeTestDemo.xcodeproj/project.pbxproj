@@ -20,6 +20,7 @@
 		CDF802101EA8E11500F5E63C /* VC_01.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF8020F1EA8E11500F5E63C /* VC_01.m */; };
 		CDF802131EA8E8D000F5E63C /* VC_02.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF802121EA8E8D000F5E63C /* VC_02.m */; };
 		CDF802161EA8EC3900F5E63C /* NavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF802151EA8EC3900F5E63C /* NavigationVC.m */; };
+		CDF9BD5E1ED6CD680049C59E /* YeeSegmentController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF9BD5D1ED6CD680049C59E /* YeeSegmentController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,8 @@
 		CDF802121EA8E8D000F5E63C /* VC_02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VC_02.m; sourceTree = "<group>"; };
 		CDF802141EA8EC3900F5E63C /* NavigationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationVC.h; sourceTree = "<group>"; };
 		CDF802151EA8EC3900F5E63C /* NavigationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationVC.m; sourceTree = "<group>"; };
+		CDF9BD5C1ED6CD680049C59E /* YeeSegmentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YeeSegmentController.h; sourceTree = "<group>"; };
+		CDF9BD5D1ED6CD680049C59E /* YeeSegmentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YeeSegmentController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,7 @@
 		CDF801D61EA8DED400F5E63C /* YeeTestDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CDF9BD5B1ED6CD680049C59E /* YeeSegmentController */,
 				CDF8020A1EA8DFAD00F5E63C /* YeeClass */,
 				CDF801DA1EA8DED400F5E63C /* AppDelegate.h */,
 				CDF801DB1EA8DED400F5E63C /* AppDelegate.m */,
@@ -175,6 +179,15 @@
 				CD21F9C21EAA1382000C8257 /* VC_05.m */,
 			);
 			path = YeeClass;
+			sourceTree = "<group>";
+		};
+		CDF9BD5B1ED6CD680049C59E /* YeeSegmentController */ = {
+			isa = PBXGroup;
+			children = (
+				CDF9BD5C1ED6CD680049C59E /* YeeSegmentController.h */,
+				CDF9BD5D1ED6CD680049C59E /* YeeSegmentController.m */,
+			);
+			path = YeeSegmentController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,6 +332,7 @@
 				CD21F9C31EAA1382000C8257 /* VC_05.m in Sources */,
 				CDF802131EA8E8D000F5E63C /* VC_02.m in Sources */,
 				CD21F9BA1EA9FB76000C8257 /* VC_03.m in Sources */,
+				CDF9BD5E1ED6CD680049C59E /* YeeSegmentController.m in Sources */,
 				CDF801D91EA8DED400F5E63C /* main.m in Sources */,
 				CDF802101EA8E11500F5E63C /* VC_01.m in Sources */,
 			);
