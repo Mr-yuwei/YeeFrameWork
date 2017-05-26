@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		55E8BF34E014680EE7F8FD3B /* libPods-YeeAsyncDisplayKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B08358A60B5046B5C1C47A5 /* libPods-YeeAsyncDisplayKitDemo.a */; };
 		CD9A9CDD1ED818E100023EEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9A9CDC1ED818E100023EEA /* main.m */; };
-		CD9A9CE01ED818E100023EEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9A9CDF1ED818E100023EEA /* AppDelegate.m */; };
 		CD9A9CE81ED818E100023EEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD9A9CE71ED818E100023EEA /* Assets.xcassets */; };
 		CD9A9CF61ED818E100023EEA /* YeeAsyncDisplayKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9A9CF51ED818E100023EEA /* YeeAsyncDisplayKitDemoTests.m */; };
 		CD9A9D011ED818E100023EEA /* YeeAsyncDisplayKitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9A9D001ED818E100023EEA /* YeeAsyncDisplayKitDemoUITests.m */; };
 		CD9A9D161ED81DD600023EEA /* TaBbarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9A9D151ED81DD600023EEA /* TaBbarVC.m */; };
 		CD9A9D191ED81DFD00023EEA /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9A9D181ED81DFD00023EEA /* NavigationViewController.m */; };
+		CD9A9D1D1ED81F7100023EEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9A9D1C1ED81F7100023EEA /* AppDelegate.m */; };
+		CD9A9D251ED8222200023EEA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9A9D241ED8222200023EEA /* Default-568h@2x.png */; };
+		CD9A9D2C1ED8252C00023EEA /* UIColor+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9A9D291ED8252C00023EEA /* UIColor+expanded.m */; };
+		CD9A9D2D1ED8252C00023EEA /* UIColor+MLPFlatColors.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9A9D2B1ED8252C00023EEA /* UIColor+MLPFlatColors.m */; };
+		CD9A9D371ED828A000023EEA /* UIImage+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9A9D321ED828A000023EEA /* UIImage+Common.m */; };
+		CD9A9D381ED828A000023EEA /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9A9D341ED828A000023EEA /* UIImage+RoundedCorner.m */; };
+		CD9A9D391ED828A000023EEA /* UIImage+TintColor.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9A9D361ED828A000023EEA /* UIImage+TintColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +45,6 @@
 		44CBA91EF45465258CBCB8AC /* Pods-YeeAsyncDisplayKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YeeAsyncDisplayKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YeeAsyncDisplayKitDemo/Pods-YeeAsyncDisplayKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		CD9A9CD81ED818E100023EEA /* YeeAsyncDisplayKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YeeAsyncDisplayKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9A9CDC1ED818E100023EEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CD9A9CDE1ED818E100023EEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CD9A9CDF1ED818E100023EEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CD9A9CE71ED818E100023EEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD9A9CEC1ED818E100023EEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD9A9CF11ED818E100023EEA /* YeeAsyncDisplayKitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YeeAsyncDisplayKitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +57,28 @@
 		CD9A9D151ED81DD600023EEA /* TaBbarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaBbarVC.m; sourceTree = "<group>"; };
 		CD9A9D171ED81DFD00023EEA /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
 		CD9A9D181ED81DFD00023EEA /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+		CD9A9D1B1ED81F7100023EEA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD9A9D1C1ED81F7100023EEA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD9A9D1E1ED8206D00023EEA /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		CD9A9D1F1ED820B000023EEA /* ConstHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConstHeader.h; sourceTree = "<group>"; };
+		CD9A9D201ED820BC00023EEA /* VenderHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VenderHeader.h; sourceTree = "<group>"; };
+		CD9A9D211ED820CA00023EEA /* ComHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComHeader.h; sourceTree = "<group>"; };
+		CD9A9D221ED820DB00023EEA /* ImageHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageHeader.h; sourceTree = "<group>"; };
+		CD9A9D231ED820E500023EEA /* FontHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FontHeader.h; sourceTree = "<group>"; };
+		CD9A9D241ED8222200023EEA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CD9A9D271ED8252C00023EEA /* ColorMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorMacro.h; sourceTree = "<group>"; };
+		CD9A9D281ED8252C00023EEA /* UIColor+expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+expanded.h"; sourceTree = "<group>"; };
+		CD9A9D291ED8252C00023EEA /* UIColor+expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+expanded.m"; sourceTree = "<group>"; };
+		CD9A9D2A1ED8252C00023EEA /* UIColor+MLPFlatColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MLPFlatColors.h"; sourceTree = "<group>"; };
+		CD9A9D2B1ED8252C00023EEA /* UIColor+MLPFlatColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MLPFlatColors.m"; sourceTree = "<group>"; };
+		CD9A9D2E1ED8253C00023EEA /* CategoryHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryHeader.h; sourceTree = "<group>"; };
+		CD9A9D2F1ED825D800023EEA /* ColorHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorHeader.h; sourceTree = "<group>"; };
+		CD9A9D311ED828A000023EEA /* UIImage+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Common.h"; sourceTree = "<group>"; };
+		CD9A9D321ED828A000023EEA /* UIImage+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Common.m"; sourceTree = "<group>"; };
+		CD9A9D331ED828A000023EEA /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
+		CD9A9D341ED828A000023EEA /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
+		CD9A9D351ED828A000023EEA /* UIImage+TintColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TintColor.h"; sourceTree = "<group>"; };
+		CD9A9D361ED828A000023EEA /* UIImage+TintColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TintColor.m"; sourceTree = "<group>"; };
 		D7C9E08B0D957CFD5ED9B804 /* Pods-YeeAsyncDisplayKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YeeAsyncDisplayKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YeeAsyncDisplayKitDemo/Pods-YeeAsyncDisplayKitDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,6 +128,7 @@
 		CD9A9CCF1ED818E100023EEA = {
 			isa = PBXGroup;
 			children = (
+				CD9A9D241ED8222200023EEA /* Default-568h@2x.png */,
 				CD9A9CDA1ED818E100023EEA /* YeeAsyncDisplayKitDemo */,
 				CD9A9CF41ED818E100023EEA /* YeeAsyncDisplayKitDemoTests */,
 				CD9A9CFF1ED818E100023EEA /* YeeAsyncDisplayKitDemoUITests */,
@@ -124,14 +151,13 @@
 		CD9A9CDA1ED818E100023EEA /* YeeAsyncDisplayKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CD9A9D1A1ED81F4A00023EEA /* Other */,
 				CD9A9D131ED81D0A00023EEA /* Main */,
 				CD9A9D0E1ED81CB600023EEA /* Base */,
 				CD9A9D0F1ED81CB600023EEA /* Category */,
 				CD9A9D101ED81CB600023EEA /* Helps */,
 				CD9A9D111ED81CB600023EEA /* Mac */,
 				CD9A9D121ED81CB600023EEA /* UI */,
-				CD9A9CDE1ED818E100023EEA /* AppDelegate.h */,
-				CD9A9CDF1ED818E100023EEA /* AppDelegate.m */,
 				CD9A9CE71ED818E100023EEA /* Assets.xcassets */,
 				CD9A9CEC1ED818E100023EEA /* Info.plist */,
 				CD9A9CDB1ED818E100023EEA /* Supporting Files */,
@@ -175,6 +201,9 @@
 		CD9A9D0F1ED81CB600023EEA /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				CD9A9D2E1ED8253C00023EEA /* CategoryHeader.h */,
+				CD9A9D301ED828A000023EEA /* UIImage */,
+				CD9A9D261ED8252C00023EEA /* UIColor */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -189,6 +218,13 @@
 		CD9A9D111ED81CB600023EEA /* Mac */ = {
 			isa = PBXGroup;
 			children = (
+				CD9A9D1E1ED8206D00023EEA /* PrefixHeader.pch */,
+				CD9A9D1F1ED820B000023EEA /* ConstHeader.h */,
+				CD9A9D201ED820BC00023EEA /* VenderHeader.h */,
+				CD9A9D211ED820CA00023EEA /* ComHeader.h */,
+				CD9A9D221ED820DB00023EEA /* ImageHeader.h */,
+				CD9A9D231ED820E500023EEA /* FontHeader.h */,
+				CD9A9D2F1ED825D800023EEA /* ColorHeader.h */,
 			);
 			path = Mac;
 			sourceTree = "<group>";
@@ -209,6 +245,40 @@
 				CD9A9D181ED81DFD00023EEA /* NavigationViewController.m */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		CD9A9D1A1ED81F4A00023EEA /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				CD9A9D1B1ED81F7100023EEA /* AppDelegate.h */,
+				CD9A9D1C1ED81F7100023EEA /* AppDelegate.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		CD9A9D261ED8252C00023EEA /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				CD9A9D271ED8252C00023EEA /* ColorMacro.h */,
+				CD9A9D281ED8252C00023EEA /* UIColor+expanded.h */,
+				CD9A9D291ED8252C00023EEA /* UIColor+expanded.m */,
+				CD9A9D2A1ED8252C00023EEA /* UIColor+MLPFlatColors.h */,
+				CD9A9D2B1ED8252C00023EEA /* UIColor+MLPFlatColors.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		CD9A9D301ED828A000023EEA /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				CD9A9D311ED828A000023EEA /* UIImage+Common.h */,
+				CD9A9D321ED828A000023EEA /* UIImage+Common.m */,
+				CD9A9D331ED828A000023EEA /* UIImage+RoundedCorner.h */,
+				CD9A9D341ED828A000023EEA /* UIImage+RoundedCorner.m */,
+				CD9A9D351ED828A000023EEA /* UIImage+TintColor.h */,
+				CD9A9D361ED828A000023EEA /* UIImage+TintColor.m */,
+			);
+			path = UIImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,6 +394,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD9A9CE81ED818E100023EEA /* Assets.xcassets in Resources */,
+				CD9A9D251ED8222200023EEA /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,10 +467,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD9A9D381ED828A000023EEA /* UIImage+RoundedCorner.m in Sources */,
+				CD9A9D2C1ED8252C00023EEA /* UIColor+expanded.m in Sources */,
+				CD9A9D1D1ED81F7100023EEA /* AppDelegate.m in Sources */,
+				CD9A9D2D1ED8252C00023EEA /* UIColor+MLPFlatColors.m in Sources */,
 				CD9A9D191ED81DFD00023EEA /* NavigationViewController.m in Sources */,
+				CD9A9D371ED828A000023EEA /* UIImage+Common.m in Sources */,
 				CD9A9D161ED81DD600023EEA /* TaBbarVC.m in Sources */,
-				CD9A9CE01ED818E100023EEA /* AppDelegate.m in Sources */,
 				CD9A9CDD1ED818E100023EEA /* main.m in Sources */,
+				CD9A9D391ED828A000023EEA /* UIImage+TintColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,7 +606,9 @@
 			baseConfigurationReference = 44CBA91EF45465258CBCB8AC /* Pods-YeeAsyncDisplayKitDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 34TTMZE623;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YeeAsyncDisplayKitDemo/Mac/PrefixHeader.pch";
 				INFOPLIST_FILE = YeeAsyncDisplayKitDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -544,7 +622,9 @@
 			baseConfigurationReference = D7C9E08B0D957CFD5ED9B804 /* Pods-YeeAsyncDisplayKitDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 34TTMZE623;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YeeAsyncDisplayKitDemo/Mac/PrefixHeader.pch";
 				INFOPLIST_FILE = YeeAsyncDisplayKitDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
