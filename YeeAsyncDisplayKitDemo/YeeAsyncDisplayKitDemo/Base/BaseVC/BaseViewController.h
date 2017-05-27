@@ -8,6 +8,7 @@
 
 #import <AsyncDisplayKit/AsyncDisplayKit.h>
 
-@interface BaseViewController : ASViewController
+@interface BaseViewController : ASViewController<UIViewControllerProtocol>
+
 
 @end

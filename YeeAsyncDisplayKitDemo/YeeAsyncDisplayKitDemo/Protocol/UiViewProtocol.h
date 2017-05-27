@@ -10,4 +10,12 @@
 
 @protocol UiViewProtocol <NSObject>
 
+@optional
+//子类添加控件
+-(void)addOwnView;
+//子类控件布局使用
+-(void)layOutViews;
+//RAC绑定
+-(void)bindViewModel;
+
 @end
