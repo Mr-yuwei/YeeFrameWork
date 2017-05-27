@@ -22,11 +22,13 @@ PODS:
   - PINRemoteImage/PINCache (3.0.0-beta.8):
     - PINCache (= 3.0.1-beta.4)
     - PINRemoteImage/Core
+  - YYModel (1.0.4)
 
 DEPENDENCIES:
   - AsyncDisplayKit (~> 2.2)
   - DACircularProgress (~> 2.3.1)
   - MBProgressHUD (~> 1.0.0)
+  - YYModel (~> 1.0.4)
 
 SPEC CHECKSUMS:
   AsyncDisplayKit: 1585f6cd0531ae9b30476f5912f577b73ebcb0e4
@@ -35,7 +37,8 @@ SPEC CHECKSUMS:
   PINCache: a89c8f609232afac77128557bd12c861844423d7
   PINOperation: ac23db44796d4a564ecf9b5ea7163510f579b71d
   PINRemoteImage: c4f9f16932840c597f32e69dd288e10e111a1929
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 15406b7be47062b822bdc5e8b75d1ad169b0e94a
+PODFILE CHECKSUM: 2aa6cc363c5a83161d8dfcffa42283a53aabf11e
 
 COCOAPODS: 1.2.0

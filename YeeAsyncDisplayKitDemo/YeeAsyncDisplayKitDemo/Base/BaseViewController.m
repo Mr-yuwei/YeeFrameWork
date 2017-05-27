@@ -1,28 +1,28 @@
 //
-//  TaBbarVC.m
+//  BaseViewController.m
 //  YeeAsyncDisplayKitDemo
 //
-//  Created by CoderYee on 2017/5/26.
+//  Created by CoderYee on 2017/5/27.
 //  Copyright © 2017年 CodeYee. All rights reserved.
 //
 
-#import "TaBbarVC.h"
+#import "BaseViewController.h"
 
-@interface TaBbarVC ()
+@interface BaseViewController ()
 
 @end
 
-@implementation TaBbarVC
+@implementation BaseViewController
 
 - (void)viewDidLoad {
     
     [super viewDidLoad];
-   
-
 }
+
 - (void)didReceiveMemoryWarning {
     
     [super didReceiveMemoryWarning];
+   
 }
 
 

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		55E8BF34E014680EE7F8FD3B /* libPods-YeeAsyncDisplayKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B08358A60B5046B5C1C47A5 /* libPods-YeeAsyncDisplayKitDemo.a */; };
+		CD1094F51ED90DA900721039 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1094F41ED90DA900721039 /* BaseViewController.m */; };
 		CD9A9CDD1ED818E100023EEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9A9CDC1ED818E100023EEA /* main.m */; };
 		CD9A9CE81ED818E100023EEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD9A9CE71ED818E100023EEA /* Assets.xcassets */; };
 		CD9A9CF61ED818E100023EEA /* YeeAsyncDisplayKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9A9CF51ED818E100023EEA /* YeeAsyncDisplayKitDemoTests.m */; };
@@ -43,6 +44,8 @@
 /* Begin PBXFileReference section */
 		1B08358A60B5046B5C1C47A5 /* libPods-YeeAsyncDisplayKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YeeAsyncDisplayKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44CBA91EF45465258CBCB8AC /* Pods-YeeAsyncDisplayKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YeeAsyncDisplayKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YeeAsyncDisplayKitDemo/Pods-YeeAsyncDisplayKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CD1094F31ED90DA900721039 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		CD1094F41ED90DA900721039 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		CD9A9CD81ED818E100023EEA /* YeeAsyncDisplayKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YeeAsyncDisplayKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9A9CDC1ED818E100023EEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CD9A9CE71ED818E100023EEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -79,6 +82,9 @@
 		CD9A9D341ED828A000023EEA /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
 		CD9A9D351ED828A000023EEA /* UIImage+TintColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TintColor.h"; sourceTree = "<group>"; };
 		CD9A9D361ED828A000023EEA /* UIImage+TintColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TintColor.m"; sourceTree = "<group>"; };
+		CD9A9D3B1ED844DB00023EEA /* UITableViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableViewProtocol.h; sourceTree = "<group>"; };
+		CD9A9D3C1ED844F000023EEA /* UITableViewCellProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableViewCellProtocol.h; sourceTree = "<group>"; };
+		CD9A9D3D1ED844FF00023EEA /* UiViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UiViewProtocol.h; sourceTree = "<group>"; };
 		D7C9E08B0D957CFD5ED9B804 /* Pods-YeeAsyncDisplayKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YeeAsyncDisplayKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YeeAsyncDisplayKitDemo/Pods-YeeAsyncDisplayKitDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -151,6 +157,7 @@
 		CD9A9CDA1ED818E100023EEA /* YeeAsyncDisplayKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CD9A9D3A1ED82C2B00023EEA /* Protocol */,
 				CD9A9D1A1ED81F4A00023EEA /* Other */,
 				CD9A9D131ED81D0A00023EEA /* Main */,
 				CD9A9D0E1ED81CB600023EEA /* Base */,
@@ -194,6 +201,8 @@
 		CD9A9D0E1ED81CB600023EEA /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				CD1094F31ED90DA900721039 /* BaseViewController.h */,
+				CD1094F41ED90DA900721039 /* BaseViewController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -279,6 +288,16 @@
 				CD9A9D361ED828A000023EEA /* UIImage+TintColor.m */,
 			);
 			path = UIImage;
+			sourceTree = "<group>";
+		};
+		CD9A9D3A1ED82C2B00023EEA /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				CD9A9D3B1ED844DB00023EEA /* UITableViewProtocol.h */,
+				CD9A9D3C1ED844F000023EEA /* UITableViewCellProtocol.h */,
+				CD9A9D3D1ED844FF00023EEA /* UiViewProtocol.h */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -468,6 +487,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD9A9D381ED828A000023EEA /* UIImage+RoundedCorner.m in Sources */,
+				CD1094F51ED90DA900721039 /* BaseViewController.m in Sources */,
 				CD9A9D2C1ED8252C00023EEA /* UIColor+expanded.m in Sources */,
 				CD9A9D1D1ED81F7100023EEA /* AppDelegate.m in Sources */,
 				CD9A9D2D1ED8252C00023EEA /* UIColor+MLPFlatColors.m in Sources */,
