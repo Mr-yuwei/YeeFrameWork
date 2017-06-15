@@ -7,7 +7,7 @@
 //
 
 #import <AsyncDisplayKit/AsyncDisplayKit.h>
-
+#import "UIViewControllerProtocol.h"
 @interface BaseViewController : ASViewController<UIViewControllerProtocol>
 
 

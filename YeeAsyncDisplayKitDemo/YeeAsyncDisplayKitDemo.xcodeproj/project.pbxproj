@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		55E8BF34E014680EE7F8FD3B /* libPods-YeeAsyncDisplayKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B08358A60B5046B5C1C47A5 /* libPods-YeeAsyncDisplayKitDemo.a */; };
+		8884C42D1EEF8DB10037DA5D /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8884C42C1EEF8DB10037DA5D /* LoginVC.m */; };
+		8884C4301EEF8E720037DA5D /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8884C42F1EEF8E720037DA5D /* LoginView.m */; };
 		CD1095031ED91B4800721039 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1094FE1ED91B4800721039 /* BaseTableViewController.m */; };
 		CD1095041ED91B4800721039 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1095001ED91B4800721039 /* BaseViewController.m */; };
 		CD9A9CDD1ED818E100023EEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9A9CDC1ED818E100023EEA /* main.m */; };
@@ -45,6 +47,10 @@
 /* Begin PBXFileReference section */
 		1B08358A60B5046B5C1C47A5 /* libPods-YeeAsyncDisplayKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YeeAsyncDisplayKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44CBA91EF45465258CBCB8AC /* Pods-YeeAsyncDisplayKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YeeAsyncDisplayKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YeeAsyncDisplayKitDemo/Pods-YeeAsyncDisplayKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8884C42B1EEF8DB10037DA5D /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		8884C42C1EEF8DB10037DA5D /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		8884C42E1EEF8E720037DA5D /* LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
+		8884C42F1EEF8E720037DA5D /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
 		CD1094F61ED914C700721039 /* UIViewControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewControllerProtocol.h; sourceTree = "<group>"; };
 		CD1094F71ED9163B00721039 /* ProtocolHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProtocolHeader.h; sourceTree = "<group>"; };
 		CD1094FD1ED91B4800721039 /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
@@ -127,6 +133,49 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8884C4261EEF8D5A0037DA5D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8884C4271EEF8D770037DA5D /* Login */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		8884C4271EEF8D770037DA5D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8884C4281EEF8D8E0037DA5D /* VC */,
+				8884C4291EEF8D8E0037DA5D /* View */,
+				8884C42A1EEF8D8E0037DA5D /* VM */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		8884C4281EEF8D8E0037DA5D /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				8884C42B1EEF8DB10037DA5D /* LoginVC.h */,
+				8884C42C1EEF8DB10037DA5D /* LoginVC.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		8884C4291EEF8D8E0037DA5D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8884C42E1EEF8E720037DA5D /* LoginView.h */,
+				8884C42F1EEF8E720037DA5D /* LoginView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8884C42A1EEF8D8E0037DA5D /* VM */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
 		BD5D9E3333C2FFCA34434D7C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,6 +243,7 @@
 		CD9A9CDA1ED818E100023EEA /* YeeAsyncDisplayKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8884C4261EEF8D5A0037DA5D /* UI */,
 				CD9A9D3A1ED82C2B00023EEA /* Protocol */,
 				CD9A9D1A1ED81F4A00023EEA /* Other */,
 				CD9A9D131ED81D0A00023EEA /* Main */,
@@ -201,7 +251,6 @@
 				CD9A9D0F1ED81CB600023EEA /* Category */,
 				CD9A9D101ED81CB600023EEA /* Helps */,
 				CD9A9D111ED81CB600023EEA /* Mac */,
-				CD9A9D121ED81CB600023EEA /* UI */,
 				CD9A9CE71ED818E100023EEA /* Assets.xcassets */,
 				CD9A9CEC1ED818E100023EEA /* Info.plist */,
 				CD9A9CDB1ED818E100023EEA /* Supporting Files */,
@@ -275,13 +324,6 @@
 				CD9A9D2F1ED825D800023EEA /* ColorHeader.h */,
 			);
 			path = Mac;
-			sourceTree = "<group>";
-		};
-		CD9A9D121ED81CB600023EEA /* UI */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = UI;
 			sourceTree = "<group>";
 		};
 		CD9A9D131ED81D0A00023EEA /* Main */ = {
@@ -502,7 +544,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		E7FBCDF451D8C236EA310DA3 /* [CP] Embed Pods Frameworks */ = {
@@ -529,6 +571,7 @@
 			files = (
 				CD9A9D381ED828A000023EEA /* UIImage+RoundedCorner.m in Sources */,
 				CD9A9D2C1ED8252C00023EEA /* UIColor+expanded.m in Sources */,
+				8884C42D1EEF8DB10037DA5D /* LoginVC.m in Sources */,
 				CD1095041ED91B4800721039 /* BaseViewController.m in Sources */,
 				CD9A9D1D1ED81F7100023EEA /* AppDelegate.m in Sources */,
 				CD9A9D2D1ED8252C00023EEA /* UIColor+MLPFlatColors.m in Sources */,
@@ -537,6 +580,7 @@
 				CD9A9D371ED828A000023EEA /* UIImage+Common.m in Sources */,
 				CD9A9D161ED81DD600023EEA /* TaBbarVC.m in Sources */,
 				CD9A9CDD1ED818E100023EEA /* main.m in Sources */,
+				8884C4301EEF8E720037DA5D /* LoginView.m in Sources */,
 				CD9A9D391ED828A000023EEA /* UIImage+TintColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

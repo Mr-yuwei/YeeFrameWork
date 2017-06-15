@@ -15,8 +15,20 @@
 @implementation BaseViewController
 
 - (void)viewDidLoad {
-    
     [super viewDidLoad];
+    
+    if ([self performSelector:@selector(addNavbarView)]) {
+        [self addNavbarView];
+    }
+    if ([self performSelector:@selector(addOwnViews)]) {
+        [self addOwnViews];
+    }
+    if ([self performSelector:@selector(configOwnViews)]) {
+        [self configOwnViews];
+    }
+    if ([self performSelector:@selector(bindViewModel)]) {
+        [self bindViewModel];
+    }
 }
 //子类添加控件
 -(void)addOwnViews{
@@ -39,6 +51,10 @@
     
     
     
+}
+- (UIStatusBarStyle)preferredStatusBarStyle{
+    
+    return UIStatusBarStyleLightContent;
 }
 - (void)didReceiveMemoryWarning {
     

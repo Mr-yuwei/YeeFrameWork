@@ -7,7 +7,7 @@
 //
 
 #import <AsyncDisplayKit/AsyncDisplayKit.h>
-
+#import "UIViewControllerProtocol.h"
 @interface BaseTableViewController : ASViewController<UIViewControllerProtocol>
 
 @property(nonatomic,retain)ASTableNode     *tableNode;

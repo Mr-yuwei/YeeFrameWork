@@ -7,7 +7,9 @@ PODS:
     - PINRemoteImage/iOS (= 3.0.0-beta.8)
     - PINRemoteImage/PINCache
   - DACircularProgress (2.3.1)
+  - DZNEmptyDataSet (1.8.1)
   - MBProgressHUD (1.0.0)
+  - MJRefresh (3.1.12)
   - PINCache (3.0.1-beta.4):
     - PINCache/Arc-exception-safe (= 3.0.1-beta.4)
     - PINCache/Core (= 3.0.1-beta.4)
@@ -27,18 +29,22 @@ PODS:
 DEPENDENCIES:
   - AsyncDisplayKit (~> 2.2)
   - DACircularProgress (~> 2.3.1)
+  - DZNEmptyDataSet (~> 1.8.1)
   - MBProgressHUD (~> 1.0.0)
+  - MJRefresh (~> 3.1.12)
   - YYModel (~> 1.0.4)
 
 SPEC CHECKSUMS:
   AsyncDisplayKit: 1585f6cd0531ae9b30476f5912f577b73ebcb0e4
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   PINCache: a89c8f609232afac77128557bd12c861844423d7
   PINOperation: ac23db44796d4a564ecf9b5ea7163510f579b71d
   PINRemoteImage: c4f9f16932840c597f32e69dd288e10e111a1929
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 2aa6cc363c5a83161d8dfcffa42283a53aabf11e
+PODFILE CHECKSUM: 7419b2b8292e2d9ef3495a0f82e49474da1468c4
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.2.1

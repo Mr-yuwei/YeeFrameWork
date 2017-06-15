@@ -11,6 +11,8 @@
 
 #import "TaBbarVC.h"
 #import "NavigationViewController.h"
+#import "BaseTableViewController.h"
+#import "BaseViewController.h"
 
 
 #endif /* ComHeader_h */

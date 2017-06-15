@@ -7,22 +7,56 @@
 //
 
 #import "AppDelegate.h"
-
+#import "LoginVC.h"
 @interface AppDelegate ()
+
 
 @end
 
 @implementation AppDelegate
 
-
++ (instancetype)sharedAppDelegate{
+    
+    return  (AppDelegate*)[UIApplication sharedApplication].delegate;
+}
+- (void)configAppearance{
+    
+    [[UINavigationBar appearance] setShadowImage:[[UIImage alloc] init]];
+    [[UINavigationBar appearance] setTintColor:[UIColor grayColor]];
+    [[UINavigationBar appearance] setBarTintColor:kNavBarThemeColor];
+    [[UINavigationBar appearance] setBackgroundColor:kNavBarThemeColor];
+    NSShadow *shadow = [[NSShadow alloc] init];
+    shadow.shadowOffset = CGSizeMake(0, 0);
+    [[UINavigationBar appearance] setTitleTextAttributes:@{
+                                                           NSForegroundColorAttributeName:[UIColor whiteColor],
+                                                           NSShadowAttributeName:shadow,
+                                                           NSFontAttributeName:[UIFont systemFontOfSize:18]
+                                                           }];
+    [[UIApplication sharedApplication]setStatusBarStyle:UIStatusBarStyleLightContent];
+}
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     self.window=[[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     [self.window setBackgroundColor:[UIColor whiteColor]];
+    [self configAppearance];
     [self.window makeKeyAndVisible];
-    self.window.rootViewController=[TaBbarVC new];
+//    self.window.rootViewController=[TaBbarVC new];
+    [self EnterloginVC];
     return YES;
 }
+#pragma mark 配置登录跳转VC
+-(void)EnterloginVC{
+  
+    self.window.rootViewController=[[NavigationViewController alloc] initWithRootViewController:[LoginVC new]];
+}
+#pragma mark 配置TabBar跳转VC
+-(void)EnterTabBarVC{
+ 
+    
+    
+    
+}
+
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.

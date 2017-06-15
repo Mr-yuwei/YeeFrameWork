@@ -12,6 +12,11 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
++ (instancetype)sharedAppDelegate;
+
+-(void)EnterloginVC;
+
+-(void)EnterTabBarVC;
 
 @end
 

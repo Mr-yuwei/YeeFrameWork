@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>YeeMVVMDemo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>CD1096C11EBC6E2F00EBF943</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CD1096DA1EBC6E2F00EBF943</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CD1096E51EBC6E2F00EBF943</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

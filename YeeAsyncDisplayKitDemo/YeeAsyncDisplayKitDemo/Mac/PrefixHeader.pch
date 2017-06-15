@@ -16,6 +16,7 @@
 #import "ComHeader.h"
 #import "ImageHeader.h"
 #import "FontHeader.h"
+#import "ColorHeader.h"
 #import "CategoryHeader.h"
 #import "ProtocolHeader.h"
 #endif /* PrefixHeader_pch */
