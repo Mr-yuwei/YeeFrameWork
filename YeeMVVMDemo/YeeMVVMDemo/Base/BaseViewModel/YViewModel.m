@@ -50,9 +50,11 @@
     return _errors;
 }
 -(RACCommand*)requestCommand{
+    @weakify(self);
     if (_requestCommand==nil) {
         
         _requestCommand=[[RACCommand alloc] initWithSignalBlock:^RACSignal * _Nonnull(id  _Nullable input) {
+            @strongify(self);
             return [self requestRemoteData];
         }];
     }

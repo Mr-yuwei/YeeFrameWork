@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88685E3E1EF66C9D00F8FF0B /* WebVC_001.m in Sources */ = {isa = PBXBuildFile; fileRef = 88685E3D1EF66C9D00F8FF0B /* WebVC_001.m */; };
 		CD21F9BA1EA9FB76000C8257 /* VC_03.m in Sources */ = {isa = PBXBuildFile; fileRef = CD21F9B91EA9FB76000C8257 /* VC_03.m */; };
 		CD21F9BD1EA9FC85000C8257 /* XRCommonSegMentView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD21F9BC1EA9FC85000C8257 /* XRCommonSegMentView.m */; };
 		CD21F9C01EA9FD72000C8257 /* VC_04.m in Sources */ = {isa = PBXBuildFile; fileRef = CD21F9BF1EA9FD72000C8257 /* VC_04.m */; };
@@ -41,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		88685E3C1EF66C9D00F8FF0B /* WebVC_001.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebVC_001.h; sourceTree = "<group>"; };
+		88685E3D1EF66C9D00F8FF0B /* WebVC_001.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebVC_001.m; sourceTree = "<group>"; };
 		CD21F9B81EA9FB76000C8257 /* VC_03.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VC_03.h; sourceTree = "<group>"; };
 		CD21F9B91EA9FB76000C8257 /* VC_03.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VC_03.m; sourceTree = "<group>"; };
 		CD21F9BB1EA9FC85000C8257 /* XRCommonSegMentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRCommonSegMentView.h; sourceTree = "<group>"; };
@@ -177,6 +180,8 @@
 				CD21F9BF1EA9FD72000C8257 /* VC_04.m */,
 				CD21F9C11EAA1382000C8257 /* VC_05.h */,
 				CD21F9C21EAA1382000C8257 /* VC_05.m */,
+				88685E3C1EF66C9D00F8FF0B /* WebVC_001.h */,
+				88685E3D1EF66C9D00F8FF0B /* WebVC_001.m */,
 			);
 			path = YeeClass;
 			sourceTree = "<group>";
@@ -333,6 +338,7 @@
 				CDF802131EA8E8D000F5E63C /* VC_02.m in Sources */,
 				CD21F9BA1EA9FB76000C8257 /* VC_03.m in Sources */,
 				CDF9BD5E1ED6CD680049C59E /* YeeSegmentController.m in Sources */,
+				88685E3E1EF66C9D00F8FF0B /* WebVC_001.m in Sources */,
 				CDF801D91EA8DED400F5E63C /* main.m in Sources */,
 				CDF802101EA8E11500F5E63C /* VC_01.m in Sources */,
 			);

@@ -47,7 +47,9 @@
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
-    [self.viewModel.services pushViewModel:[[Home_Detial_ViewModel alloc] initWithServices:self.viewModel.services params:nil] animated:YES];
+    __weak typeof(self)weakself=self;
+    
+    [self.viewModel.services pushViewModel:[[Home_Detial_ViewModel alloc] initWithServices:weakself.viewModel.services params:nil] animated:YES];
     
 }
 

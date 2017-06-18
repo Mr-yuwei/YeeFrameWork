@@ -8,7 +8,7 @@
 
 #import "TabBarVC.h"
 #import "NavigationVC.h"
-
+#import "WebVC_001.h" //网页
 #import "VC_01.h"
 
 @interface TabBarVC ()
@@ -28,12 +28,12 @@
     
     
     //设置数据源
-    NSArray *vcNames = @[@"VC_01",@"VC_01", @"VC_01",@"VC_01"];
+    NSArray *vcNames = @[@"VC_01",@"VC_01", @"WebVC_001",@"VC_01"];
     NSArray *imageArray=@[@"icon_maijia_home1",@"icon_choucang1",@"icon_xiaoxi1",@"icon_wode"];
     
     NSArray *selectedimageArray=@[@"icon_maijia_home2",@"icon_choucang2",@"icon_xiaoxi2",@"icon_shezhi_yidianji"];
     
-    NSArray *titleArray=@[@"首页",@"收藏",@"消息",@"我的"];
+    NSArray *titleArray=@[@"首页",@"收藏",@"网页",@"我的"];
     NSMutableArray *vcArr = [NSMutableArray array];
     NSMutableArray *nvArr = [NSMutableArray array];
     for (NSInteger i = 0; i < vcNames.count; i++)
