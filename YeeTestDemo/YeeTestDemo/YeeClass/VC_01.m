@@ -11,7 +11,12 @@
 #import "VC_03.h"
 #import "VC_05.h"
 @interface VC_01 ()
-
+{
+    
+    UIView    *_blueView;
+    CGFloat   angle;
+    
+}
 @end
 
 @implementation VC_01
@@ -19,7 +24,7 @@
 - (void)viewDidLoad {
     
     [super viewDidLoad];
-    [self.view setBackgroundColor:[UIColor whiteColor]];
+    [self.view setBackgroundColor:[UIColor clearColor]];
 
     UIButton  *btn1=[UIButton buttonWithType:UIButtonTypeCustom];
     btn1.tag=1;
@@ -46,7 +51,50 @@
     [btn3 setTitle:@"VC_05" forState:UIControlStateNormal];
     [self.view addSubview:btn3];
     [btn3 addTarget:self action:@selector(clickEvent:) forControlEvents:UIControlEventTouchUpInside];
-
+    UIView *view=[[UIView alloc] initWithFrame:CGRectMake(250, 150, 100, 100)];
+    [view setBackgroundColor:[UIColor blueColor]];
+    [self.view addSubview:view];
+    _blueView=view;
+    
+//    UIPanGestureRecognizer  *pan=[[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(handleGes:)];
+//    
+//    [self.view addGestureRecognizer:pan];
+    
+    
+    NSTimer *timer=[NSTimer scheduledTimerWithTimeInterval:1.0 repeats:YES block:^(NSTimer * _Nonnull timer) {
+        
+        angle=angle+10;
+        view.layer.transform=[self getTransForm3DWithAngle:angle];
+    }];
+    
+}
+-(void)handleGes:(UIPanGestureRecognizer *)ges{
+    
+    CGPoint point= [ges locationInView:self.view];
+    if (ges.state==UIGestureRecognizerStateBegan) {
+     
+        
+    }else if (ges.state==UIGestureRecognizerStateChanged)
+    {
+        
+        
+       
+        
+    }else if (ges.state==UIGestureRecognizerStateEnded)
+    {
+    
+    
+    }
+}
+-(CATransform3D)getTransForm3DWithAngle:(CGFloat)angle{
+    
+    CATransform3D transform =CATransform3DIdentity;//获取一个标准默认的CATransform3D仿射变换矩阵
+    
+    transform.m34=4.5/-2000;//透视效果
+    
+    transform=CATransform3DRotate(transform,M_PI*angle/180,0,1,0);//获取旋转angle角度后的rotation矩阵。
+    
+    return transform;
     
 }
 -(void)clickEvent:(UIButton *)sender{

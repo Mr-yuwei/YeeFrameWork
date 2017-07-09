@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88AFBF0C1F1241BB00934B19 /* UIView+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AFBF0B1F1241BB00934B19 /* UIView+Badge.m */; };
 		945D0C4DE99AFB39E373D84C /* Pods_YeeMVVMDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4368CBE91D736DA128D89224 /* Pods_YeeMVVMDemo.framework */; };
 		CD08CF311ECA98200087090B /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD08CF301ECA98200087090B /* BaseTableViewCell.m */; };
 		CD0AF0901EC54DF200273A25 /* NavigationControllerStack.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0AF08F1EC54DF200273A25 /* NavigationControllerStack.m */; };
@@ -93,6 +94,8 @@
 /* Begin PBXFileReference section */
 		4368CBE91D736DA128D89224 /* Pods_YeeMVVMDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YeeMVVMDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		665B8AD0D6B005DAC401E124 /* Pods-YeeMVVMDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YeeMVVMDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YeeMVVMDemo/Pods-YeeMVVMDemo.release.xcconfig"; sourceTree = "<group>"; };
+		88AFBF0A1F1241BB00934B19 /* UIView+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Badge.h"; sourceTree = "<group>"; };
+		88AFBF0B1F1241BB00934B19 /* UIView+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Badge.m"; sourceTree = "<group>"; };
 		C985728DA26CE06BE6D83DEF /* Pods-YeeMVVMDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YeeMVVMDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YeeMVVMDemo/Pods-YeeMVVMDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		CD083D171EC586FE0001392F /* YeeNavigationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YeeNavigationProtocol.h; sourceTree = "<group>"; };
 		CD08CF2F1ECA98200087090B /* BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
@@ -265,6 +268,15 @@
 				665B8AD0D6B005DAC401E124 /* Pods-YeeMVVMDemo.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		88AFBF091F1241BB00934B19 /* UIView+Badge */ = {
+			isa = PBXGroup;
+			children = (
+				88AFBF0A1F1241BB00934B19 /* UIView+Badge.h */,
+				88AFBF0B1F1241BB00934B19 /* UIView+Badge.m */,
+			);
+			path = "UIView+Badge";
 			sourceTree = "<group>";
 		};
 		C73E1279048606B3DEA4D8E8 /* Frameworks */ = {
@@ -759,6 +771,7 @@
 		CD10974C1EBC7D2500EBF943 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
+				88AFBF091F1241BB00934B19 /* UIView+Badge */,
 				CD10974D1EBC7D2500EBF943 /* UIView+ClickBlock */,
 				CD1097501EBC7D2500EBF943 /* UIView+Frame */,
 				CD1097531EBC7D2500EBF943 /* UIView+Layer */,
@@ -1091,6 +1104,7 @@
 				CD10977D1EBC7D2500EBF943 /* UIImage+TintColor.m in Sources */,
 				CD1097811EBC7D2500EBF943 /* UILabel+LinkBlock.m in Sources */,
 				CD0AF09C1EC5596F00273A25 /* NavigationVC.m in Sources */,
+				88AFBF0C1F1241BB00934B19 /* UIView+Badge.m in Sources */,
 				CD0AF0BB1EC567F200273A25 /* HomeVC.m in Sources */,
 				CD10978F1EBC7D2500EBF943 /* UIView+Toast.m in Sources */,
 				CD10979C1EBC837300EBF943 /* YViewModel.m in Sources */,

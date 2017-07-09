@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		88685E3E1EF66C9D00F8FF0B /* WebVC_001.m in Sources */ = {isa = PBXBuildFile; fileRef = 88685E3D1EF66C9D00F8FF0B /* WebVC_001.m */; };
+		887B5F5A1F0E4D78007E8204 /* UIView+YeeBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 887B5F591F0E4D78007E8204 /* UIView+YeeBridge.m */; };
+		887B5F5D1F0E4E0F007E8204 /* BidgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 887B5F5C1F0E4E0F007E8204 /* BidgeViewController.m */; };
+		88D42EC31F0BC4F8005D3078 /* VC_006.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D42EC21F0BC4F8005D3078 /* VC_006.m */; };
 		CD21F9BA1EA9FB76000C8257 /* VC_03.m in Sources */ = {isa = PBXBuildFile; fileRef = CD21F9B91EA9FB76000C8257 /* VC_03.m */; };
 		CD21F9BD1EA9FC85000C8257 /* XRCommonSegMentView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD21F9BC1EA9FC85000C8257 /* XRCommonSegMentView.m */; };
 		CD21F9C01EA9FD72000C8257 /* VC_04.m in Sources */ = {isa = PBXBuildFile; fileRef = CD21F9BF1EA9FD72000C8257 /* VC_04.m */; };
@@ -44,6 +47,12 @@
 /* Begin PBXFileReference section */
 		88685E3C1EF66C9D00F8FF0B /* WebVC_001.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebVC_001.h; sourceTree = "<group>"; };
 		88685E3D1EF66C9D00F8FF0B /* WebVC_001.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebVC_001.m; sourceTree = "<group>"; };
+		887B5F581F0E4D78007E8204 /* UIView+YeeBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YeeBridge.h"; sourceTree = "<group>"; };
+		887B5F591F0E4D78007E8204 /* UIView+YeeBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YeeBridge.m"; sourceTree = "<group>"; };
+		887B5F5B1F0E4E0F007E8204 /* BidgeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BidgeViewController.h; sourceTree = "<group>"; };
+		887B5F5C1F0E4E0F007E8204 /* BidgeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BidgeViewController.m; sourceTree = "<group>"; };
+		88D42EC11F0BC4F8005D3078 /* VC_006.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VC_006.h; sourceTree = "<group>"; };
+		88D42EC21F0BC4F8005D3078 /* VC_006.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VC_006.m; sourceTree = "<group>"; };
 		CD21F9B81EA9FB76000C8257 /* VC_03.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VC_03.h; sourceTree = "<group>"; };
 		CD21F9B91EA9FB76000C8257 /* VC_03.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VC_03.m; sourceTree = "<group>"; };
 		CD21F9BB1EA9FC85000C8257 /* XRCommonSegMentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRCommonSegMentView.h; sourceTree = "<group>"; };
@@ -164,6 +173,8 @@
 		CDF8020A1EA8DFAD00F5E63C /* YeeClass */ = {
 			isa = PBXGroup;
 			children = (
+				887B5F581F0E4D78007E8204 /* UIView+YeeBridge.h */,
+				887B5F591F0E4D78007E8204 /* UIView+YeeBridge.m */,
 				CD21F9BB1EA9FC85000C8257 /* XRCommonSegMentView.h */,
 				CD21F9BC1EA9FC85000C8257 /* XRCommonSegMentView.m */,
 				CDF8020B1EA8E06100F5E63C /* TabBarVC.h */,
@@ -182,6 +193,10 @@
 				CD21F9C21EAA1382000C8257 /* VC_05.m */,
 				88685E3C1EF66C9D00F8FF0B /* WebVC_001.h */,
 				88685E3D1EF66C9D00F8FF0B /* WebVC_001.m */,
+				88D42EC11F0BC4F8005D3078 /* VC_006.h */,
+				88D42EC21F0BC4F8005D3078 /* VC_006.m */,
+				887B5F5B1F0E4E0F007E8204 /* BidgeViewController.h */,
+				887B5F5C1F0E4E0F007E8204 /* BidgeViewController.m */,
 			);
 			path = YeeClass;
 			sourceTree = "<group>";
@@ -333,10 +348,13 @@
 				CD21F9BD1EA9FC85000C8257 /* XRCommonSegMentView.m in Sources */,
 				CDF8020D1EA8E06100F5E63C /* TabBarVC.m in Sources */,
 				CD21F9C01EA9FD72000C8257 /* VC_04.m in Sources */,
+				887B5F5D1F0E4E0F007E8204 /* BidgeViewController.m in Sources */,
 				CDF802161EA8EC3900F5E63C /* NavigationVC.m in Sources */,
 				CD21F9C31EAA1382000C8257 /* VC_05.m in Sources */,
 				CDF802131EA8E8D000F5E63C /* VC_02.m in Sources */,
 				CD21F9BA1EA9FB76000C8257 /* VC_03.m in Sources */,
+				88D42EC31F0BC4F8005D3078 /* VC_006.m in Sources */,
+				887B5F5A1F0E4D78007E8204 /* UIView+YeeBridge.m in Sources */,
 				CDF9BD5E1ED6CD680049C59E /* YeeSegmentController.m in Sources */,
 				88685E3E1EF66C9D00F8FF0B /* WebVC_001.m in Sources */,
 				CDF801D91EA8DED400F5E63C /* main.m in Sources */,
