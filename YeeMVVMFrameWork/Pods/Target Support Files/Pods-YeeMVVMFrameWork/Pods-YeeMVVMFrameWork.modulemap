@@ -1,0 +1,6 @@
+framework module Pods_YeeMVVMFrameWork {
+  umbrella header "Pods-YeeMVVMFrameWork-umbrella.h"
+
+  export *
+  module * { export * }
+}
