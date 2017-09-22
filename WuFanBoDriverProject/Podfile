@@ -1,0 +1,13 @@
+platform :ios, ‘8.0’
+use_frameworks!
+target 'WuFanBoDriverProject' do
+pod    'AFNetworking', '~> 3.1.0'
+pod    'SDWebImage', '~> 4.0.0'
+pod    'MJRefresh', '~> 3.1.12'
+pod    'Masonry', '~> 1.0.2'
+pod    'IQKeyboardManager', '~> 4.0.10'
+pod    'ReactiveObjC', '~> 3.0.0'
+pod    'YYModel', '~> 1.0.4'
+pod    'YYCache', '~> 1.0.4'
+pod    'MBProgressHUD', '~> 1.0.0'
+end

@@ -1,0 +1,6 @@
+framework module Pods_WuFanBoDriverProject {
+  umbrella header "Pods-WuFanBoDriverProject-umbrella.h"
+
+  export *
+  module * { export * }
+}
