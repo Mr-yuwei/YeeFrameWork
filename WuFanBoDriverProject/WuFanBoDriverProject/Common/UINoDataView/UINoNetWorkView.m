@@ -35,7 +35,7 @@
 -(void)addOwnView{
     
     UIImage *iconImage=[UIImage imageNamed:@"network_xinhao_"];
-    m_pImageView=[[UIImageView alloc] initWithFrame:CGRectMake(self.frame.size.width*0.5-iconImage.size.width*0.5, self.frame.size.height*0.5-iconImage.size.height*0.5-64, iconImage.size.width, iconImage.size.height)];
+    m_pImageView=[[UIImageView alloc] initWithFrame:CGRectMake(self.frame.size.width*0.5-iconImage.size.width*0.5, self.frame.size.height*0.5-iconImage.size.height*0.5-125, iconImage.size.width, iconImage.size.height)];
     m_pImageView.image = iconImage;
     [self addSubview:m_pImageView];
     m_pDescribeLable = [[UILabel alloc] initWithFrame:CGRectMake(10, m_pImageView.center.y+iconImage.size.height*0.5+10, self.frame.size.width-20, 25)];

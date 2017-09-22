@@ -26,6 +26,10 @@
     [self configOwnViews];
     [self addNavbarView];
     [self bindViewModel];
+    if (![self isNetReachable])
+    {
+        [self setNoNetWorkView];
+    }
 }
 #pragma mark --configContainer
 - (void)configContainer
@@ -56,7 +60,7 @@
 }
 - (BOOL)isNetReachable{
     
-    return [AFNetworkReachabilityManager sharedManager].isReachable;
+    return [AFNetworkReachabilityManager managerForDomain:[AppNetConfigure GetWebServiceDomain]].isReachable;
 }
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation
 {
