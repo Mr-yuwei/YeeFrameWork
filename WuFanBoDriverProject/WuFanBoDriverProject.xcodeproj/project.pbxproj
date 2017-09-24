@@ -33,6 +33,9 @@
 		881C33811F6A587300381C50 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 881C33801F6A587300381C50 /* BaseTableViewCell.m */; };
 		881C33891F6A600B00381C50 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 881C33881F6A600B00381C50 /* LoginVC.m */; };
 		881C338C1F6A618000381C50 /* WFLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 881C338B1F6A618000381C50 /* WFLoginView.m */; };
+		8824A4091F773F9A00410E90 /* MineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8824A4081F773F9A00410E90 /* MineVC.m */; };
+		8824A40C1F77475A00410E90 /* MineHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8824A40B1F77475A00410E90 /* MineHeaderView.m */; };
+		8824A4121F7756F400410E90 /* WFLoginManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 8824A4111F7756F400410E90 /* WFLoginManger.m */; };
 		883A23C71F74BD40002D5CC7 /* HelpService.m in Sources */ = {isa = PBXBuildFile; fileRef = 883A23C61F74BD40002D5CC7 /* HelpService.m */; };
 		883A23CA1F74C19B002D5CC7 /* HelpDataManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 883A23C91F74C19B002D5CC7 /* HelpDataManger.m */; };
 		883A23CD1F74D9CF002D5CC7 /* AppNetConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 883A23CC1F74D9CF002D5CC7 /* AppNetConfigure.m */; };
@@ -130,6 +133,13 @@
 		881C33881F6A600B00381C50 /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
 		881C338A1F6A618000381C50 /* WFLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFLoginView.h; sourceTree = "<group>"; };
 		881C338B1F6A618000381C50 /* WFLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFLoginView.m; sourceTree = "<group>"; };
+		8824A4071F773F9A00410E90 /* MineVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineVC.h; sourceTree = "<group>"; };
+		8824A4081F773F9A00410E90 /* MineVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineVC.m; sourceTree = "<group>"; };
+		8824A40A1F77475A00410E90 /* MineHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineHeaderView.h; sourceTree = "<group>"; };
+		8824A40B1F77475A00410E90 /* MineHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineHeaderView.m; sourceTree = "<group>"; };
+		8824A40E1F77500F00410E90 /* LayOutHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LayOutHeader.h; sourceTree = "<group>"; };
+		8824A4101F7756F400410E90 /* WFLoginManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFLoginManger.h; sourceTree = "<group>"; };
+		8824A4111F7756F400410E90 /* WFLoginManger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFLoginManger.m; sourceTree = "<group>"; };
 		883A23C51F74BD40002D5CC7 /* HelpService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelpService.h; sourceTree = "<group>"; };
 		883A23C61F74BD40002D5CC7 /* HelpService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelpService.m; sourceTree = "<group>"; };
 		883A23C81F74C19B002D5CC7 /* HelpDataManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelpDataManger.h; sourceTree = "<group>"; };
@@ -315,6 +325,7 @@
 		881C33291F6A338700381C50 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				8824A4021F773F7900410E90 /* MineClass */,
 				88A860401F73A10200B2884D /* HomeClass */,
 				88A860391F739F8E00B2884D /* NavClass */,
 				88A860381F739F8E00B2884D /* TabBarClass */,
@@ -374,6 +385,7 @@
 				881C33791F6A56F800381C50 /* ImageHeader.h */,
 				881C337A1F6A56F800381C50 /* MacHeader.h */,
 				881C337B1F6A56F800381C50 /* VendorHeader.h */,
+				8824A40E1F77500F00410E90 /* LayOutHeader.h */,
 			);
 			path = Header;
 			sourceTree = "<group>";
@@ -486,6 +498,65 @@
 			path = LoginViewModel;
 			sourceTree = "<group>";
 		};
+		8824A4021F773F7900410E90 /* MineClass */ = {
+			isa = PBXGroup;
+			children = (
+				8824A4031F773F7900410E90 /* MineClass */,
+			);
+			path = MineClass;
+			sourceTree = "<group>";
+		};
+		8824A4031F773F7900410E90 /* MineClass */ = {
+			isa = PBXGroup;
+			children = (
+				8824A4041F773F7900410E90 /* MineModel */,
+				8824A4051F773F7900410E90 /* MineVC */,
+				8824A4061F773F7900410E90 /* MineView */,
+			);
+			path = MineClass;
+			sourceTree = "<group>";
+		};
+		8824A4041F773F7900410E90 /* MineModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MineModel;
+			sourceTree = "<group>";
+		};
+		8824A4051F773F7900410E90 /* MineVC */ = {
+			isa = PBXGroup;
+			children = (
+				8824A4071F773F9A00410E90 /* MineVC.h */,
+				8824A4081F773F9A00410E90 /* MineVC.m */,
+			);
+			path = MineVC;
+			sourceTree = "<group>";
+		};
+		8824A4061F773F7900410E90 /* MineView */ = {
+			isa = PBXGroup;
+			children = (
+				8824A40A1F77475A00410E90 /* MineHeaderView.h */,
+				8824A40B1F77475A00410E90 /* MineHeaderView.m */,
+			);
+			path = MineView;
+			sourceTree = "<group>";
+		};
+		8824A40D1F774CA100410E90 /* UIWaveView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIWaveView;
+			sourceTree = "<group>";
+		};
+		8824A40F1F7756DB00410E90 /* WFloginManger */ = {
+			isa = PBXGroup;
+			children = (
+				8824A4101F7756F400410E90 /* WFLoginManger.h */,
+				8824A4111F7756F400410E90 /* WFLoginManger.m */,
+			);
+			path = WFloginManger;
+			sourceTree = "<group>";
+		};
 		883A23C41F74BC6B002D5CC7 /* Helps */ = {
 			isa = PBXGroup;
 			children = (
@@ -567,6 +638,8 @@
 		88B98E711F70F74A00048CB5 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				8824A40F1F7756DB00410E90 /* WFloginManger */,
+				8824A40D1F774CA100410E90 /* UIWaveView */,
 				88B98E721F70F74A00048CB5 /* UINoDataView */,
 			);
 			path = Common;
@@ -799,11 +872,14 @@
 				881C338C1F6A618000381C50 /* WFLoginView.m in Sources */,
 				88B98E781F70FD7A00048CB5 /* UINoNetWorkView.m in Sources */,
 				88B98E701F70EFDC00048CB5 /* BaseTableViewController+Refresh.m in Sources */,
+				8824A4091F773F9A00410E90 /* MineVC.m in Sources */,
 				881C336C1F6A517B00381C50 /* UIImage+RoundedCorner.m in Sources */,
 				883A23CA1F74C19B002D5CC7 /* HelpDataManger.m in Sources */,
 				883A23D61F74F9EE002D5CC7 /* UIViewController+MBHUD.m in Sources */,
 				88B98E751F70F85700048CB5 /* UIView+PlaceHolderView.m in Sources */,
+				8824A4121F7756F400410E90 /* WFLoginManger.m in Sources */,
 				883A23C71F74BD40002D5CC7 /* HelpService.m in Sources */,
+				8824A40C1F77475A00410E90 /* MineHeaderView.m in Sources */,
 				881C33301F6A33D500381C50 /* BaseViewController.m in Sources */,
 				881C33811F6A587300381C50 /* BaseTableViewCell.m in Sources */,
 				881C33691F6A517B00381C50 /* UIColor+expanded.m in Sources */,

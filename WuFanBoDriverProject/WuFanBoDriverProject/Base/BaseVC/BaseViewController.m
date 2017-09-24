@@ -21,15 +21,15 @@
     
     [super viewDidLoad];
      self.view.backgroundColor = kBackgroundColor;
-    [self addOwnViews];
     [self configContainer];
+    [self addOwnViews];
     [self configOwnViews];
     [self addNavbarView];
     [self bindViewModel];
-    if (![self isNetReachable])
-    {
-        [self setNoNetWorkView];
-    }
+//    if (![self isNetReachable])
+//    {
+//        [self setNoNetWorkView];
+//    }
 }
 #pragma mark --configContainer
 - (void)configContainer
@@ -58,8 +58,12 @@
 {//RAC绑定事件
 
 }
-- (BOOL)isNetReachable{
+-(void)viewDidLayoutSubviews{
     
+    [super viewDidLayoutSubviews];
+}
+- (BOOL)isNetReachable{
+    //判断网络是否可用
     return [AFNetworkReachabilityManager managerForDomain:[AppNetConfigure GetWebServiceDomain]].isReachable;
 }
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation
@@ -106,6 +110,7 @@
         
        // [self.view .placeHolderView removeFromSuperview];
         
+        return  ;
     }
     //数据请求
     [HelpDataManger postWithUrlString:urlString parameters:parameters SuccessBlock:^(NSDictionary *dic) {

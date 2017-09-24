@@ -28,6 +28,10 @@
     [self.window setBackgroundColor:kBackgroundColor];
     [self.window makeKeyAndVisible];
     [self configAppearance];
+    
+     
+    
+    [application beginReceivingRemoteControlEvents];
     self.window.rootViewController=[[TabBarViewController alloc] init];
     //self.window.rootViewController=[[UINavigationController alloc] initWithRootViewController:[LoginVC  new]];
     return YES;

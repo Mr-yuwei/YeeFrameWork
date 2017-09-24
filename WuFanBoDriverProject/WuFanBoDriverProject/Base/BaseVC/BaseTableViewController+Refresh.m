@@ -45,4 +45,15 @@
     [weakself.tableView.mj_footer endRefreshing];
 }
 
+#pragma mark --停止刷新
+-(void)tableViewEndRefreshWith:(NSArray *)listArray
+{
+    [self.tableView.mj_header endRefreshing];
+    if (listArray.count %15|| listArray.count == 0)
+    {
+        [self.tableView.mj_footer endRefreshingWithNoMoreData];
+    } else {
+        [self.tableView.mj_footer endRefreshing];
+    }
+}
 @end

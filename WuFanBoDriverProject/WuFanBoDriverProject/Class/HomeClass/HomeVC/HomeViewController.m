@@ -8,6 +8,7 @@
 
 #import "HomeViewController.h"
 #import <ARKit/ARKit.h>
+
 @interface HomeViewController ()
 
 @end
@@ -42,22 +43,11 @@
         [self tableViewEndRefresh];//结束刷新
         
     }];
-    
-  
-    
-    
-   // ARSession
-    // Do any additional setup after loading the view.
 }
 -(void)configOwnViews{
     
     [super configOwnViews];
-    if (@available(iOS 11.0, *)) { //这里需要判断屏幕的尺寸大小-->而不是
-//        [self.tableView setFrame:CGRectMake(0, 44, self.view.frame.size.width, self.view.frame.size.height-44)];
-         //self.navigationController.navigationBar.prefersLargeTitles=YES;
-    } else {
-        //  [self.tableView setFrame:CGRectMake(0,0, self.view.frame.size.width, self.view.frame.size.height)];
-    }
+    
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     

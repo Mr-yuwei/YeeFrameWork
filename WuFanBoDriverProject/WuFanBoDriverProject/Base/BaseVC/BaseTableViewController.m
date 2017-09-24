@@ -45,6 +45,7 @@
     [super configOwnViews];
     
     if (@available(iOS 11.0, *)) {
+        
         self.tableView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
     } else {
         self.automaticallyAdjustsScrollViewInsets = NO;
@@ -53,6 +54,7 @@
 -(void)addOwnViews{
     
     [super addOwnViews];
+    
     [self.view addSubview:self.tableView];
 }
 -(void)registerTableViewCell{

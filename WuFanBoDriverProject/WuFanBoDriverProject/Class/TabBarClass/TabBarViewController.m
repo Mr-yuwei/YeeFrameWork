@@ -46,7 +46,7 @@
     
     self.tabBar.translucent = YES;
     //设置数据源
-    NSArray *vcNames = @[@"HomeViewController",@"HomeViewController", @"HomeViewController",@"HomeViewController"];
+    NSArray *vcNames = @[@"HomeViewController",@"HomeViewController", @"HomeViewController",@"MineVC"];
     NSArray *imageArray=@[@"icon_maijia_home1",@"icon_choucang1",@"icon_xiaoxi1",@"icon_wode"];
     NSArray *selectedimageArray=@[@"icon_maijia_home2",@"icon_choucang2",@"icon_xiaoxi2",@"icon_shezhi_yidianji"];
     NSArray *titleArray=@[@"首页",@"收藏",@"消息",@"我的"];

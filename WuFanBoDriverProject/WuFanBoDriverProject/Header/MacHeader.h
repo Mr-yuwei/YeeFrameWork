@@ -9,5 +9,8 @@
 #ifndef MacHeader_h
 #define MacHeader_h
 
+#define Kmargin   10.0f // 边距
+
+
 
 #endif /* MacHeader_h */

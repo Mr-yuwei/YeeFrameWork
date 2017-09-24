@@ -1,4 +1,4 @@
-//
+ //
 //  UIViewController+NODataError.m
 //  WuFanBoDriverProject
 //
@@ -20,15 +20,14 @@
     UINoDataView *noDataView= [[UINoDataView alloc] initWithFrame:self.view.bounds];
     [self.view addSubview:noDataView];
     [self.view setPlaceHolderView:noDataView];
-    
 }
 -(void)setNoNetWorkView{
-    
+
     UINoNetWorkView *noNetWorkView= [[UINoNetWorkView alloc] initWithFrame:self.view.bounds];
+    noNetWorkView.autoresizingMask=UIViewAutoresizingFlexibleBottomMargin|UIViewAutoresizingFlexibleWidth;
     noNetWorkView.delegate=self;
     [self.view addSubview:noNetWorkView];
     [self.view setPlaceHolderView:noNetWorkView];
-    
 }
 
 @end

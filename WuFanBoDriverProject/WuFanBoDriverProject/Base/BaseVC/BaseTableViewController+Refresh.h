@@ -20,4 +20,7 @@
 //stop Refresh 
 -(void)tableViewEndRefresh;
 
+// check refresh MoreData
+-(void)tableViewEndRefreshWith:(NSArray *)listArray;
+
 @end
