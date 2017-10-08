@@ -52,7 +52,6 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
     [self showSuccessMessage:@"请求成功请求成功请求成功!"];
-    
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
