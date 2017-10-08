@@ -10,6 +10,7 @@
 #import "AppDelegate+Configure.h"
 #import "LoginVC.h"
 #import "TabBarViewController.h"
+//#import "BAFPSLabel.h"
 @interface AppDelegate ()
 {
    
@@ -34,6 +35,9 @@
     [application beginReceivingRemoteControlEvents];
     self.window.rootViewController=[[TabBarViewController alloc] init];
     //self.window.rootViewController=[[UINavigationController alloc] initWithRootViewController:[LoginVC  new]];
+    
+   
+    
     return YES;
 }
 //进入登录UI

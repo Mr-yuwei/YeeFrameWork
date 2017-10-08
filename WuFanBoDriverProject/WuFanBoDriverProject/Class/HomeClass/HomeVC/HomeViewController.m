@@ -28,9 +28,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     [self tablePullupHeaderRefresh:^{
         
-        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
             
             [self tableViewEndRefresh];//结束刷新
             
@@ -40,7 +41,8 @@
     }];
     [self tablePullDownFootRefresh:^{
         
-        [self tableViewEndRefresh];//结束刷新
+       // [self tableViewEndRefresh];//结束刷新
+        [self.tableView.mj_footer endRefreshingWithNoMoreData];
         
     }];
 }
@@ -48,10 +50,12 @@
     
     [super configOwnViews];
     
+    self.tableView.frame=CGRectMake(0, 0, kMainScreenWidth, KcontentTabViewHeight);
+    
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
-    [self showSuccessMessage:@"请求成功请求成功请求成功!"];
+    [self showSuccessMessage:@"请求成功请求成功请求成功请求成功请求!"];
     
 }
 - (void)didReceiveMemoryWarning {

@@ -29,7 +29,6 @@ singleton_implementation(HelpCacheManger)
 -(void)configureYYCache
 {
     m_pCache=[[YYCache alloc] initWithPath:[AppNetConfigure GetWebServiceCachePath]];
-
 }
 - (BOOL)containsObjectForKey:(NSString *)key{
     

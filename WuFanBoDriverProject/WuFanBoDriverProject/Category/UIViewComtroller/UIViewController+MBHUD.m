@@ -58,10 +58,10 @@ static const void *NeiquanHttpRequestHUDKey = &NeiquanHttpRequestHUDKey;
     
     // 快速显示一个提示信息
     MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
-    hud.mode = MBProgressHUDModeCustomView;
+    hud.mode = MBProgressHUDModeText;
     hud.bezelView.color=[UIColor colorWithWhite:0.0 alpha:0.5];
     hud.detailsLabel.text = aMessage;
-    hud.customView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:imagestring]];
+    //hud.customView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:imagestring]];
     hud.removeFromSuperViewOnHide = YES;
     hud.detailsLabel.textColor=[UIColor whiteColor];
     // 隐藏时候从父控件中移除

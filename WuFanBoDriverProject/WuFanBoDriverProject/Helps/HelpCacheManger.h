@@ -13,8 +13,8 @@ singleton_interface(HelpCacheManger)
 
 - (BOOL)containsObjectForKey:(NSString *)key;
 
-- ( id<NSCoding>)objectForKey:(NSString *)key;
+- (id<NSCoding>)objectForKey:(NSString *)key;
 
-- (void)setObject:( id<NSCoding>)object forKey:(NSString *)key;
+- (void)setObject:(id<NSCoding>)object forKey:(NSString *)key;
 
 @end

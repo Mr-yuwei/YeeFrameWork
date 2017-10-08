@@ -8,6 +8,7 @@
 
 #import "TabBarViewController.h"
 #import "NavigationController.h"
+//#import "BAFPSLabel.h"
 @interface TabBarViewController ()<UITabBarControllerDelegate,UITabBarDelegate>
 {
     NSInteger   m_iSelectedIndex;//当前选中的视图-->用于做动画
@@ -26,6 +27,9 @@
     
     //NSLog(@"----%@", self.tabBar.subviews);
     // Do any additional setup after loading the view.
+//     [BAFPSLabel showInWindow:[UIApplication sharedApplication].keyWindow];
+    
+    
 }
 -(void)configureTab
 {
@@ -74,6 +78,7 @@
         [self animationWithIndex:index];
     }
     
+  //  NSURLSession
 }
 // 动画
 - (void)animationWithIndex:(NSInteger) index {
