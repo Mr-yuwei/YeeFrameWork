@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7168858FACCD63DDF2F6FA9DE5FD94F9"
-               BuildableName = "Pods_WuFanBoDriverProject.framework"
-               BlueprintName = "Pods-WuFanBoDriverProject"
+               BlueprintIdentifier = "7729A335088162FB57635A33DFD788AE"
+               BuildableName = "UITableView_FDTemplateLayoutCell.framework"
+               BlueprintName = "UITableView+FDTemplateLayoutCell"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,9 +47,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7168858FACCD63DDF2F6FA9DE5FD94F9"
-            BuildableName = "Pods_WuFanBoDriverProject.framework"
-            BlueprintName = "Pods-WuFanBoDriverProject"
+            BlueprintIdentifier = "7729A335088162FB57635A33DFD788AE"
+            BuildableName = "UITableView_FDTemplateLayoutCell.framework"
+            BlueprintName = "UITableView+FDTemplateLayoutCell"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
