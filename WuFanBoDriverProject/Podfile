@@ -10,5 +10,5 @@ pod    'ReactiveObjC', '~> 3.0.0'
 pod    'YYModel', '~> 1.0.4'
 pod    'YYCache', '~> 1.0.4'
 pod    'MBProgressHUD', '~> 1.0.0'
-pod 'UITableView+FDTemplateLayoutCell', '~> 1.6'
+pod    'UITableView+FDTemplateLayoutCell', '~> 1.6'
 end

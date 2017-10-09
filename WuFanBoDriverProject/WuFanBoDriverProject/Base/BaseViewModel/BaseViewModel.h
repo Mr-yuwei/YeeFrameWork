@@ -7,7 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "ReactiveObjC.h"
 @interface BaseViewModel : NSObject
+//数据请求
+@property(nonatomic,retain) RACCommand  *requestCommand;
+
+-(RACSignal *)requestRemoteData;
+
+- (void)initialize;
 
 @end

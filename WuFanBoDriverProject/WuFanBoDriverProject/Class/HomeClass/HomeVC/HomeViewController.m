@@ -8,6 +8,7 @@
 
 #import "HomeViewController.h"
 #import <ARKit/ARKit.h>
+#import "WFHomeTestTableViewCell.h"
 
 @interface HomeViewController ()
 
@@ -27,6 +28,7 @@
 }
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
     
     [self tablePullupHeaderRefresh:^{
@@ -46,11 +48,33 @@
         
     }];
 }
+-(void)registerTableViewCell{
+    
+     [super registerTableViewCell];
+    
+     [self.tableView registerClass:[WFHomeTestTableViewCell class] forCellReuseIdentifier:@"HomeTestTableViewCell"];
+}
 -(void)configOwnViews{
     
     [super configOwnViews];
     
     self.tableView.frame=CGRectMake(0, 0, kMainScreenWidth, KcontentTabViewHeight);
+   
+}
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    WFHomeTestTableViewCell *cell=[tableView dequeueReusableCellWithIdentifier:@"HomeTestTableViewCell"];
+    
+   // [tableView dequeueReusableCellWithIdentifier:@"HomeTestTableViewCell" forIndexPath:indexPath];
+    return cell;
+}
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    return [tableView fd_heightForCellWithIdentifier:@"HomeTestTableViewCell" configuration:^(WFHomeTestTableViewCell *cell) {
+        
+        NSLog(@"%@",cell.subviews);
+        
+    }];
     
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{

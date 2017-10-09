@@ -9,9 +9,7 @@
 #import "UIViewController+MBHUD.h"
 #include <objc/runtime.h>
 static const void *NeiquanHttpRequestHUDKey = &NeiquanHttpRequestHUDKey;
-
 @implementation UIViewController (MBHUD)
-
 -(void)showLoadMessage:(NSString *)aMessage
 {
     MBProgressHUD *hud=[MBProgressHUD showHUDAddedTo:self.view animated:YES];
@@ -51,8 +49,6 @@ static const void *NeiquanHttpRequestHUDKey = &NeiquanHttpRequestHUDKey;
              completeBlock();
         });
     }
-    
-    
 }
 -(void)showHUDImageName:(NSString *)imagestring Message:(NSString *)aMessage{
     

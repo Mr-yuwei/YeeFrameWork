@@ -9,8 +9,8 @@
 #import "BaseViewController.h"
 
 @interface BaseTableViewController : BaseViewController
-
 @property(nonatomic,retain)UITableView      *tableView;
 
+-(void)registerTableViewCell;
 
 @end

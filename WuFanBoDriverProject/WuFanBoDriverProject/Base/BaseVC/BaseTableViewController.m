@@ -33,35 +33,23 @@
 
 @implementation BaseTableViewController
 
-- (void)viewDidLoad {
-    
-    [super viewDidLoad];
-    
-    [self registerTableViewCell];
-    // Do any additional setup after loading the view.
-}
 -(void)configOwnViews{
     
     [super configOwnViews];
-    
-    if (@available(iOS 11.0, *)) {
-        
+    if (@available(iOS 11.0, *)) { //配置iOS11.0
         self.tableView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
     } else {
         self.automaticallyAdjustsScrollViewInsets = NO;
     }
 }
--(void)addOwnViews{
-    
+-(void)addOwnViews
+{
     [super addOwnViews];
-    
     [self.view addSubview:self.tableView];
 }
 -(void)registerTableViewCell{
     
-    [self.tableView registerClass:[BaseTableViewCell class] forCellReuseIdentifier:[BaseTableViewCell cellIdentifier]];
-    
-    
+    [self.tableView registerClass:[BaseTableViewCell class] forCellReuseIdentifier:@"BaseTableViewCell"];
 }
 - (void)didReceiveMemoryWarning {
     
@@ -71,11 +59,9 @@
 
     return 20;
 }
-
-
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     
-    BaseTableViewCell *cell=[tableView dequeueReusableCellWithIdentifier:[BaseTableViewCell cellIdentifier] forIndexPath:indexPath];
+    BaseTableViewCell *cell=[tableView dequeueReusableCellWithIdentifier:@"BaseTableViewCell"];
     cell.textLabel.textColor=kBlackColor;
     cell.textLabel.text=@"yeeOS";
     return cell;
@@ -91,6 +77,12 @@
     return [UIView new];
     
 }
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    return [tableView fd_heightForCellWithIdentifier:@"BaseTableViewCell" configuration:^(BaseTableViewCell *cell) {
+        // [self configureCell:cell atIndexPath:indexPath];
+    }];
+}
 #pragma mark tableView Selected method
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
@@ -102,11 +94,14 @@
          _tableView=[[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
         _tableView.delegate=self;
         _tableView.dataSource=self;
+        [self registerTableViewCell];
         _tableView.showsVerticalScrollIndicator=NO;
         _tableView.showsHorizontalScrollIndicator=NO;
         _tableView.tableFooterView=[[UIView alloc] init];
-        _tableView.estimatedSectionFooterHeight=0.1f;
-        _tableView.estimatedSectionHeaderHeight=0.1f;
+        _tableView.estimatedRowHeight=200.0f;
+        _tableView.rowHeight = UITableViewAutomaticDimension;
+        _tableView.estimatedSectionFooterHeight=0.0f;
+        _tableView.estimatedSectionHeaderHeight=0.0f;
     }
     return _tableView;
 }

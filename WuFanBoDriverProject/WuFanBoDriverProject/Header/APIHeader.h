@@ -9,7 +9,7 @@
 #ifndef APIHeader_h
 #define APIHeader_h
 //用于存放接口
-
+static  NSString*const APIBaseUrl=@"http://192.168.1.11:8091/kachamao-interfaces";
 //network request size 
 #define pageSize   10
 

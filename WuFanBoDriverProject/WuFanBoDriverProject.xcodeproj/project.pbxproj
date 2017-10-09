@@ -36,12 +36,18 @@
 		8824A4091F773F9A00410E90 /* MineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8824A4081F773F9A00410E90 /* MineVC.m */; };
 		8824A40C1F77475A00410E90 /* MineHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8824A40B1F77475A00410E90 /* MineHeaderView.m */; };
 		8824A4121F7756F400410E90 /* WFLoginManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 8824A4111F7756F400410E90 /* WFLoginManger.m */; };
+		882AAF6E1F8B03B900A80891 /* RacServiceHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 882AAF6D1F8B03B900A80891 /* RacServiceHelp.m */; };
+		882AAF761F8B704700A80891 /* UIViewController+Configure.m in Sources */ = {isa = PBXBuildFile; fileRef = 882AAF751F8B704700A80891 /* UIViewController+Configure.m */; };
+		882AAF7A1F8B7A1900A80891 /* Router.m in Sources */ = {isa = PBXBuildFile; fileRef = 882AAF791F8B7A1900A80891 /* Router.m */; };
+		882AAF7D1F8B9BA500A80891 /* BaseTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 882AAF7C1F8B9BA500A80891 /* BaseTableViewModel.m */; };
 		883A23C71F74BD40002D5CC7 /* HelpService.m in Sources */ = {isa = PBXBuildFile; fileRef = 883A23C61F74BD40002D5CC7 /* HelpService.m */; };
 		883A23CA1F74C19B002D5CC7 /* HelpDataManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 883A23C91F74C19B002D5CC7 /* HelpDataManger.m */; };
 		883A23CD1F74D9CF002D5CC7 /* AppNetConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 883A23CC1F74D9CF002D5CC7 /* AppNetConfigure.m */; };
 		883A23D01F74E37A002D5CC7 /* HelpCacheManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 883A23CF1F74E37A002D5CC7 /* HelpCacheManger.m */; };
 		883A23D61F74F9EE002D5CC7 /* UIViewController+MBHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 883A23D51F74F9EE002D5CC7 /* UIViewController+MBHUD.m */; };
 		883A23E81F750ACE002D5CC7 /* UIViewController+NODataError.m in Sources */ = {isa = PBXBuildFile; fileRef = 883A23E71F750ACE002D5CC7 /* UIViewController+NODataError.m */; };
+		88979A0B1F89F31100ACCA33 /* WFHomeTestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88979A0A1F89F31100ACCA33 /* WFHomeTestTableViewCell.m */; };
+		88979A0E1F8A082900ACCA33 /* WFFeedEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 88979A0D1F8A082900ACCA33 /* WFFeedEntity.m */; };
 		88A8603C1F739FD700B2884D /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A8603B1F739FD700B2884D /* TabBarViewController.m */; };
 		88A8603F1F739FEC00B2884D /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A8603E1F739FEC00B2884D /* NavigationController.m */; };
 		88A860461F73A13600B2884D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A860451F73A13600B2884D /* HomeViewController.m */; };
@@ -140,6 +146,14 @@
 		8824A40E1F77500F00410E90 /* LayOutHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LayOutHeader.h; sourceTree = "<group>"; };
 		8824A4101F7756F400410E90 /* WFLoginManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFLoginManger.h; sourceTree = "<group>"; };
 		8824A4111F7756F400410E90 /* WFLoginManger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFLoginManger.m; sourceTree = "<group>"; };
+		882AAF6C1F8B03B900A80891 /* RacServiceHelp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RacServiceHelp.h; sourceTree = "<group>"; };
+		882AAF6D1F8B03B900A80891 /* RacServiceHelp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RacServiceHelp.m; sourceTree = "<group>"; };
+		882AAF741F8B704700A80891 /* UIViewController+Configure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Configure.h"; sourceTree = "<group>"; };
+		882AAF751F8B704700A80891 /* UIViewController+Configure.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Configure.m"; sourceTree = "<group>"; };
+		882AAF781F8B7A1900A80891 /* Router.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Router.h; sourceTree = "<group>"; };
+		882AAF791F8B7A1900A80891 /* Router.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Router.m; sourceTree = "<group>"; };
+		882AAF7B1F8B9BA500A80891 /* BaseTableViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableViewModel.h; sourceTree = "<group>"; };
+		882AAF7C1F8B9BA500A80891 /* BaseTableViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewModel.m; sourceTree = "<group>"; };
 		883A23C51F74BD40002D5CC7 /* HelpService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelpService.h; sourceTree = "<group>"; };
 		883A23C61F74BD40002D5CC7 /* HelpService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelpService.m; sourceTree = "<group>"; };
 		883A23C81F74C19B002D5CC7 /* HelpDataManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelpDataManger.h; sourceTree = "<group>"; };
@@ -154,6 +168,10 @@
 		883A23D51F74F9EE002D5CC7 /* UIViewController+MBHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MBHUD.m"; sourceTree = "<group>"; };
 		883A23E61F750ACE002D5CC7 /* UIViewController+NODataError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NODataError.h"; sourceTree = "<group>"; };
 		883A23E71F750ACE002D5CC7 /* UIViewController+NODataError.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NODataError.m"; sourceTree = "<group>"; };
+		88979A091F89F31100ACCA33 /* WFHomeTestTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFHomeTestTableViewCell.h; sourceTree = "<group>"; };
+		88979A0A1F89F31100ACCA33 /* WFHomeTestTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFHomeTestTableViewCell.m; sourceTree = "<group>"; };
+		88979A0C1F8A082900ACCA33 /* WFFeedEntity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFFeedEntity.h; sourceTree = "<group>"; };
+		88979A0D1F8A082900ACCA33 /* WFFeedEntity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFFeedEntity.m; sourceTree = "<group>"; };
 		88A8603A1F739FD700B2884D /* TabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
 		88A8603B1F739FD700B2884D /* TabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
 		88A8603D1F739FEC00B2884D /* NavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
@@ -247,6 +265,9 @@
 		881C32F21F6A2E6100381C50 /* WuFanBoDriverProject */ = {
 			isa = PBXGroup;
 			children = (
+				882AAF771F8B798900A80891 /* Router */,
+				88979A241F8A234B00ACCA33 /* RacNetWork */,
+				88979A0F1F8A0F2A00ACCA33 /* Library */,
 				883A23C41F74BC6B002D5CC7 /* Helps */,
 				88B98E711F70F74A00048CB5 /* Common */,
 				881C33721F6A547600381C50 /* Other */,
@@ -256,8 +277,8 @@
 				881C33281F6A338700381C50 /* Category */,
 				881C33291F6A338700381C50 /* Class */,
 				881C32FF1F6A2E6100381C50 /* Assets.xcassets */,
-				881C33041F6A2E6100381C50 /* Info.plist */,
 				881C32F31F6A2E6100381C50 /* Supporting Files */,
+				881C33041F6A2E6100381C50 /* Info.plist */,
 			);
 			path = WuFanBoDriverProject;
 			sourceTree = "<group>";
@@ -370,6 +391,8 @@
 			children = (
 				881C33421F6A35FF00381C50 /* BaseViewModel.h */,
 				881C33431F6A35FF00381C50 /* BaseViewModel.m */,
+				882AAF7B1F8B9BA500A80891 /* BaseTableViewModel.h */,
+				882AAF7C1F8B9BA500A80891 /* BaseTableViewModel.m */,
 			);
 			path = BaseViewModel;
 			sourceTree = "<group>";
@@ -557,6 +580,15 @@
 			path = WFloginManger;
 			sourceTree = "<group>";
 		};
+		882AAF771F8B798900A80891 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				882AAF781F8B7A1900A80891 /* Router.h */,
+				882AAF791F8B7A1900A80891 /* Router.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 		883A23C41F74BC6B002D5CC7 /* Helps */ = {
 			isa = PBXGroup;
 			children = (
@@ -580,8 +612,26 @@
 				883A23D51F74F9EE002D5CC7 /* UIViewController+MBHUD.m */,
 				883A23E61F750ACE002D5CC7 /* UIViewController+NODataError.h */,
 				883A23E71F750ACE002D5CC7 /* UIViewController+NODataError.m */,
+				882AAF741F8B704700A80891 /* UIViewController+Configure.h */,
+				882AAF751F8B704700A80891 /* UIViewController+Configure.m */,
 			);
 			path = UIViewComtroller;
+			sourceTree = "<group>";
+		};
+		88979A0F1F8A0F2A00ACCA33 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		88979A241F8A234B00ACCA33 /* RacNetWork */ = {
+			isa = PBXGroup;
+			children = (
+				882AAF6C1F8B03B900A80891 /* RacServiceHelp.h */,
+				882AAF6D1F8B03B900A80891 /* RacServiceHelp.m */,
+			);
+			path = RacNetWork;
 			sourceTree = "<group>";
 		};
 		88A860381F739F8E00B2884D /* TabBarClass */ = {
@@ -662,6 +712,8 @@
 		88FF6F371F89C1130095D896 /* HomeModel */ = {
 			isa = PBXGroup;
 			children = (
+				88979A0C1F8A082900ACCA33 /* WFFeedEntity.h */,
+				88979A0D1F8A082900ACCA33 /* WFFeedEntity.m */,
 			);
 			path = HomeModel;
 			sourceTree = "<group>";
@@ -669,6 +721,8 @@
 		88FF6F381F89C1130095D896 /* HomeView */ = {
 			isa = PBXGroup;
 			children = (
+				88979A091F89F31100ACCA33 /* WFHomeTestTableViewCell.h */,
+				88979A0A1F89F31100ACCA33 /* WFHomeTestTableViewCell.m */,
 			);
 			path = HomeView;
 			sourceTree = "<group>";
@@ -744,7 +798,7 @@
 				TargetAttributes = {
 					881C32EF1F6A2E6100381C50 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 5DW5ZEYK47;
+						DevelopmentTeam = 2YTR4X39Y2;
 						ProvisioningStyle = Automatic;
 					};
 					881C33081F6A2E6100381C50 = {
@@ -877,7 +931,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -889,6 +943,7 @@
 			files = (
 				883A23CD1F74D9CF002D5CC7 /* AppNetConfigure.m in Sources */,
 				881C33711F6A52F200381C50 /* AppDelegate+Configure.m in Sources */,
+				882AAF7D1F8B9BA500A80891 /* BaseTableViewModel.m in Sources */,
 				88B98E901F7111AE00048CB5 /* UILodeTransitionView.m in Sources */,
 				881C33641F6A517B00381C50 /* NSString+Avail.m in Sources */,
 				88A8603F1F739FEC00B2884D /* NavigationController.m in Sources */,
@@ -905,7 +960,9 @@
 				883A23C71F74BD40002D5CC7 /* HelpService.m in Sources */,
 				8824A40C1F77475A00410E90 /* MineHeaderView.m in Sources */,
 				881C33301F6A33D500381C50 /* BaseViewController.m in Sources */,
+				88979A0B1F89F31100ACCA33 /* WFHomeTestTableViewCell.m in Sources */,
 				881C33811F6A587300381C50 /* BaseTableViewCell.m in Sources */,
+				882AAF7A1F8B7A1900A80891 /* Router.m in Sources */,
 				881C33691F6A517B00381C50 /* UIColor+expanded.m in Sources */,
 				881C336B1F6A517B00381C50 /* UIImage+Common.m in Sources */,
 				881C337E1F6A57C100381C50 /* BaseTableViewController.m in Sources */,
@@ -913,12 +970,15 @@
 				881C32F51F6A2E6100381C50 /* main.m in Sources */,
 				881C336D1F6A517B00381C50 /* UIImage+TintColor.m in Sources */,
 				881C333F1F6A35D900381C50 /* BaseModel.m in Sources */,
+				88979A0E1F8A082900ACCA33 /* WFFeedEntity.m in Sources */,
 				881C336A1F6A517B00381C50 /* UIColor+MLPFlatColors.m in Sources */,
 				881C33341F6A348600381C50 /* AppDelegate.m in Sources */,
 				883A23D01F74E37A002D5CC7 /* HelpCacheManger.m in Sources */,
 				88A8603C1F739FD700B2884D /* TabBarViewController.m in Sources */,
 				881C33661F6A517B00381C50 /* NSString+FrameSize.m in Sources */,
+				882AAF761F8B704700A80891 /* UIViewController+Configure.m in Sources */,
 				88A860461F73A13600B2884D /* HomeViewController.m in Sources */,
+				882AAF6E1F8B03B900A80891 /* RacServiceHelp.m in Sources */,
 				88B98E7B1F70FDD200048CB5 /* UINoDataView.m in Sources */,
 				883A23E81F750ACE002D5CC7 /* UIViewController+NODataError.m in Sources */,
 				881C33631F6A517B00381C50 /* NSString+AttributedString.m in Sources */,
@@ -1057,13 +1117,13 @@
 			baseConfigurationReference = EB5125F1F4043547B8582796 /* Pods-WuFanBoDriverProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 5DW5ZEYK47;
+				DEVELOPMENT_TEAM = 2YTR4X39Y2;
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/WuFanBoDriverProject/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = WuFanBoDriverProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wufanbao.zzz;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wufanbao.client;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1073,13 +1133,13 @@
 			baseConfigurationReference = F83B831C7636462AE16065C7 /* Pods-WuFanBoDriverProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 5DW5ZEYK47;
+				DEVELOPMENT_TEAM = 2YTR4X39Y2;
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/WuFanBoDriverProject/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = WuFanBoDriverProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.wufanbao.zzz;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wufanbao.client;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

@@ -50,8 +50,8 @@
 +(void)postWithUrlString:(NSString *)urlString
               parameters:(NSDictionary*)parameters
        ArraySuccessBlock:(void(^)(NSArray <BaseModel *>*listArray) )ModelBlock
-               failBlock:(void(^)(NSError*error))failBlock{
-    
+               failBlock:(void(^)(NSError*error))failBlock
+{
     [HelpDataManger postWithUrlString:urlString parameters:parameters SuccessBlock:^(NSDictionary *dic) {
         
     } failBlock:^(NSError *error) {
@@ -102,7 +102,6 @@
              CacheBlock:(void(^)(NSDictionary*dic))cacheBlock
            SuccessBlock:(void(^)(NSDictionary*dic))successBlock
               failBlock:(void(^)(NSError*error))failBlock{
-    
     
     
 }

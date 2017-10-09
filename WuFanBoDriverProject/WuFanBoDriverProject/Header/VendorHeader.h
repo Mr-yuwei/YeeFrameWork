@@ -18,5 +18,7 @@
 #import "YYModel.h"
 #import "AFNetworking.h"
 #import "MBProgressHUD.h"
+#import "UITableView+FDTemplateLayoutCell.h"
+
 
 #endif /* VendorHeader_h */

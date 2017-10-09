@@ -13,8 +13,11 @@
 - (void)awakeFromNib {
     
     [super awakeFromNib];
+    
+    CGFloat contentViewWidth = kMainScreenWidth;
+    NSLayoutConstraint *widthFenceConstraint = [NSLayoutConstraint constraintWithItem:self.contentView attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:nil attribute:NSLayoutAttributeNotAnAttribute multiplier:1.0 constant:contentViewWidth];
+    [self.contentView addConstraint:widthFenceConstraint];
 }
-
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     
     [super setSelected:selected animated:animated];
@@ -24,7 +27,7 @@
     if (self=[super initWithStyle:style reuseIdentifier:reuseIdentifier])
     {
         self.selectionStyle=UITableViewCellSelectionStyleNone;
-        
+        self.contentView.autoresizingMask = UIViewAutoresizingFlexibleHeight|UIViewAutoresizingFlexibleWidth;
         [self addOwnView];
         [self bindViewModel];
     }
