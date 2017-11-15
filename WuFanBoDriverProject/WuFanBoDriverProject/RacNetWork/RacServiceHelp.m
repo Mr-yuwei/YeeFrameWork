@@ -36,6 +36,7 @@
     manger.responseSerializer = [AFJSONResponseSerializer serializer];
     manger.requestSerializer = [AFHTTPRequestSerializer serializer];
     manger.responseSerializer.acceptableContentTypes =[NSSet setWithObjects:@"application/json", @"text/json", @"text/javascript" , @"text/plain" , nil];
+    
     NSMutableDictionary *mDic=[NSMutableDictionary dictionaryWithDictionary:parameters];
     [manger POST:Url parameters:mDic progress:^(NSProgress * _Nonnull uploadProgress){
         
