@@ -36,7 +36,6 @@ typedef NS_ENUM(NSInteger,TableClickEvent)
 
 @property(nonatomic,weak)id<BaseTableViewCelldelegate>delegate;
 
-
 -(void)addOwnView;
 
 -(void)bindViewModel;

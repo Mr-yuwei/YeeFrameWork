@@ -50,9 +50,6 @@
 
 +(NSAttributedString*)makeForegroundWithSrings:(NSArray*)Strings attColors:(NSArray *)attColors Forefonts:(NSArray *)fonts;
 
-
-
-
 //直播聊天富文本 是否要考虑到等级
 
 

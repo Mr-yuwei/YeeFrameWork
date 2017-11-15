@@ -13,6 +13,7 @@
 @implementation BaseTableViewModel
 -(void)initialize{
     
+    
     [super initialize];
     self.page=0;
     self.Pagesize = 10;
@@ -26,7 +27,6 @@
 }
 - (RACSignal *)requestRemoteDataSignalWithPage:(NSUInteger)page
 {
-
     return [RACSignal empty];
 }
 @end
