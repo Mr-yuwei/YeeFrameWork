@@ -20,4 +20,6 @@
 
 - (void)configAppearance;
 
+-(void)registerRoute;
+
 @end

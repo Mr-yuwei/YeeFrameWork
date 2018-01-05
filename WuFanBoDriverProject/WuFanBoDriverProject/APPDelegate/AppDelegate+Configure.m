@@ -27,4 +27,20 @@
                                                            NSFontAttributeName:[UIFont systemFontOfSize:18]
                                                            }];
 }
+-(void)registerRoute{
+    
+    
+    
+    [[JLRoutes globalRoutes] addRoute:@"/user/view/:userID" handler:^BOOL(NSDictionary<NSString *,id> * _Nonnull parameters)
+     {
+         NSString *userID = parameters[@"userID"];
+         NSLog(@"%@",userID);
+        return YES;
+    }];
+    
+    
+
+    
+    [[JLRoutes globalRoutes]routeURL:[NSURL URLWithString:@"/user/view/123444"]];
+}
 @end

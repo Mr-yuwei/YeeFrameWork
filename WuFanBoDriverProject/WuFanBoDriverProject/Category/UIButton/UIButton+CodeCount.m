@@ -11,7 +11,7 @@
 const  static NSString  *UIButton_isBindKey = @"UIButton_isBindKey";
 const  static NSString  *UIButton_timeCount = @"UIButton_timeCount";
 const  static NSString  *UIButton_timer     = @"UIButton_timer";
-const  static NSString  *UIButton_Date     = @"UIButton_Date";
+const  static NSString  *UIButton_Date      = @"UIButton_Date";
 @implementation UIButton (CodeCount)
 -(void)countdowntimeout:(NSInteger)second originalTitle:(NSString *)title timingTitle:(NSString *)timingTitle
 {
