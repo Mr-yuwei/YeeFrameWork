@@ -46,6 +46,7 @@
 		883A23D01F74E37A002D5CC7 /* HelpCacheManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 883A23CF1F74E37A002D5CC7 /* HelpCacheManger.m */; };
 		883A23D61F74F9EE002D5CC7 /* UIViewController+MBHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 883A23D51F74F9EE002D5CC7 /* UIViewController+MBHUD.m */; };
 		883A23E81F750ACE002D5CC7 /* UIViewController+NODataError.m in Sources */ = {isa = PBXBuildFile; fileRef = 883A23E71F750ACE002D5CC7 /* UIViewController+NODataError.m */; };
+		889499E51FAB32D2002A5F88 /* UIButton+CodeCount.m in Sources */ = {isa = PBXBuildFile; fileRef = 889499E41FAB32D2002A5F88 /* UIButton+CodeCount.m */; };
 		88979A0B1F89F31100ACCA33 /* WFHomeTestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88979A0A1F89F31100ACCA33 /* WFHomeTestTableViewCell.m */; };
 		88979A0E1F8A082900ACCA33 /* WFFeedEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 88979A0D1F8A082900ACCA33 /* WFFeedEntity.m */; };
 		88A8603C1F739FD700B2884D /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A8603B1F739FD700B2884D /* TabBarViewController.m */; };
@@ -168,6 +169,8 @@
 		883A23D51F74F9EE002D5CC7 /* UIViewController+MBHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MBHUD.m"; sourceTree = "<group>"; };
 		883A23E61F750ACE002D5CC7 /* UIViewController+NODataError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NODataError.h"; sourceTree = "<group>"; };
 		883A23E71F750ACE002D5CC7 /* UIViewController+NODataError.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NODataError.m"; sourceTree = "<group>"; };
+		889499E31FAB32D2002A5F88 /* UIButton+CodeCount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+CodeCount.h"; sourceTree = "<group>"; };
+		889499E41FAB32D2002A5F88 /* UIButton+CodeCount.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CodeCount.m"; sourceTree = "<group>"; };
 		88979A091F89F31100ACCA33 /* WFHomeTestTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFHomeTestTableViewCell.h; sourceTree = "<group>"; };
 		88979A0A1F89F31100ACCA33 /* WFHomeTestTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFHomeTestTableViewCell.m; sourceTree = "<group>"; };
 		88979A0C1F8A082900ACCA33 /* WFFeedEntity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFFeedEntity.h; sourceTree = "<group>"; };
@@ -267,7 +270,6 @@
 			children = (
 				882AAF771F8B798900A80891 /* Router */,
 				88979A241F8A234B00ACCA33 /* RacNetWork */,
-				88979A0F1F8A0F2A00ACCA33 /* Library */,
 				883A23C41F74BC6B002D5CC7 /* Helps */,
 				88B98E711F70F74A00048CB5 /* Common */,
 				881C33721F6A547600381C50 /* Other */,
@@ -335,6 +337,7 @@
 			isa = PBXGroup;
 			children = (
 				881C336E1F6A519200381C50 /* CategoryHeader.h */,
+				889499E21FAB32A8002A5F88 /* UIButton */,
 				883A23D31F74F94C002D5CC7 /* UIViewComtroller */,
 				881C33491F6A517B00381C50 /* NSString */,
 				881C33561F6A517B00381C50 /* UIColor */,
@@ -380,7 +383,6 @@
 		881C332C1F6A33C300381C50 /* BaseView */ = {
 			isa = PBXGroup;
 			children = (
-				881C33471F6A363E00381C50 /* BaseCollectionCell */,
 				881C33481F6A363E00381C50 /* BaseTableViewCell */,
 			);
 			path = BaseView;
@@ -411,13 +413,6 @@
 				8824A40E1F77500F00410E90 /* LayOutHeader.h */,
 			);
 			path = Header;
-			sourceTree = "<group>";
-		};
-		881C33471F6A363E00381C50 /* BaseCollectionCell */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = BaseCollectionCell;
 			sourceTree = "<group>";
 		};
 		881C33481F6A363E00381C50 /* BaseTableViewCell */ = {
@@ -618,11 +613,13 @@
 			path = UIViewComtroller;
 			sourceTree = "<group>";
 		};
-		88979A0F1F8A0F2A00ACCA33 /* Library */ = {
+		889499E21FAB32A8002A5F88 /* UIButton */ = {
 			isa = PBXGroup;
 			children = (
+				889499E31FAB32D2002A5F88 /* UIButton+CodeCount.h */,
+				889499E41FAB32D2002A5F88 /* UIButton+CodeCount.m */,
 			);
-			path = Library;
+			path = UIButton;
 			sourceTree = "<group>";
 		};
 		88979A241F8A234B00ACCA33 /* RacNetWork */ = {
@@ -873,7 +870,9 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-WuFanBoDriverProject/Pods-WuFanBoDriverProject-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Aspects/Aspects.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/JLRoutes/JLRoutes.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
@@ -886,7 +885,9 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Aspects.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JLRoutes.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
@@ -931,7 +932,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -946,6 +947,7 @@
 				882AAF7D1F8B9BA500A80891 /* BaseTableViewModel.m in Sources */,
 				88B98E901F7111AE00048CB5 /* UILodeTransitionView.m in Sources */,
 				881C33641F6A517B00381C50 /* NSString+Avail.m in Sources */,
+				889499E51FAB32D2002A5F88 /* UIButton+CodeCount.m in Sources */,
 				88A8603F1F739FEC00B2884D /* NavigationController.m in Sources */,
 				881C33891F6A600B00381C50 /* LoginVC.m in Sources */,
 				881C338C1F6A618000381C50 /* WFLoginView.m in Sources */,

@@ -29,19 +29,15 @@
     [self.window setBackgroundColor:kBackgroundColor];
     [self.window makeKeyAndVisible];
     [self configAppearance];
-    
-     
-    
+    [self registerRoute];
     [application beginReceivingRemoteControlEvents];
     self.window.rootViewController=[[TabBarViewController alloc] init];
     //self.window.rootViewController=[[UINavigationController alloc] initWithRootViewController:[LoginVC  new]];
-    
-   
-    
     return YES;
 }
 //进入登录UI
--(void)enterLoginUI{
+-(void)enterLoginUI
+{
     
     
 }

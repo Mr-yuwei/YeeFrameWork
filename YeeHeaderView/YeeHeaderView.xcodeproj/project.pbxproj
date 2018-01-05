@@ -302,7 +302,7 @@
 				TargetAttributes = {
 					CD0B058B1E79238C00DDEF42 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 3ATF82J34D;
+						DevelopmentTeam = 2YTR4X39Y2;
 						ProvisioningStyle = Automatic;
 					};
 					CD0B05A41E79238C00DDEF42 = {
@@ -581,11 +581,11 @@
 			baseConfigurationReference = 968EAE5EDCD270CE9B448DD8 /* Pods-YeeHeaderView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 3ATF82J34D;
+				DEVELOPMENT_TEAM = 2YTR4X39Y2;
 				INFOPLIST_FILE = YeeHeaderView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.neiquan.ClickC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wufanbao.client;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -595,11 +595,11 @@
 			baseConfigurationReference = 6EE78B5990815E34B4502593 /* Pods-YeeHeaderView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 3ATF82J34D;
+				DEVELOPMENT_TEAM = 2YTR4X39Y2;
 				INFOPLIST_FILE = YeeHeaderView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.neiquan.ClickC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wufanbao.client;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

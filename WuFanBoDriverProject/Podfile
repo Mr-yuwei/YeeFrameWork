@@ -11,4 +11,6 @@ pod    'YYModel', '~> 1.0.4'
 pod    'YYCache', '~> 1.0.4'
 pod    'MBProgressHUD', '~> 1.0.0'
 pod    'UITableView+FDTemplateLayoutCell', '~> 1.6'
+pod    'JLRoutes', '~> 2.0.5'
+pod    'Aspects', '~> 1.4.1'
 end

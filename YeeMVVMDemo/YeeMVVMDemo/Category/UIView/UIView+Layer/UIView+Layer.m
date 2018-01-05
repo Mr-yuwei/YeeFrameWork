@@ -34,6 +34,9 @@
     maskLayer.frame = self.bounds;
     maskLayer.path = path.CGPath;
     self.layer.mask = maskLayer;
+    
+    
+    
     //添加border
     CAShapeLayer *borderLayer = [CAShapeLayer layer];
     borderLayer.path = maskLayer.path;

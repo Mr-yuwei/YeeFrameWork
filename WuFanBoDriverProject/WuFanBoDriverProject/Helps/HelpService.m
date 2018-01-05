@@ -20,7 +20,7 @@
     AFHTTPSessionManager  *sessionManagerage=[AFHTTPSessionManager manager];
     sessionManagerage.responseSerializer = [AFHTTPResponseSerializer serializer];
     sessionManagerage.requestSerializer.timeoutInterval=netWorkTimeOut; //设置请求超时时间
-   [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:YES];
+    [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:YES];
     [sessionManagerage POST:urlString parameters:parameters progress:^(NSProgress * _Nonnull uploadProgress) {
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
           [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
