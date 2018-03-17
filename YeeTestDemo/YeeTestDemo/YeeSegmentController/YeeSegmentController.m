@@ -132,7 +132,8 @@
     _containerView.bounces = NO;
     [self.view addSubview:_containerView];
 }
--(void)configureGes{
+-(void)configureGes
+{
     
     
     
